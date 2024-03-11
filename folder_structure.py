@@ -21,7 +21,7 @@ def create_project_structure(base_path):
         ])
         
     # Add algorithm directories
-    algorithms = ['KNN', 'SVM', 'MICE']
+    algorithms = ['KNN', 'SVM', 'MICE','SICE','RF']
     for algo in algorithms:
         for category in data_categories:
             directories.append(f'algorithms/{algo}/{category}')
