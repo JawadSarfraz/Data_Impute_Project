@@ -11,3 +11,6 @@ We produced file min_error_analysis_with_feature_combination to get result of fe
 NVIDIA GPU: Quadro RTX 4000
 144 tensor cores, 2304 CUDA cores, 8GB GPU memory
 416Gb/s memory bandwidth
+
+- The folder error_metrics/comparison_plots includes files that feature a dynamic RMSE (Root Mean Square Error) Y-axis for comparisons.
+- The folder error_metrics/comparison_plots_fix_rmseaxis includes files that have a standardized RMSE (Root Mean Square Error) Y-axis, which allows for more detailed and comparative analysis of the data. 
