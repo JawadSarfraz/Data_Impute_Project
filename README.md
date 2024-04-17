@@ -14,3 +14,5 @@ NVIDIA GPU: Quadro RTX 4000
 
 - The folder error_metrics/comparison_plots includes files that feature a dynamic RMSE (Root Mean Square Error) Y-axis for comparisons.
 - The folder error_metrics/comparison_plots_fix_rmseaxis includes files that have a standardized RMSE (Root Mean Square Error) Y-axis, which allows for more detailed and comparative analysis of the data. 
+
+-The file "rmse_graph_with_actual_cols_name.py" is designed to generate RMSE (Root Mean Square Error) graphs for comparing features, and replace column labels like A, B, etc with specific names such as "δ13C coll, δ15N coll." These graphs are stored in the directory "data_impute_project/graphs/rmse/plots/terrestrial_mammals".
