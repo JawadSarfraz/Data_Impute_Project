@@ -27,7 +27,7 @@ def calculate_and_save_correlation(base_path, result_base):
                 data = pd.read_excel(file_path).replace({'': np.nan, ' ': np.nan}).rename(columns=column_map)
 
                 # Prepare DataFrame to store results
-                results = pd.DataFrame(columns=['Variable 1', 'Variable 2', 'Correlation Coefficient', 'P-Value'])
+                results = pd.DataFrame(columns=['Feature 1', 'Feature 2', 'Correlation Coefficient', 'P-Value'])
 
                 # Calculate correlations and p-values
                 for col1, col2 in combinations(data.columns, 2):
