@@ -20,3 +20,5 @@ NVIDIA GPU: Quadro RTX 4000
 - "corr_relation_test_terr_mammals.py" file execute the script to carried out Corr Tests for terr mammals against all combinations, all percentages for all features present in combinations. It first check significant of the feature if its there then we train model in which no missing entries and predict it and produce its result in folder --> "data_impute_project/corr_test/terrestrial_mammals". 
 
 - imputation_summary.xlsx contains the RMSE of feature against the significant features. The remamed to orginal feature version can be found "data_impute_project/corr_test/terrestrial_mammals/imputation_summary_rename.xlsx".
+
+data_impute_project/error_metrics/comparison_plots_fix_rmseaxis contains Rmse graphs for TMs of KNN, BR, RF for futher comparisons. Its renamed version present in  vai script rmse_graph_with_actual_cols_name.py
