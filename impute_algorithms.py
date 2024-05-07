@@ -5,10 +5,13 @@ from sklearn.impute import KNNImputer
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.experimental import enable_iterative_imputer
 from sklearn.impute import IterativeImputer
+from sklearn.linear_model import BayesianRidge
+
+
 
 # Imputation functions
 def impute_with_knn(df):
-    imputer = KNNImputer(n_neighbors=5)
+    imputer = KNNImputer(n_neighbors=10)
     imputed_data = imputer.fit_transform(df)
     return pd.DataFrame(imputed_data, columns=df.columns)
 
@@ -17,17 +20,25 @@ def impute_with_random_forest(df):
     imputed_data = rf_imputer.fit_transform(df)
     return pd.DataFrame(imputed_data, columns=df.columns)
 
-def impute_with_mice(df):
-    mice_imputer = IterativeImputer(max_iter=15, random_state=0)
-    imputed_data = mice_imputer.fit_transform(df)
+
+def impute_with_bayesian_ridge(df):
+    br_imputer = IterativeImputer(estimator=BayesianRidge(), max_iter=25, tol=0.05, random_state=0)
+    imputed_data = br_imputer.fit_transform(df)
     return pd.DataFrame(imputed_data, columns=df.columns)
+
+
+# def impute_with_mice(df):
+#     mice_imputer = IterativeImputer(max_iter=15, random_state=0)
+#     imputed_data = mice_imputer.fit_transform(df)
+#     return pd.DataFrame(imputed_data, columns=df.columns)
 
 # Function to apply imputation and save the results
 def impute_and_save(input_dir, base_output_dir, df, current_subdir):
     algorithms = {
         'KNN': impute_with_knn, 
-        'RandomForest': impute_with_random_forest, 
-        'MICE': impute_with_mice
+        'RandomForest': impute_with_random_forest,
+        'BayesianRidge': impute_with_bayesian_ridge
+        #'MICE': impute_with_mice
     }
     
     # Modify the output directory to match the required structure

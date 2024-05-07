@@ -31,7 +31,7 @@ output_dir = 'data_impute_project/error_metrics'
 ensure_dir(output_dir)
 percentages = ['10', '15', '20']
 seeds = ['seed1', 'seed2', 'seed3', 'seed4', 'seed5']
-algorithms = ['KNN', 'MICE', 'RandomForest']
+algorithms = ['KNN','BayesianRidge', 'RandomForest']
 
 # Store final results
 final_results = []
