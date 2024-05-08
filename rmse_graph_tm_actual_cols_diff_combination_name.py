@@ -22,53 +22,51 @@ feature_names = {
     'F': 'δ34S coll'
 }
 
+def translate_features(scenario):
+    """Translate single character features to their full names based on feature_names."""
+    translated = []
+    for char in scenario:
+        if char in feature_names:
+            translated.append(feature_names[char])
+    return '_'.join(translated)
+
 def plot_comparison(df, feature, combination, output_dir):
     plt.figure(figsize=(12, 8))
     feature_label = feature_names.get(feature, feature)
     filtered_df = df[(df['Combination'] == combination) & (df['Feature'] == feature)]
     algorithms = filtered_df['Algorithm'].unique()
-    percentages = sorted(filtered_df['Percentage'].unique())
 
-    # Process each algorithm separately
-    for percentage in percentages:
-        percentage_df = filtered_df[filtered_df['Percentage'] == percentage]
-        for index, row in percentage_df.iterrows():
-            plt.plot(percentage, row['Min RMSE'], 'o', label=f"{row['Algorithm']} ({row['FeatureSet Removal Scenario']})")
-            plt.text(percentage, row['Min RMSE'], f"{row['FeatureSet Removal Scenario']}", 
-                     fontsize=9, ha='center', va='bottom')
-            
     for algorithm in algorithms:
         algorithm_df = filtered_df[filtered_df['Algorithm'] == algorithm]
-        percentage_df = filtered_df[filtered_df['Percentage'] == percentage]
-        for index, row in percentage_df.iterrows():
-            plt.plot(percentage, row['Min RMSE'], 'o', label=f"{row['Algorithm']} ({row['FeatureSet Removal Scenario']})")
-            plt.text(percentage, row['Min RMSE'], f"{row['FeatureSet Removal Scenario']}", 
-                     fontsize=9, ha='center', va='bottom')
-        rmse_values = [algorithm_df[algorithm_df['Percentage'] == perc]['Min RMSE'].mean() for perc in percentages]
+        percentages = sorted(algorithm_df['Percentage'].unique())
+        rmse_values = []
+        scenario_labels = []
 
-        # Plot the line connecting the RMSE values for this algorithm
-        plt.plot(percentages, rmse_values, '-o', label=f"{algorithm}")
+        for perc in percentages:
+            perc_df = algorithm_df[algorithm_df['Percentage'] == perc]
+            rmse_values.append(perc_df['Min RMSE'].mean())
+            scenario_labels.append(perc_df['FeatureSet Removal Scenario'].iloc[0] + f" - {perc}")
 
-        # # Optional: Add text labels for each point
-        # for perc, rmse in zip(percentages, rmse_values):
-        #     scenario = algorithm_df[algorithm_df['Percentage'] == perc]['FeatureSet Removal Scenario'].iloc[0]
-        #     plt.text(perc, rmse, f"{scenario}", fontsize=9, ha='center', va='bottom')
+        # Plot the line for the algorithm
+        plt.plot(percentages, rmse_values, '-o', label=f"{algorithm} ({', '.join(scenario_labels)})")
 
-    #plt.title(f'Comparison of RMSE for {feature_label} in {combination_names[combination]}')
+    plt.title(f'Comparison of RMSE for {feature_label} in {combination_names[combination]}')
     plt.xlabel('Percentage of Data Removed')
     plt.ylabel('Min RMSE')
     plt.ylim(0, 1)
-    plt.legend(loc='upper right', fontsize='small')
+    plt.legend(loc='upper right', fontsize='small', title='Algorithms and Feature Sets')
     plt.grid(True)
-
+# Setting custom x-axis tick marks
+    plt.xticks([10, 15, 20])
     plot_filename = f'{feature_label}_{combination}.png'
     plot_path = os.path.join(output_dir, plot_filename)
     plt.savefig(plot_path)
     plt.close()
     print(f"Comparison plot saved: {plot_path}")
+
 # Path settings
 data_path = 'data_impute_project/error_metrics/min_error_analysis_with_feature_combination.csv'  # Adjust the path to your CSV file
-output_dir = 'data_impute_project/graphs/rmse/plots3/terrestrial_mammals'  # Adjust the path to your output directory
+output_dir = 'data_impute_project/graphs/rmse/plots2/terrestrial_mammals'  # Adjust the path to your output directory
 ensure_dir(output_dir)
 
 # Load data

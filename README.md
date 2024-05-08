@@ -22,3 +22,15 @@ NVIDIA GPU: Quadro RTX 4000
 - imputation_summary.xlsx contains the RMSE of feature against the significant features. The remamed to orginal feature version can be found "data_impute_project/corr_test/terrestrial_mammals/imputation_summary_rename.xlsx".
 
 data_impute_project/error_metrics/comparison_plots_fix_rmseaxis contains Rmse graphs for TMs of KNN, BR, RF for futher comparisons. Its renamed version present in  vai script rmse_graph_with_actual_cols_name.py
+
+
+
+
+
+--- New
+
+corr_relation_test_terr_mammals_rename_cols.py deals to rename Cols produce file imputation_summary_rename
+corr_relation_test_terr_mammals.py runs to conduct CORR_TEST of teRR_MAM produce output corr_test/terrestrial_mammals
+
+
+GRAPH--ss
