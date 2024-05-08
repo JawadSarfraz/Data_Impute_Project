@@ -34,3 +34,8 @@ corr_relation_test_terr_mammals.py runs to conduct CORR_TEST of teRR_MAM produce
 
 
 GRAPH--ss
+
+rmse_graph_tm_actual_cols_actual_combination_name.py contains code to create Plots for RMSE against all combinations for each feature of all percentages. Also display the names of feature set which creates plots against percentages. Output lies in data_impute_project/graphs/rmse/plots/terrestrial_mammals
+
+
+rmse_graph_tm_actual_cols_diff_combination_name.py works similar above but have modified version of Cols Name. Its output lies in data_impute_project/graphs/rmse/plots2/terrestrial_mammals
