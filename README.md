@@ -39,3 +39,6 @@ rmse_graph_tm_actual_cols_actual_combination_name.py contains code to create Plo
 
 
 rmse_graph_tm_actual_cols_diff_combination_name.py works similar above but have modified version of Cols Name. Its output lies in data_impute_project/graphs/rmse/plots2/terrestrial_mammals
+
+MAE calculated only those whose value changed, to get accurate and right error result for further analysis and draw plots.
+Removed RMSE cz it gives more priority to outliers, which alters results. It misleads the results

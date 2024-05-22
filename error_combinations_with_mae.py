@@ -6,14 +6,18 @@ from itertools import combinations
 import os
 import time
 
-def calculate_rmse(original, imputed):
-    return sqrt(mean_squared_error(original, imputed))
 
-def calculate_nrmse(original, imputed, range_val):
-    return calculate_rmse(original, imputed) / range_val if range_val != 0 else 0
+def calculate_mae_filtered(original, imputed):
+    # Calculate differences and filter out zero differences
+    differences = original - imputed
+    filtered_original = original[differences != 0]
+    filtered_imputed = imputed[differences != 0]
 
-def calculate_mae(original, imputed):
-    return mean_absolute_error(original, imputed)
+    # Return MAE only for non-zero differences
+    if len(filtered_original) > 0:
+        return mean_absolute_error(filtered_original, filtered_imputed)
+    else:
+        return 0  # Return 0 if there are no differences to avoid division by zero
 
 def ensure_dir(directory):
     if not os.path.exists(directory):
@@ -49,11 +53,11 @@ for combination in combinations_list:
             feature_sets = get_feature_sets(features, feature)
 
             for percentage in percentages:
-                min_errors = {algo: {'RMSE': float('inf'), 'NRMSE': float('inf'), 'MAE': float('inf'), 'FeatureSet': ''} for algo in algorithms}
+                min_errors = {algo: {'MAE': float('inf'), 'FeatureSet': ''} for algo in algorithms}
                 
                 for feature_set in feature_sets:
                     for algorithm in algorithms:
-                        rmse_values, nrmse_values, mae_values = [], [], []
+                        mae_values = []
 
                         for seed in seeds:
                             result_file_path = os.path.join(base_result_path, f"{combination}/{feature_set}/{percentage}/{seed}/result_data_{algorithm}.xlsx")
@@ -61,34 +65,24 @@ for combination in combinations_list:
                                 result_data = pd.read_excel(result_file_path)
                                 if feature in result_data.columns:
                                     imputed_feature = result_data[feature]
-                                    rmse = calculate_rmse(original_data[feature], imputed_feature)
-                                    nrmse = calculate_nrmse(original_data[feature], imputed_feature, original_data[feature].max() - original_data[feature].min())
-                                    mae = calculate_mae(original_data[feature], imputed_feature)
-                                    rmse_values.append(rmse)
-                                    nrmse_values.append(nrmse)
+                                    mae = calculate_mae_filtered(original_data[feature], imputed_feature)  # Using the modified MAE calculation
                                     mae_values.append(mae)
 
-                        # Average RMSE/NRMSE/MAE and update min_errors if this is the new minimum
-                        mean_rmse = np.mean(rmse_values) if rmse_values else float('inf')
-                        mean_nrmse = np.mean(nrmse_values) if nrmse_values else float('inf')
+                        # Average MAE and update min_errors if this is the new minimum
                         mean_mae = np.mean(mae_values) if mae_values else float('inf')
-                        if mean_rmse < min_errors[algorithm]['RMSE']:
-                            min_errors[algorithm]['RMSE'] = mean_rmse
-                            min_errors[algorithm]['FeatureSet'] = feature_set
-                        if mean_nrmse < min_errors[algorithm]['NRMSE']:
-                            min_errors[algorithm]['NRMSE'] = mean_nrmse
-                            min_errors[algorithm]['FeatureSet'] = feature_set
+                        
                         if mean_mae < min_errors[algorithm]['MAE']:
                             min_errors[algorithm]['MAE'] = mean_mae
                             min_errors[algorithm]['FeatureSet'] = feature_set
 
                 # Aggregate final results
                 for algo, error_info in min_errors.items():
-                    final_results.append([combination, feature, percentage, algo, error_info['RMSE'], error_info['NRMSE'], error_info['MAE'], error_info['FeatureSet']])
+                    final_results.append([combination, feature, percentage, algo,  error_info['MAE'], error_info['FeatureSet']])
+
 
 # Create DataFrame and save to CSV
-df_final = pd.DataFrame(final_results, columns=['Combination', 'Feature', 'Percentage', 'Algorithm', 'Min RMSE', 'Min NRMSE', 'Min MAE', 'FeatureSet Removal Scenario'])
-output_file_path = os.path.join(output_dir, 'min_error_analysis_with_feature_combination_mae.csv')
+df_final = pd.DataFrame(final_results, columns=['Combination', 'Feature', 'Percentage', 'Algorithm', 'Min MAE', 'FeatureSet Removal Scenario'])
+output_file_path = os.path.join(output_dir, 'min_error_ChangeVal.csv')
 df_final.to_csv(output_file_path, index=False)
 
 # End the timer and print the running time
