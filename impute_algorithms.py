@@ -6,6 +6,9 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.experimental import enable_iterative_imputer
 from sklearn.impute import IterativeImputer
 from sklearn.linear_model import BayesianRidge
+from sklearn.svm import SVR
+from sklearn.preprocessing import StandardScaler
+from sklearn.impute import SimpleImputer
 
 
 
@@ -27,6 +30,33 @@ def impute_with_bayesian_ridge(df):
     return pd.DataFrame(imputed_data, columns=df.columns)
 
 
+
+def impute_with_svm(df):
+    df_numeric = df.select_dtypes(include=[np.number])
+    scaler = StandardScaler()
+    imputer = SimpleImputer(strategy='mean')
+    
+    for column in df_numeric.columns:
+        not_missing = df_numeric[df_numeric[column].notna()]
+        features = not_missing.drop(columns=[column])
+        target = not_missing[column]
+        
+        # Impute missing values in the features
+        features_imputed = imputer.fit_transform(features)
+        features_scaled = scaler.fit_transform(features_imputed)
+        
+        model = SVR()
+        model.fit(features_scaled, target)
+        
+        missing = df_numeric[df_numeric[column].isna()]
+        if not missing.empty:
+            missing_features = missing.drop(columns=[column])
+            missing_features_imputed = imputer.transform(missing_features)
+            missing_features_scaled = scaler.transform(missing_features_imputed)
+            predicted_values = model.predict(missing_features_scaled)
+            df.loc[missing.index, column] = predicted_values
+    return df
+
 # def impute_with_mice(df):
 #     mice_imputer = IterativeImputer(max_iter=15, random_state=0)
 #     imputed_data = mice_imputer.fit_transform(df)
@@ -35,9 +65,10 @@ def impute_with_bayesian_ridge(df):
 # Function to apply imputation and save the results
 def impute_and_save(input_dir, base_output_dir, df, current_subdir):
     algorithms = {
-        'KNN': impute_with_knn, 
-        'RandomForest': impute_with_random_forest,
-        'BayesianRidge': impute_with_bayesian_ridge
+        # 'KNN': impute_with_knn, 
+        # 'RandomForest': impute_with_random_forest,
+        # 'BayesianRidge': impute_with_bayesian_ridge,
+        'SVM': impute_with_svm
         #'MICE': impute_with_mice
     }
     

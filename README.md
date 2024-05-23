@@ -42,3 +42,5 @@ rmse_graph_tm_actual_cols_diff_combination_name.py works similar above but have 
 
 MAE calculated only those whose value changed, to get accurate and right error result for further analysis and draw plots.
 Removed RMSE cz it gives more priority to outliers, which alters results. It misleads the results
+
+Integrate SVM implementation and produce the resulted files for Terr Mammals
