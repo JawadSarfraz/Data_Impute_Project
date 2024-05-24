@@ -11,27 +11,61 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.impute import SimpleImputer
 
 
-
 # Imputation functions
+
 def impute_with_knn(df):
+    """
+    The function impute_with_knn imputes missing values in a DataFrame using the K-Nearest Neighbors
+    algorithm.
+    
+    :param df: The `df` parameter in the `impute_with_knn` function is expected to be a pandas DataFrame
+    containing the data that you want to impute missing values for using the KNNImputer algorithm
+    :return: The function `impute_with_knn` returns a pandas DataFrame containing the imputed data after
+    applying K-Nearest Neighbors (KNN) imputation on the input DataFrame `df`.
+    """
+    # The line `imputer = KNNImputer(n_neighbors=10)` is creating an instance of the K-Nearest
+    # Neighbors (KNN) imputer object with a parameter `n_neighbors=10`. This means that the KNN
+    # imputer will use the 10 nearest neighbors to impute missing values in the dataset based on the
+    # values of the nearest neighbors.
     imputer = KNNImputer(n_neighbors=10)
     imputed_data = imputer.fit_transform(df)
     return pd.DataFrame(imputed_data, columns=df.columns)
 
 def impute_with_random_forest(df):
+    """
+    The function impute_with_random_forest uses a Random Forest regressor to impute missing values in a
+    DataFrame.
+    
+    :param df: It seems like you were about to provide the DataFrame `df` as an input to the
+    `impute_with_random_forest` function. If you provide me with the DataFrame `df`, I can help you
+    further with imputing missing values using the Random Forest algorithm. Please provide the DataFrame
+    `
+    :return: The function `impute_with_random_forest` returns a pandas DataFrame containing the imputed
+    data after applying the Random Forest-based imputation technique using the IterativeImputer with
+    specified parameters.
+    """
     rf_imputer = IterativeImputer(estimator=RandomForestRegressor(), max_iter=25, tol=0.05, random_state=0)
     imputed_data = rf_imputer.fit_transform(df)
     return pd.DataFrame(imputed_data, columns=df.columns)
 
 
-def impute_with_bayesian_ridge(df):
-    br_imputer = IterativeImputer(estimator=BayesianRidge(), max_iter=25, tol=0.05, random_state=0)
-    imputed_data = br_imputer.fit_transform(df)
-    return pd.DataFrame(imputed_data, columns=df.columns)
+# def impute_with_bayesian_ridge(df):
+#     br_imputer = IterativeImputer(estimator=BayesianRidge(), max_iter=25, tol=0.05, random_state=0)
+#     imputed_data = br_imputer.fit_transform(df)
+#     return pd.DataFrame(imputed_data, columns=df.columns)
 
 
 
 def impute_with_svm(df):
+    """
+    The function `impute_with_svm` uses Support Vector Regression (SVR) to impute missing values in a
+    DataFrame by predicting them based on the other numerical features after scaling and imputing.
+    
+    :param df: It looks like the code you provided is a function that imputes missing values in a
+    DataFrame using Support Vector Regression (SVR) with the help of StandardScaler and SimpleImputer
+    :return: The function `impute_with_svm` returns the input DataFrame `df` with missing values imputed
+    using Support Vector Regression (SVR) based on the other numerical features in the DataFrame.
+    """
     df_numeric = df.select_dtypes(include=[np.number])
     scaler = StandardScaler()
     imputer = SimpleImputer(strategy='mean')
@@ -65,8 +99,8 @@ def impute_with_svm(df):
 # Function to apply imputation and save the results
 def impute_and_save(input_dir, base_output_dir, df, current_subdir):
     algorithms = {
-        # 'KNN': impute_with_knn, 
-        # 'RandomForest': impute_with_random_forest,
+        'KNN': impute_with_knn, 
+        'RandomForest': impute_with_random_forest,
         # 'BayesianRidge': impute_with_bayesian_ridge,
         'SVM': impute_with_svm
         #'MICE': impute_with_mice
@@ -75,6 +109,9 @@ def impute_and_save(input_dir, base_output_dir, df, current_subdir):
     # Modify the output directory to match the required structure
     modified_output_dir = current_subdir.replace('removed_data', 'algorithm_result')
     
+    # Iterating over a dictionary called `algorithms`, where the keys are
+    # algorithm names ('KNN', 'RandomForest', 'SVM') and the values are the corresponding imputation
+    # functions (`impute_with_knn`, `impute_with_random_forest`, `impute_with_svm`).
     for name, func in algorithms.items():
         imputed_df = func(df.select_dtypes(include=[np.number]))  # Impute numeric columns
         result_file = f'result_data_{name}.xlsx'
@@ -88,7 +125,7 @@ def impute_and_save(input_dir, base_output_dir, df, current_subdir):
 base_dir = 'data_impute_project/removed_data/terrestrial_mammals'
 output_base_dir = 'data_impute_project/algorithm_result/terrestrial_mammals'  # Base directory for output
 
-# Iterate through each directory and file for imputation
+# Iterating through each directory and file for imputation in the `base_dir` directory using `os.walk()`
 for subdir, _, files in os.walk(base_dir):
     for file in files:
         if file.endswith("missing_data.xlsx"):
