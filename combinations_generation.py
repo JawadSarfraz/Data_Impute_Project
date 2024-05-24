@@ -6,7 +6,12 @@ import time
 base_data_dir = 'data_impute_project/data'
 base_combination_dir = 'data_impute_project/combinations'
 
-# Define a dictionary mapping data file categories to their respective column combinations
+# The `combinations_map` dictionary is mapping different categories of data files to their respective
+# column combinations. Each key in the dictionary represents a category of data, such as
+# 'mammals_without_humans', 'terrestrial_mammals', 'marine_mammals', etc. The corresponding value for
+# each key is a list of lists, where each inner list contains the column combinations for that
+# specific category.
+
 # It makes simple and memory efficient way for further processessing it, cz we need need to save numerous combination after executing algos
 combinations_map = {
     'mammals_without_humans': [list('ABCD'), list('ABCDE'), list('ABCDF')],
@@ -31,7 +36,7 @@ def remove_missing_values(df, cols):
     Remove rows in the dataframe where any of the specified columns have missing values.
 
     Parameters:
-    df (DataFrame): The pandas DataFrame to process.
+    df (DataFrame): The pandas DataFrame to process, contains data that check for missing values in specified columns.
     cols (list): List of columns to check for missing values.
 
     Returns:
@@ -39,17 +44,21 @@ def remove_missing_values(df, cols):
     """
     return df.dropna(subset=cols)
 
-# Start timing the processing
+# Calculate the total time taken for generating combinations of columns from data files.
+# By capturing the start time before the processing begins and the end time after the
+# processing is completed, the total duration of script be calculated by taking the
+# difference between end time and start time.
 start_time = time.time()
 
-# Iterate through each category and its respective combinations of columns
+# Iterating through each category in `combinations_map` dictionary and its corresponding list of column combinations. 
+# For each category, it reads the data from an Excel file located in `base_data_dir` directory.
 for file_name, combos in combinations_map.items():
     file_path = os.path.join(base_data_dir, f"{file_name}.xlsx")
     df = pd.read_excel(file_path)
 
-    # Iterate each set of column combinations for current category
+    # Generating combinations of columns from the data files and Saving them as separate Excel files.
     for idx, combination in enumerate(combos, start=1):
-        # Create dir for this category if it does not exist
+        # Create dir for the category if it does not exist
         category_dir = os.path.join(base_combination_dir, file_name)
         os.makedirs(category_dir, exist_ok=True)
         
