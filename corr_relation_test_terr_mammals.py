@@ -8,6 +8,15 @@ import os
 results_summary = []
 # Function to calculate RMSE and NRMSE
 def calculate_rmse_nrmse(true_values, predicted_values):
+    """
+    Calculates root mean squared error (RMSE) and normalized root mean squared error (NRMSE) between true and predicted values.
+    
+    Params:
+    true_values: True values are actual values of target variable.
+    predicted_values: Predicted values are the values that model has predicted
+    
+    return: returns two values: root mean squared error (rmse) and normalized root mean squared error (nrmse).
+    """
     rmse = sqrt(mean_squared_error(true_values, predicted_values))
     nrmse = rmse / (true_values.max() - true_values.min())
     return rmse, nrmse
@@ -32,10 +41,33 @@ seeds = ['seed1', 'seed2', 'seed3', 'seed4', 'seed5']
 
 # Function to check if the correlation is significant
 def is_significant(p_value, corr_factor, threshold=0.05, corr_threshold=0.5):
+    """
+    Determines if statistical test result is significant based on the p-value and correlation factor
+    compared to specified thresholds.
+    
+    Params:
+    p_value: It represents p-value obtained from statistical test.
+    corr_factor: its the measures the strength and direction of a relationship between two variables.
+    threshold: represents significance level for determining statistical significance.
+    corr_threshold: it represents minimum absolute value of correlation factor that is considered significant. If absolute
+    value of correlation factor is greater than this threshold, and p-value is less than threshold(0.05),
+    
+    return: a boolean value, it checks if p-value is less than given threshold and if absolute value of correlation
+    factor is greater than another threshold. If both conditions are met, it returns True; otherwise False.
+    """
     return p_value < threshold and abs(corr_factor) > corr_threshold
 
 # Function to handle file existence and load data
 def safe_load_data(path):
+    """
+    Reads Excel file from specified path if it exists, otherwise it returns `None`.
+    
+    Param:
+    path: its file path that need to load.
+    
+    return: If file exists, function will return data loaded from Excel file using pandas `read_excel` function. 
+    If file does not exist, the function will return `None`.
+    """
     if os.path.exists(path):
         return pd.read_excel(path)
     else:
@@ -43,11 +75,26 @@ def safe_load_data(path):
 
 # Process each combination
 def process_combination(combination_name, features):
+    """
+    The function iterates through combinations of features and percentages
+    to check for significant correlations and calculate RMSE and NRMSE values.
+    
+    Params:
+    combination_name: It is used to load relevant data files and results associated with that specific combination for further
+    processing and analysis
+    features: Its features present in file contains combinations. Its been iterated over all features to calc RMSE.
+    
+    return: The function returns list of dictionaries containing summary of
+    results for each combination, feature, feature relation, percentage, RMSE, and NRMSE.
+    """
+
     data_complete = safe_load_data(f"{combinations_base}/{combination_name}.xlsx")
     corr_results = safe_load_data(f"{correlation_results_base}/{combination_name}_correlation_results.xlsx")
     if data_complete is None or corr_results is None:
         return
 
+    # Iterating over different combinations of features, percentages and
+    # seeds to check for significant correlations and calculate RMSE and NRMSE values.
     for feature in features:
         for percentage in percentages:
             for variable in data_complete.columns.drop(feature):  # Check every possible variable relationship
@@ -56,6 +103,8 @@ def process_combination(combination_name, features):
                             ((corr_results['Variable 1'] == variable) & (corr_results['Variable 2'] == feature))
                 filtered_corr_results = corr_results[condition]
                 if not filtered_corr_results.empty and is_significant(filtered_corr_results['P-Value'].iloc[0], filtered_corr_results['Correlation Coefficient'].iloc[0]):
+                    # This list is used to store temporary results, specifically
+                    # RMSE and NRMSE values calculated for each seed iteration within nested loops
                     temp_results = []
                     for seed in seeds:
                         missing_data_path = f"{missing_data_base}/{combination_name}/{feature}/{percentage}/{seed}/missing_data.xlsx"
@@ -81,6 +130,30 @@ def process_combination(combination_name, features):
 
 # Function to impute and save data
 def impute_and_save(data_complete, data_missing, corr_results, feature, variable, combination_name, percentage, seed):
+    """
+    The function takes in complete and missing data and correlation results
+    parameters to impute missing values using linear regression and save results to Excel file.
+    
+    Params:
+    data_complete: its complete dataset that contains all data including missing values for imputation
+    data_missing: `data_missing` is DataFrame containing dataset with missing values that
+    we want to impute. It includes feature  for which we perform imputation.
+    corr_results: contains correlation results between different variables.
+    feature: refers to column in dataset that contains missing values which we wanna impute.
+    variable: used to impute missing values in `feature` column of  dataset. It is column in
+    dataset that will be used as a predictor to estimate the missing values in feature.
+    combination_name: combination of features used for imputation.
+    percentage: percentage of missing values that were imputed in dataset.
+    seed: The `seed` parameter used to set the random seed
+    for reproducibility in imputation process. Setting a seed ensures that same random values
+    are generated each time the function is run with same seed value.
+
+    :return: The function `impute_and_save` returns a tuple containing the result DataFrame after
+    imputation and the output filename where the imputed data is saved. If there is no correlation data
+    found for the specified feature with the variable, it returns `None` along with a message indicating
+    the absence of correlation data. If the correlation is not significant based on the p-value and
+    correlation coefficient, it returns None
+    """
     # Check if correlation significant for both cases: feature as Variable 1 or Variable 2
     condition = ((corr_results['Variable 1'] == feature) & (corr_results['Variable 2'] == variable)) | \
                 ((corr_results['Variable 1'] == variable) & (corr_results['Variable 2'] == feature))

@@ -8,6 +8,8 @@ output_file_path = 'data_impute_project/corr_test/terrestrial_mammals/imputation
 data = pd.read_excel(input_file_path)
 
 # Column mapping as provided
+# The `column_map` dictionary is mapping the column labels (A, B, C, etc.) in Excel file to their
+# corresponding column names . This mapping is used to rename columns in DataFrame loaded Excel file.
 column_map = {
     'A': 'δ13C coll',
     'B': 'δ15N coll',
@@ -21,6 +23,12 @@ column_map = {
 
 # Function to rename the 'Combination' column values
 def rename_combination(combination):
+    """
+    Replaces keys in a combination string with their corresponding values from a column map.
+    
+    :return: The function `rename_combination` is returning `combination` after replacing
+    each key in the `column_map` dictionary with corresponding value with spaces removed.
+    """
     for key in column_map:
         combination = combination.replace(key, column_map[key].replace(' ', ''))
     return combination
