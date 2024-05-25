@@ -130,7 +130,7 @@ for combination in combinations_list:
 
 # Create DataFrame and save to CSV
 df_final = pd.DataFrame(final_results, columns=['Combination', 'Feature', 'Percentage', 'Algorithm', 'Min MAE', 'FeatureSet Removal Scenario'])
-output_file_path = os.path.join(output_dir, 'test.csv')
+output_file_path = os.path.join(output_dir, 'min_error_analysis_with_feature_combinations.csv')
 df_final.to_csv(output_file_path, index=False)
 
 # End the timer and print the running time

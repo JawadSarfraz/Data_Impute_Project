@@ -23,9 +23,24 @@ combinations_map = {
 }
 # Remove rows with missing values in specified columns
 def remove_missing_values(df, cols):
+    """
+    Removes rows from a DataFrame where any of the specified columns have missing values (NaN).
+
+    Params:
+    df: The DataFrame from which to remove missing values.
+    cols (list): A list of column names in DataFrame where missing values are to be checked.
+
+    Returns:
+    pandas.DataFrame: DataFrame with rows containing missing values in the specified columns removed.
+
+    Explanation:
+    - `df.dropna(subset=cols)`: This method is called on DataFrame 'df'. The `dropna` function is used to drop rows that contain missing values.
+        - The `subset` parameter specifies in which columns to look for missing values. Only rows that have NaNs in these specified columns are removed.
+    - The function then returns DataFrame after specified rows with missing values have been removed.
+    """
     return df.dropna(subset=cols)
 
-# Iterate over each file and its combinations
+# Iterating over each file in the `combinations_map` dictionary and its corresponding combinations.
 for file_name, combos in combinations_map.items():
     # Read the dataset
     file_path = os.path.join(base_data_dir, f"{file_name}.xlsx")
