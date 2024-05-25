@@ -5,6 +5,15 @@ from itertools import combinations
 import numpy as np
 
 def calculate_and_save_correlation(base_path, result_base):
+    """
+    Traverse directory starting at base_path, finds all Excel files, calculates Pearson correlation coefficients between pairs
+    of variables, and saves the results in structured format in specified results directory.
+
+    Params:
+    base_path (str): Path where function begins searching for Excel files.
+    result_base (str): Root directory where correlation results will be stored.
+    """
+    # Walk through each directory and file starting from base path
     for root, dirs, files in os.walk(base_path):
         for file in files:
             if file.endswith('.xlsx'):
@@ -45,5 +54,5 @@ def calculate_and_save_correlation(base_path, result_base):
 
 # Base path to project folder and result base path
 base_path = 'data_impute_project/combinations'
-result_base = 'data_impute_project/corr_combinations_test'
+result_base = 'data_impute_project/corr_combinations'
 calculate_and_save_correlation(base_path, result_base)
