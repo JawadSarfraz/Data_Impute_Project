@@ -1,3 +1,4 @@
+# NEED TO WORK ON THIS SCRIPT SO IT WILL WORK TO REMOVE DATA FROM ALL DATASET SIMILAR TO TERR MAM...
 import pandas as pd
 import numpy as np
 import itertools
