@@ -5,6 +5,15 @@ from itertools import combinations
 import numpy as np
 
 def calculate_and_save_correlation(base_path, result_base):
+    """
+    Traverse directory starting at base_path, finds all Excel files, calculates Pearson correlation coefficients between pairs
+    of variables, and saves the results in structured format in specified results directory.
+
+    Params:
+    base_path (str): root directory from which to start searching for Excel files.
+    result_base (str): root directory where result files will be saved.
+    """
+    
     # Mapping from column letters to descriptive names
     column_map = {
         'A': 'δ13C coll',
@@ -34,6 +43,7 @@ def calculate_and_save_correlation(base_path, result_base):
                     # Drop rows where either column is NaN before correlation calculation
                     subset = data[[col1, col2]].dropna()
                     if not subset.empty:
+                        # Calculate Pearson correlation coefficient and p-value
                         corr_coefficient, p_value = pearsonr(subset[col1], subset[col2])
                         new_row = pd.DataFrame({
                             'Variable 1': [col1],
