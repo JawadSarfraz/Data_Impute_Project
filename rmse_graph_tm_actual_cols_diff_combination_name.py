@@ -39,21 +39,21 @@ def plot_comparison(df, feature, combination, output_dir):
     for algorithm in algorithms:
         algorithm_df = filtered_df[filtered_df['Algorithm'] == algorithm]
         percentages = sorted(algorithm_df['Percentage'].unique())
-        rmse_values = []
+        mae_values = []
         scenario_labels = []
 
         for perc in percentages:
             perc_df = algorithm_df[algorithm_df['Percentage'] == perc]
-            rmse_values.append(perc_df['Min RMSE'].mean())
+            mae_values.append(perc_df['Min MAE'].mean())
             scenario_labels.append(perc_df['FeatureSet Removal Scenario'].iloc[0] + f" - {perc}")
 
         # Plot the line for the algorithm
-        plt.plot(percentages, rmse_values, '-o', label=f"{algorithm} ({', '.join(scenario_labels)})")
+        plt.plot(percentages, mae_values, '-o', label=f"{algorithm} ({', '.join(scenario_labels)})")
 
-    plt.title(f'Comparison of RMSE for {feature_label} in {combination_names[combination]}')
+    plt.title(f'Comparison of MAE for {feature_label} in {combination_names[combination]}')
     plt.xlabel('Percentage of Data Removed')
-    plt.ylabel('Min RMSE')
-    plt.ylim(0, 1)
+    plt.ylabel('Min MAE')
+    plt.ylim(0, 3) # set scale...
     plt.legend(loc='upper right', fontsize='small', title='Algorithms and Feature Sets')
     plt.grid(True)
 # Setting custom x-axis tick marks
@@ -65,8 +65,8 @@ def plot_comparison(df, feature, combination, output_dir):
     print(f"Comparison plot saved: {plot_path}")
 
 # Path settings
-data_path = 'data_impute_project/error_metrics/min_error_analysis_with_feature_combination.csv'  # Adjust the path to your CSV file
-output_dir = 'data_impute_project/graphs/rmse/plots2/terrestrial_mammals'  # Adjust the path to your output directory
+data_path = 'data_impute_project/error_metrics/min_error_analysis_with_feature_combinations.csv'  # Adjust the path to your CSV file
+output_dir = 'data_impute_project/graphs/mae/plot2/terrestrial_mammals'  # Adjust the path to your output directory
 ensure_dir(output_dir)
 
 # Load data
