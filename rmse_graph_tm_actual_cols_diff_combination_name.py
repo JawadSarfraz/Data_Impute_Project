@@ -7,12 +7,14 @@ def ensure_dir(directory):
     if not os.path.exists(directory):
         os.makedirs(directory)
 
+# Mapping of combinations to their descriptive names for better readability in plots.
 combination_names = {
     'combination_1_ABCD': 'Combination 1: δ13C coll, δ15N coll, δ13C carb, δ18O carb',
     'combination_2_ABCDE': 'Combination 2: δ13C coll, δ15N coll, δ13C carb, δ18O carb, δ18O phos',
     'combination_3_ABCDF': 'Combination 3: δ13C coll, δ15N coll, δ13C carb, δ18O carb, δ34S coll'
 }
 
+# Mapping of feature into its acutal names for use in plots.
 feature_names = {
     'A': 'δ13C coll',
     'B': 'δ15N coll',
@@ -23,7 +25,14 @@ feature_names = {
 }
 
 def translate_features(scenario):
-    """Translate single character features to their full names based on feature_names."""
+    """Translate single character features to their full names based on feature_names.
+
+    Param:
+        scenario (str): string of feature names/codes.
+
+    Returns:
+        str: concatenated string of full feature names separated by underscores.
+    """
     translated = []
     for char in scenario:
         if char in feature_names:
@@ -31,6 +40,15 @@ def translate_features(scenario):
     return '_'.join(translated)
 
 def plot_comparison(df, feature, combination, output_dir):
+    
+    """Generate plot comparing algorithms for given feature and combination, and save plot to a file.
+
+    Params:
+        df (DataFrame): dataframe containing error metrics.
+        feature (str): feature to plot.
+        combination (str): combination category of the feature.
+        output_dir (str): dir where plot will be saved.
+    """
     plt.figure(figsize=(12, 8))
     feature_label = feature_names.get(feature, feature)
     filtered_df = df[(df['Combination'] == combination) & (df['Feature'] == feature)]
@@ -49,7 +67,8 @@ def plot_comparison(df, feature, combination, output_dir):
 
         # Plot the line for the algorithm
         plt.plot(percentages, mae_values, '-o', label=f"{algorithm} ({', '.join(scenario_labels)})")
-
+    
+    # Setting up plot labels and saving the file.
     plt.title(f'Comparison of MAE for {feature_label} in {combination_names[combination]}')
     plt.xlabel('Percentage of Data Removed')
     plt.ylabel('Min MAE')
@@ -64,7 +83,8 @@ def plot_comparison(df, feature, combination, output_dir):
     plt.close()
     print(f"Comparison plot saved: {plot_path}")
 
-# Path settings
+# Main execution block
+# Path settings, load data, generate plots for each combinations and features
 data_path = 'data_impute_project/error_metrics/min_error_analysis_with_feature_combinations.csv'  # Adjust the path to your CSV file
 output_dir = 'data_impute_project/graphs/mae/plot2/terrestrial_mammals'  # Adjust the path to your output directory
 ensure_dir(output_dir)
