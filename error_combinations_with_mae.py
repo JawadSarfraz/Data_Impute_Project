@@ -70,8 +70,39 @@ def get_feature_sets(features, current_feature):
     # Return the list of feature sets that include 'current_feature'
     return feature_sets
 
+feature_names = {
+    'A': 'δ13C coll',
+    'B': 'δ15N coll',
+    'C': 'δ13C carb',
+    'D': 'δ18O carb',
+    'E': 'δ18O phos',
+    'F': 'δ34S coll'
+}
 
+def translate_feature_set(feature_set):
+    """
+    Translate set of feature identifiers (e.g 'AB') into their descriptive names.
 
+    Func takes a string where each character represents a feature identifier and
+    uses a mapping dictionary (`feature_names`) to convert each identifier into a more
+    descriptive name. If an identifier doesn't have a corresponding descriptive name in the
+    dictionary, it returns the identifier itself.
+
+    Params:
+    feature_set (str): string of feature identifiers, e.g 'AB'.
+
+    Returns:
+    str: A string where each feature name has been replaced by its corresponding
+         descriptive name, concatenated without any separator.
+    """
+
+    translated_feature_set = '_'.join([
+        feature_names.get(f, f)
+        for f in feature_set
+    ])
+
+    # Return the concatenated string of feature names
+    return translated_feature_set
 
 # Start the timer
 start_time = time.time()
@@ -122,14 +153,15 @@ for combination in combinations_list:
                         if mean_mae < min_errors[algorithm]['MAE']:
                             min_errors[algorithm]['MAE'] = mean_mae
                             min_errors[algorithm]['FeatureSet'] = feature_set
+                            min_errors[algorithm]['TranslatedFeatureSet'] = translate_feature_set(feature_set)
 
                 # Aggregate final results
                 for algo, error_info in min_errors.items():
-                    final_results.append([combination, feature, percentage, algo,  error_info['MAE'], error_info['FeatureSet']])
+                    final_results.append([combination, feature, percentage, algo, error_info['MAE'], error_info['FeatureSet'], error_info['TranslatedFeatureSet']])
 
 
 # Create DataFrame and save to CSV
-df_final = pd.DataFrame(final_results, columns=['Combination', 'Feature', 'Percentage', 'Algorithm', 'Min MAE', 'FeatureSet Removal Scenario'])
+df_final = pd.DataFrame(final_results, columns=['Combination', 'Feature', 'Percentage', 'Algorithm', 'Min MAE', 'FeatureSet', 'TranslatedFeatureSet'])
 output_file_path = os.path.join(output_dir, 'min_error_analysis_with_feature_combinations.csv')
 df_final.to_csv(output_file_path, index=False)
 
