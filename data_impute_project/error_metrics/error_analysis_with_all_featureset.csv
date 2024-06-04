@@ -1,0 +1,1729 @@
+Combination,Feature,Percentage,Algorithm,FeatureSet,TranslatedFeatureSet,MAE
+combination_1_ABCD,A,10,KNN,A,δ13C coll,0.6225498501498502
+combination_1_ABCD,A,10,SVM,A,δ13C coll,0.7154974433123897
+combination_1_ABCD,A,10,RandomForest,A,δ13C coll,0.6071259790209796
+combination_1_ABCD,A,10,KNN,AB,δ13C coll_δ15N coll,0.7080804695304692
+combination_1_ABCD,A,10,SVM,AB,δ13C coll_δ15N coll,0.7862153082715906
+combination_1_ABCD,A,10,RandomForest,AB,δ13C coll_δ15N coll,0.7371645504495502
+combination_1_ABCD,A,10,KNN,AC,δ13C coll_δ13C carb,0.6472207042957043
+combination_1_ABCD,A,10,SVM,AC,δ13C coll_δ13C carb,0.7053393686357172
+combination_1_ABCD,A,10,RandomForest,AC,δ13C coll_δ13C carb,0.6450009415584441
+combination_1_ABCD,A,10,KNN,AD,δ13C coll_δ18O carb,0.6210927822177823
+combination_1_ABCD,A,10,SVM,AD,δ13C coll_δ18O carb,0.7146265250301725
+combination_1_ABCD,A,10,RandomForest,AD,δ13C coll_δ18O carb,0.6611858366633387
+combination_1_ABCD,A,10,KNN,ABC,δ13C coll_δ15N coll_δ13C carb,0.7401548201798201
+combination_1_ABCD,A,10,SVM,ABC,δ13C coll_δ15N coll_δ13C carb,0.7639399528857151
+combination_1_ABCD,A,10,RandomForest,ABC,δ13C coll_δ15N coll_δ13C carb,0.7616673676323671
+combination_1_ABCD,A,10,KNN,ABD,δ13C coll_δ15N coll_δ18O carb,0.7110984765234762
+combination_1_ABCD,A,10,SVM,ABD,δ13C coll_δ15N coll_δ18O carb,0.77078799410859
+combination_1_ABCD,A,10,RandomForest,ABD,δ13C coll_δ15N coll_δ18O carb,0.6537919580419602
+combination_1_ABCD,A,10,KNN,ACD,δ13C coll_δ13C carb_δ18O carb,0.6526937062937066
+combination_1_ABCD,A,10,SVM,ACD,δ13C coll_δ13C carb_δ18O carb,0.6905868696452258
+combination_1_ABCD,A,10,RandomForest,ACD,δ13C coll_δ13C carb_δ18O carb,0.6346797177822172
+combination_1_ABCD,A,10,KNN,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.7298332917082914
+combination_1_ABCD,A,10,SVM,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.7382383922182475
+combination_1_ABCD,A,10,RandomForest,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.7449816433566447
+combination_1_ABCD,A,15,KNN,A,δ13C coll,0.5964127272727271
+combination_1_ABCD,A,15,SVM,A,δ13C coll,0.6942410116747564
+combination_1_ABCD,A,15,RandomForest,A,δ13C coll,0.6594113585858621
+combination_1_ABCD,A,15,KNN,AB,δ13C coll_δ15N coll,0.7069995202020202
+combination_1_ABCD,A,15,SVM,AB,δ13C coll_δ15N coll,0.7982814057484227
+combination_1_ABCD,A,15,RandomForest,AB,δ13C coll_δ15N coll,0.7377169090909111
+combination_1_ABCD,A,15,KNN,AC,δ13C coll_δ13C carb,0.6079881060606059
+combination_1_ABCD,A,15,SVM,AC,δ13C coll_δ13C carb,0.694482206952993
+combination_1_ABCD,A,15,RandomForest,AC,δ13C coll_δ13C carb,0.6795344646464663
+combination_1_ABCD,A,15,KNN,AD,δ13C coll_δ18O carb,0.5994997979797979
+combination_1_ABCD,A,15,SVM,AD,δ13C coll_δ18O carb,0.6699560037910174
+combination_1_ABCD,A,15,RandomForest,AD,δ13C coll_δ18O carb,0.6348218888888914
+combination_1_ABCD,A,15,KNN,ABC,δ13C coll_δ15N coll_δ13C carb,0.7709967676767678
+combination_1_ABCD,A,15,SVM,ABC,δ13C coll_δ15N coll_δ13C carb,0.7902184378850368
+combination_1_ABCD,A,15,RandomForest,ABC,δ13C coll_δ15N coll_δ13C carb,0.8037379393939403
+combination_1_ABCD,A,15,KNN,ABD,δ13C coll_δ15N coll_δ18O carb,0.7192289393939396
+combination_1_ABCD,A,15,SVM,ABD,δ13C coll_δ15N coll_δ18O carb,0.8054057099241024
+combination_1_ABCD,A,15,RandomForest,ABD,δ13C coll_δ15N coll_δ18O carb,0.7134984217171721
+combination_1_ABCD,A,15,KNN,ACD,δ13C coll_δ13C carb_δ18O carb,0.6129103787878788
+combination_1_ABCD,A,15,SVM,ACD,δ13C coll_δ13C carb_δ18O carb,0.6674411481209865
+combination_1_ABCD,A,15,RandomForest,ACD,δ13C coll_δ13C carb_δ18O carb,0.6456817272727278
+combination_1_ABCD,A,15,KNN,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.7174224494949494
+combination_1_ABCD,A,15,SVM,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.7452962501283433
+combination_1_ABCD,A,15,RandomForest,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.7819337247474776
+combination_1_ABCD,A,20,KNN,A,δ13C coll,0.5901198039215687
+combination_1_ABCD,A,20,SVM,A,δ13C coll,0.6891604935085864
+combination_1_ABCD,A,20,RandomForest,A,δ13C coll,0.6384901470588258
+combination_1_ABCD,A,20,KNN,AB,δ13C coll_δ15N coll,0.7417623529411767
+combination_1_ABCD,A,20,SVM,AB,δ13C coll_δ15N coll,0.7992942414827267
+combination_1_ABCD,A,20,RandomForest,AB,δ13C coll_δ15N coll,0.7729871274509819
+combination_1_ABCD,A,20,KNN,AC,δ13C coll_δ13C carb,0.6123259803921568
+combination_1_ABCD,A,20,SVM,AC,δ13C coll_δ13C carb,0.6858800124348349
+combination_1_ABCD,A,20,RandomForest,AC,δ13C coll_δ13C carb,0.6819071862745112
+combination_1_ABCD,A,20,KNN,AD,δ13C coll_δ18O carb,0.57135
+combination_1_ABCD,A,20,SVM,AD,δ13C coll_δ18O carb,0.6480132290906255
+combination_1_ABCD,A,20,RandomForest,AD,δ13C coll_δ18O carb,0.6305857843137275
+combination_1_ABCD,A,20,KNN,ABC,δ13C coll_δ15N coll_δ13C carb,0.7671909803921569
+combination_1_ABCD,A,20,SVM,ABC,δ13C coll_δ15N coll_δ13C carb,0.7969777169702214
+combination_1_ABCD,A,20,RandomForest,ABC,δ13C coll_δ15N coll_δ13C carb,0.8110274411764721
+combination_1_ABCD,A,20,KNN,ABD,δ13C coll_δ15N coll_δ18O carb,0.7425998039215684
+combination_1_ABCD,A,20,SVM,ABD,δ13C coll_δ15N coll_δ18O carb,0.797147735724087
+combination_1_ABCD,A,20,RandomForest,ABD,δ13C coll_δ15N coll_δ18O carb,0.7781831470588269
+combination_1_ABCD,A,20,KNN,ACD,δ13C coll_δ13C carb_δ18O carb,0.6165089215686274
+combination_1_ABCD,A,20,SVM,ACD,δ13C coll_δ13C carb_δ18O carb,0.6981921098824369
+combination_1_ABCD,A,20,RandomForest,ACD,δ13C coll_δ13C carb_δ18O carb,0.669306196078434
+combination_1_ABCD,A,20,KNN,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.7105502941176471
+combination_1_ABCD,A,20,SVM,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.774921352358831
+combination_1_ABCD,A,20,RandomForest,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.7751740980392182
+combination_1_ABCD,B,10,KNN,B,δ15N coll,1.1613095404595406
+combination_1_ABCD,B,10,SVM,B,δ15N coll,1.2391069058388418
+combination_1_ABCD,B,10,RandomForest,B,δ15N coll,1.179743269230768
+combination_1_ABCD,B,10,KNN,AB,δ13C coll_δ15N coll,0.35315169830169835
+combination_1_ABCD,B,10,SVM,AB,δ13C coll_δ15N coll,0.34658258102191963
+combination_1_ABCD,B,10,RandomForest,AB,δ13C coll_δ15N coll,0.3252126873126874
+combination_1_ABCD,B,10,KNN,BC,δ15N coll_δ13C carb,1.218193081918082
+combination_1_ABCD,B,10,SVM,BC,δ15N coll_δ13C carb,1.285260265802166
+combination_1_ABCD,B,10,RandomForest,BC,δ15N coll_δ13C carb,1.1394667332667328
+combination_1_ABCD,B,10,KNN,BD,δ15N coll_δ18O carb,1.1893896603396603
+combination_1_ABCD,B,10,SVM,BD,δ15N coll_δ18O carb,1.2304495645824525
+combination_1_ABCD,B,10,RandomForest,BD,δ15N coll_δ18O carb,1.1757584290709278
+combination_1_ABCD,B,10,KNN,ABC,δ13C coll_δ15N coll_δ13C carb,0.3495512237762238
+combination_1_ABCD,B,10,SVM,ABC,δ13C coll_δ15N coll_δ13C carb,0.3865093557235777
+combination_1_ABCD,B,10,RandomForest,ABC,δ13C coll_δ15N coll_δ13C carb,0.37607623376623367
+combination_1_ABCD,B,10,KNN,ABD,δ13C coll_δ15N coll_δ18O carb,0.34456428571428577
+combination_1_ABCD,B,10,SVM,ABD,δ13C coll_δ15N coll_δ18O carb,0.34046415232385174
+combination_1_ABCD,B,10,RandomForest,ABD,δ13C coll_δ15N coll_δ18O carb,0.19627428571428557
+combination_1_ABCD,B,10,KNN,BCD,δ15N coll_δ13C carb_δ18O carb,1.1985972777222778
+combination_1_ABCD,B,10,SVM,BCD,δ15N coll_δ13C carb_δ18O carb,1.2364235625147015
+combination_1_ABCD,B,10,RandomForest,BCD,δ15N coll_δ13C carb_δ18O carb,1.1766213211788208
+combination_1_ABCD,B,10,KNN,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.3508647602397602
+combination_1_ABCD,B,10,SVM,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.38613109508554766
+combination_1_ABCD,B,10,RandomForest,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.3744483266733266
+combination_1_ABCD,B,15,KNN,B,δ15N coll,1.1690183333333333
+combination_1_ABCD,B,15,SVM,B,δ15N coll,1.251829275358262
+combination_1_ABCD,B,15,RandomForest,B,δ15N coll,1.114902497474747
+combination_1_ABCD,B,15,KNN,AB,δ13C coll_δ15N coll,0.4101043686868686
+combination_1_ABCD,B,15,SVM,AB,δ13C coll_δ15N coll,0.42139516452591774
+combination_1_ABCD,B,15,RandomForest,AB,δ13C coll_δ15N coll,0.3707626792929293
+combination_1_ABCD,B,15,KNN,BC,δ15N coll_δ13C carb,1.1961401515151515
+combination_1_ABCD,B,15,SVM,BC,δ15N coll_δ13C carb,1.2647757294351722
+combination_1_ABCD,B,15,RandomForest,BC,δ15N coll_δ13C carb,1.1154387146464646
+combination_1_ABCD,B,15,KNN,BD,δ15N coll_δ18O carb,1.149072121212121
+combination_1_ABCD,B,15,SVM,BD,δ15N coll_δ18O carb,1.2108066324193556
+combination_1_ABCD,B,15,RandomForest,BD,δ15N coll_δ18O carb,1.127836229797979
+combination_1_ABCD,B,15,KNN,ABC,δ13C coll_δ15N coll_δ13C carb,0.42973191919191905
+combination_1_ABCD,B,15,SVM,ABC,δ13C coll_δ15N coll_δ13C carb,0.4562490133992979
+combination_1_ABCD,B,15,RandomForest,ABC,δ13C coll_δ15N coll_δ13C carb,0.48394670707070714
+combination_1_ABCD,B,15,KNN,ABD,δ13C coll_δ15N coll_δ18O carb,0.3891457828282828
+combination_1_ABCD,B,15,SVM,ABD,δ13C coll_δ15N coll_δ18O carb,0.4116958709473516
+combination_1_ABCD,B,15,RandomForest,ABD,δ13C coll_δ15N coll_δ18O carb,0.37390803535353556
+combination_1_ABCD,B,15,KNN,BCD,δ15N coll_δ13C carb_δ18O carb,1.188538611111111
+combination_1_ABCD,B,15,SVM,BCD,δ15N coll_δ13C carb_δ18O carb,1.2630506156584993
+combination_1_ABCD,B,15,RandomForest,BCD,δ15N coll_δ13C carb_δ18O carb,1.1180376035353536
+combination_1_ABCD,B,15,KNN,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.43531787878787886
+combination_1_ABCD,B,15,SVM,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.4673977645886575
+combination_1_ABCD,B,15,RandomForest,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.46739468181818183
+combination_1_ABCD,B,20,KNN,B,δ15N coll,1.2869457843137253
+combination_1_ABCD,B,20,SVM,B,δ15N coll,1.3210810596072726
+combination_1_ABCD,B,20,RandomForest,B,δ15N coll,1.1460623627450972
+combination_1_ABCD,B,20,KNN,AB,δ13C coll_δ15N coll,0.5322058823529412
+combination_1_ABCD,B,20,SVM,AB,δ13C coll_δ15N coll,0.5044105954621398
+combination_1_ABCD,B,20,RandomForest,AB,δ13C coll_δ15N coll,0.528012068627451
+combination_1_ABCD,B,20,KNN,BC,δ15N coll_δ13C carb,1.3164919607843137
+combination_1_ABCD,B,20,SVM,BC,δ15N coll_δ13C carb,1.3249385835919962
+combination_1_ABCD,B,20,RandomForest,BC,δ15N coll_δ13C carb,1.1481250098039217
+combination_1_ABCD,B,20,KNN,BD,δ15N coll_δ18O carb,1.3002186274509804
+combination_1_ABCD,B,20,SVM,BD,δ15N coll_δ18O carb,1.295703072573391
+combination_1_ABCD,B,20,RandomForest,BD,δ15N coll_δ18O carb,1.2080423725490188
+combination_1_ABCD,B,20,KNN,ABC,δ13C coll_δ15N coll_δ13C carb,0.5213917647058823
+combination_1_ABCD,B,20,SVM,ABC,δ13C coll_δ15N coll_δ13C carb,0.5454552362805105
+combination_1_ABCD,B,20,RandomForest,ABC,δ13C coll_δ15N coll_δ13C carb,0.6398473039215686
+combination_1_ABCD,B,20,KNN,ABD,δ13C coll_δ15N coll_δ18O carb,0.5176207843137255
+combination_1_ABCD,B,20,SVM,ABD,δ13C coll_δ15N coll_δ18O carb,0.5122683068187411
+combination_1_ABCD,B,20,RandomForest,ABD,δ13C coll_δ15N coll_δ18O carb,0.523050294117647
+combination_1_ABCD,B,20,KNN,BCD,δ15N coll_δ13C carb_δ18O carb,1.2523710784313724
+combination_1_ABCD,B,20,SVM,BCD,δ15N coll_δ13C carb_δ18O carb,1.3658369827429238
+combination_1_ABCD,B,20,RandomForest,BCD,δ15N coll_δ13C carb_δ18O carb,1.190409950980392
+combination_1_ABCD,B,20,KNN,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.5331879411764706
+combination_1_ABCD,B,20,SVM,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.5526103917132723
+combination_1_ABCD,B,20,RandomForest,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.6275255098039219
+combination_1_ABCD,C,10,KNN,C,δ13C carb,1.3927132617382618
+combination_1_ABCD,C,10,SVM,C,δ13C carb,1.3752449161047864
+combination_1_ABCD,C,10,RandomForest,C,δ13C carb,1.4441588086913089
+combination_1_ABCD,C,10,KNN,AC,δ13C coll_δ13C carb,0.17870524475524474
+combination_1_ABCD,C,10,SVM,AC,δ13C coll_δ13C carb,0.2551746834051351
+combination_1_ABCD,C,10,RandomForest,AC,δ13C coll_δ13C carb,0.16576035214785173
+combination_1_ABCD,C,10,KNN,BC,δ15N coll_δ13C carb,0.2179422827172827
+combination_1_ABCD,C,10,SVM,BC,δ15N coll_δ13C carb,0.2431953708581628
+combination_1_ABCD,C,10,RandomForest,BC,δ15N coll_δ13C carb,0.20042426323676282
+combination_1_ABCD,C,10,KNN,CD,δ13C carb_δ18O carb,1.395078771228771
+combination_1_ABCD,C,10,SVM,CD,δ13C carb_δ18O carb,1.3932664056188164
+combination_1_ABCD,C,10,RandomForest,CD,δ13C carb_δ18O carb,1.5249318181818188
+combination_1_ABCD,C,10,KNN,ABC,δ13C coll_δ15N coll_δ13C carb,0.07827727272727271
+combination_1_ABCD,C,10,SVM,ABC,δ13C coll_δ15N coll_δ13C carb,0.09054291394524004
+combination_1_ABCD,C,10,RandomForest,ABC,δ13C coll_δ15N coll_δ13C carb,0.13172469530469524
+combination_1_ABCD,C,10,KNN,ACD,δ13C coll_δ13C carb_δ18O carb,0.23165916583416585
+combination_1_ABCD,C,10,SVM,ACD,δ13C coll_δ13C carb_δ18O carb,0.2578382412639437
+combination_1_ABCD,C,10,RandomForest,ACD,δ13C coll_δ13C carb_δ18O carb,0.25168568931068896
+combination_1_ABCD,C,10,KNN,BCD,δ15N coll_δ13C carb_δ18O carb,0.23174443056943056
+combination_1_ABCD,C,10,SVM,BCD,δ15N coll_δ13C carb_δ18O carb,0.2599138037281452
+combination_1_ABCD,C,10,RandomForest,BCD,δ15N coll_δ13C carb_δ18O carb,0.3000424525474521
+combination_1_ABCD,C,10,KNN,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.084032017982018
+combination_1_ABCD,C,10,SVM,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.08935052205033091
+combination_1_ABCD,C,10,RandomForest,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.09132670829170801
+combination_1_ABCD,C,15,KNN,C,δ13C carb,1.3576886363636365
+combination_1_ABCD,C,15,SVM,C,δ13C carb,1.4038336074228523
+combination_1_ABCD,C,15,RandomForest,C,δ13C carb,1.4082623156565646
+combination_1_ABCD,C,15,KNN,AC,δ13C coll_δ13C carb,0.17986032828282833
+combination_1_ABCD,C,15,SVM,AC,δ13C coll_δ13C carb,0.21010796516146626
+combination_1_ABCD,C,15,RandomForest,AC,δ13C coll_δ13C carb,0.17725186363636322
+combination_1_ABCD,C,15,KNN,BC,δ15N coll_δ13C carb,0.21744575757575757
+combination_1_ABCD,C,15,SVM,BC,δ15N coll_δ13C carb,0.21844566750806016
+combination_1_ABCD,C,15,RandomForest,BC,δ15N coll_δ13C carb,0.1840528333333335
+combination_1_ABCD,C,15,KNN,CD,δ13C carb_δ18O carb,1.4013720454545455
+combination_1_ABCD,C,15,SVM,CD,δ13C carb_δ18O carb,1.3892404424478733
+combination_1_ABCD,C,15,RandomForest,CD,δ13C carb_δ18O carb,1.5098810277777788
+combination_1_ABCD,C,15,KNN,ABC,δ13C coll_δ15N coll_δ13C carb,0.2036704292929293
+combination_1_ABCD,C,15,SVM,ABC,δ13C coll_δ15N coll_δ13C carb,0.2148375665936082
+combination_1_ABCD,C,15,RandomForest,ABC,δ13C coll_δ15N coll_δ13C carb,0.20447459848484845
+combination_1_ABCD,C,15,KNN,ACD,δ13C coll_δ13C carb_δ18O carb,0.21750964646464652
+combination_1_ABCD,C,15,SVM,ACD,δ13C coll_δ13C carb_δ18O carb,0.24554934665313716
+combination_1_ABCD,C,15,RandomForest,ACD,δ13C coll_δ13C carb_δ18O carb,0.2752199217171712
+combination_1_ABCD,C,15,KNN,BCD,δ15N coll_δ13C carb_δ18O carb,0.22483479797979794
+combination_1_ABCD,C,15,SVM,BCD,δ15N coll_δ13C carb_δ18O carb,0.24430191059116702
+combination_1_ABCD,C,15,RandomForest,BCD,δ15N coll_δ13C carb_δ18O carb,0.20463528787878782
+combination_1_ABCD,C,15,KNN,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.2006953535353535
+combination_1_ABCD,C,15,SVM,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.2342105567695522
+combination_1_ABCD,C,15,RandomForest,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.21806790404040372
+combination_1_ABCD,C,20,KNN,C,δ13C carb,1.3767038235294118
+combination_1_ABCD,C,20,SVM,C,δ13C carb,1.3804129385474857
+combination_1_ABCD,C,20,RandomForest,C,δ13C carb,1.5338161862745094
+combination_1_ABCD,C,20,KNN,AC,δ13C coll_δ13C carb,0.3375263725490195
+combination_1_ABCD,C,20,SVM,AC,δ13C coll_δ13C carb,0.3494202683673359
+combination_1_ABCD,C,20,RandomForest,AC,δ13C coll_δ13C carb,0.2997584607843137
+combination_1_ABCD,C,20,KNN,BC,δ15N coll_δ13C carb,0.3228422549019607
+combination_1_ABCD,C,20,SVM,BC,δ15N coll_δ13C carb,0.3281533862084894
+combination_1_ABCD,C,20,RandomForest,BC,δ15N coll_δ13C carb,0.3015725098039216
+combination_1_ABCD,C,20,KNN,CD,δ13C carb_δ18O carb,1.4039207843137256
+combination_1_ABCD,C,20,SVM,CD,δ13C carb_δ18O carb,1.4013094021620263
+combination_1_ABCD,C,20,RandomForest,CD,δ13C carb_δ18O carb,1.5030288431372547
+combination_1_ABCD,C,20,KNN,ABC,δ13C coll_δ15N coll_δ13C carb,0.28112921568627447
+combination_1_ABCD,C,20,SVM,ABC,δ13C coll_δ15N coll_δ13C carb,0.31913639199403376
+combination_1_ABCD,C,20,RandomForest,ABC,δ13C coll_δ15N coll_δ13C carb,0.3123636372549018
+combination_1_ABCD,C,20,KNN,ACD,δ13C coll_δ13C carb_δ18O carb,0.36502490196078424
+combination_1_ABCD,C,20,SVM,ACD,δ13C coll_δ13C carb_δ18O carb,0.39060731032133705
+combination_1_ABCD,C,20,RandomForest,ACD,δ13C coll_δ13C carb_δ18O carb,0.385998725490196
+combination_1_ABCD,C,20,KNN,BCD,δ15N coll_δ13C carb_δ18O carb,0.3266327450980392
+combination_1_ABCD,C,20,SVM,BCD,δ15N coll_δ13C carb_δ18O carb,0.33395611764258404
+combination_1_ABCD,C,20,RandomForest,BCD,δ15N coll_δ13C carb_δ18O carb,0.2941951568627451
+combination_1_ABCD,C,20,KNN,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.29284470588235295
+combination_1_ABCD,C,20,SVM,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.3153094455487589
+combination_1_ABCD,C,20,RandomForest,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.3290867745098037
+combination_1_ABCD,D,10,KNN,D,δ18O carb,0.9769014985014985
+combination_1_ABCD,D,10,SVM,D,δ18O carb,0.9287703265982113
+combination_1_ABCD,D,10,RandomForest,D,δ18O carb,0.9894341058941063
+combination_1_ABCD,D,10,KNN,AD,δ13C coll_δ18O carb,0.11875144855144866
+combination_1_ABCD,D,10,SVM,AD,δ13C coll_δ18O carb,0.10959242566998321
+combination_1_ABCD,D,10,RandomForest,AD,δ13C coll_δ18O carb,0.1328379095904097
+combination_1_ABCD,D,10,KNN,BD,δ15N coll_δ18O carb,0.09819490509490511
+combination_1_ABCD,D,10,SVM,BD,δ15N coll_δ18O carb,0.09197770885231658
+combination_1_ABCD,D,10,RandomForest,BD,δ15N coll_δ18O carb,0.15148581168831154
+combination_1_ABCD,D,10,KNN,CD,δ13C carb_δ18O carb,0.09229917582417582
+combination_1_ABCD,D,10,SVM,CD,δ13C carb_δ18O carb,0.13106017125952535
+combination_1_ABCD,D,10,RandomForest,CD,δ13C carb_δ18O carb,0.15374465034965004
+combination_1_ABCD,D,10,KNN,ABD,δ13C coll_δ15N coll_δ18O carb,0.06412025474525472
+combination_1_ABCD,D,10,SVM,ABD,δ13C coll_δ15N coll_δ18O carb,0.057826292081272046
+combination_1_ABCD,D,10,RandomForest,ABD,δ13C coll_δ15N coll_δ18O carb,0.10158306443556449
+combination_1_ABCD,D,10,KNN,ACD,δ13C coll_δ13C carb_δ18O carb,0.08308633866133865
+combination_1_ABCD,D,10,SVM,ACD,δ13C coll_δ13C carb_δ18O carb,0.09557599139828248
+combination_1_ABCD,D,10,RandomForest,ACD,δ13C coll_δ13C carb_δ18O carb,0.11608556443556468
+combination_1_ABCD,D,10,KNN,BCD,δ15N coll_δ13C carb_δ18O carb,0.06536570929070931
+combination_1_ABCD,D,10,SVM,BCD,δ15N coll_δ13C carb_δ18O carb,0.07973208069133014
+combination_1_ABCD,D,10,RandomForest,BCD,δ15N coll_δ13C carb_δ18O carb,0.11009171828171813
+combination_1_ABCD,D,10,KNN,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.06077342657342653
+combination_1_ABCD,D,10,SVM,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.05806432706822351
+combination_1_ABCD,D,10,RandomForest,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.0535008391608391
+combination_1_ABCD,D,15,KNN,D,δ18O carb,0.9508842171717173
+combination_1_ABCD,D,15,SVM,D,δ18O carb,0.9486302132463958
+combination_1_ABCD,D,15,RandomForest,D,δ18O carb,0.9822783383838386
+combination_1_ABCD,D,15,KNN,AD,δ13C coll_δ18O carb,0.1680013383838384
+combination_1_ABCD,D,15,SVM,AD,δ13C coll_δ18O carb,0.15827841596846004
+combination_1_ABCD,D,15,RandomForest,AD,δ13C coll_δ18O carb,0.1698166994949497
+combination_1_ABCD,D,15,KNN,BD,δ15N coll_δ18O carb,0.16129843434343427
+combination_1_ABCD,D,15,SVM,BD,δ15N coll_δ18O carb,0.14505618616459387
+combination_1_ABCD,D,15,RandomForest,BD,δ15N coll_δ18O carb,0.16633126262626277
+combination_1_ABCD,D,15,KNN,CD,δ13C carb_δ18O carb,0.14220775252525253
+combination_1_ABCD,D,15,SVM,CD,δ13C carb_δ18O carb,0.1573379392317845
+combination_1_ABCD,D,15,RandomForest,CD,δ13C carb_δ18O carb,0.18195430808080806
+combination_1_ABCD,D,15,KNN,ABD,δ13C coll_δ15N coll_δ18O carb,0.12486941919191925
+combination_1_ABCD,D,15,SVM,ABD,δ13C coll_δ15N coll_δ18O carb,0.1256336909826515
+combination_1_ABCD,D,15,RandomForest,ABD,δ13C coll_δ15N coll_δ18O carb,0.16093171969696965
+combination_1_ABCD,D,15,KNN,ACD,δ13C coll_δ13C carb_δ18O carb,0.13125449494949495
+combination_1_ABCD,D,15,SVM,ACD,δ13C coll_δ13C carb_δ18O carb,0.1495577924151554
+combination_1_ABCD,D,15,RandomForest,ACD,δ13C coll_δ13C carb_δ18O carb,0.16649868181818184
+combination_1_ABCD,D,15,KNN,BCD,δ15N coll_δ13C carb_δ18O carb,0.1435971464646465
+combination_1_ABCD,D,15,SVM,BCD,δ15N coll_δ13C carb_δ18O carb,0.15593196912367055
+combination_1_ABCD,D,15,RandomForest,BCD,δ15N coll_δ13C carb_δ18O carb,0.1506401439393939
+combination_1_ABCD,D,15,KNN,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.12245611111111106
+combination_1_ABCD,D,15,SVM,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.11404239694752667
+combination_1_ABCD,D,15,RandomForest,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.11613158333333333
+combination_1_ABCD,D,20,KNN,D,δ18O carb,0.9612856862745097
+combination_1_ABCD,D,20,SVM,D,δ18O carb,0.9765523670845996
+combination_1_ABCD,D,20,RandomForest,D,δ18O carb,0.9739266960784319
+combination_1_ABCD,D,20,KNN,AD,δ13C coll_δ18O carb,0.20905235294117644
+combination_1_ABCD,D,20,SVM,AD,δ13C coll_δ18O carb,0.20463531616785882
+combination_1_ABCD,D,20,RandomForest,AD,δ13C coll_δ18O carb,0.21562864705882348
+combination_1_ABCD,D,20,KNN,BD,δ15N coll_δ18O carb,0.2070063725490196
+combination_1_ABCD,D,20,SVM,BD,δ15N coll_δ18O carb,0.20988542259011247
+combination_1_ABCD,D,20,RandomForest,BD,δ15N coll_δ18O carb,0.2371949901960785
+combination_1_ABCD,D,20,KNN,CD,δ13C carb_δ18O carb,0.2057222549019609
+combination_1_ABCD,D,20,SVM,CD,δ13C carb_δ18O carb,0.20483446592209886
+combination_1_ABCD,D,20,RandomForest,CD,δ13C carb_δ18O carb,0.23133692156862734
+combination_1_ABCD,D,20,KNN,ABD,δ13C coll_δ15N coll_δ18O carb,0.13392833333333326
+combination_1_ABCD,D,20,SVM,ABD,δ13C coll_δ15N coll_δ18O carb,0.1414273061928835
+combination_1_ABCD,D,20,RandomForest,ABD,δ13C coll_δ15N coll_δ18O carb,0.166726333333333
+combination_1_ABCD,D,20,KNN,ACD,δ13C coll_δ13C carb_δ18O carb,0.15293274509803925
+combination_1_ABCD,D,20,SVM,ACD,δ13C coll_δ13C carb_δ18O carb,0.15138379704969543
+combination_1_ABCD,D,20,RandomForest,ACD,δ13C coll_δ13C carb_δ18O carb,0.15859403921568646
+combination_1_ABCD,D,20,KNN,BCD,δ15N coll_δ13C carb_δ18O carb,0.16912794117647054
+combination_1_ABCD,D,20,SVM,BCD,δ15N coll_δ13C carb_δ18O carb,0.16856379164598276
+combination_1_ABCD,D,20,RandomForest,BCD,δ15N coll_δ13C carb_δ18O carb,0.18307384313725478
+combination_1_ABCD,D,20,KNN,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.1465566666666667
+combination_1_ABCD,D,20,SVM,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.13687395397018384
+combination_1_ABCD,D,20,RandomForest,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.1367496666666667
+combination_2_ABCDE,A,10,KNN,A,δ13C coll,0.5906663419913417
+combination_2_ABCDE,A,10,SVM,A,δ13C coll,0.7124661952615481
+combination_2_ABCDE,A,10,RandomForest,A,δ13C coll,0.587932196969698
+combination_2_ABCDE,A,10,KNN,AB,δ13C coll_δ15N coll,0.592892532467532
+combination_2_ABCDE,A,10,SVM,AB,δ13C coll_δ15N coll,0.7131949998993801
+combination_2_ABCDE,A,10,RandomForest,AB,δ13C coll_δ15N coll,0.555536958874459
+combination_2_ABCDE,A,10,KNN,AC,δ13C coll_δ13C carb,0.6086612554112554
+combination_2_ABCDE,A,10,SVM,AC,δ13C coll_δ13C carb,0.7267338996384655
+combination_2_ABCDE,A,10,RandomForest,AC,δ13C coll_δ13C carb,0.626404372294372
+combination_2_ABCDE,A,10,KNN,AD,δ13C coll_δ18O carb,0.5645031385281388
+combination_2_ABCDE,A,10,SVM,AD,δ13C coll_δ18O carb,0.7044103755569245
+combination_2_ABCDE,A,10,RandomForest,AD,δ13C coll_δ18O carb,0.5731212770562754
+combination_2_ABCDE,A,10,KNN,AE,δ13C coll_δ18O phos,0.5881066017316015
+combination_2_ABCDE,A,10,SVM,AE,δ13C coll_δ18O phos,0.7043061512720119
+combination_2_ABCDE,A,10,RandomForest,AE,δ13C coll_δ18O phos,0.5855496428571418
+combination_2_ABCDE,A,10,KNN,ABC,δ13C coll_δ15N coll_δ13C carb,0.6414660173160172
+combination_2_ABCDE,A,10,SVM,ABC,δ13C coll_δ15N coll_δ13C carb,0.7135322929041776
+combination_2_ABCDE,A,10,RandomForest,ABC,δ13C coll_δ15N coll_δ13C carb,0.5174412445887457
+combination_2_ABCDE,A,10,KNN,ABD,δ13C coll_δ15N coll_δ18O carb,0.6124681818181819
+combination_2_ABCDE,A,10,SVM,ABD,δ13C coll_δ15N coll_δ18O carb,0.7104721923628163
+combination_2_ABCDE,A,10,RandomForest,ABD,δ13C coll_δ15N coll_δ18O carb,0.535010173160176
+combination_2_ABCDE,A,10,KNN,ABE,δ13C coll_δ15N coll_δ18O phos,0.594150649350649
+combination_2_ABCDE,A,10,SVM,ABE,δ13C coll_δ15N coll_δ18O phos,0.7044309906504294
+combination_2_ABCDE,A,10,RandomForest,ABE,δ13C coll_δ15N coll_δ18O phos,0.5571777597402585
+combination_2_ABCDE,A,10,KNN,ACD,δ13C coll_δ13C carb_δ18O carb,0.604752813852814
+combination_2_ABCDE,A,10,SVM,ACD,δ13C coll_δ13C carb_δ18O carb,0.709140353035085
+combination_2_ABCDE,A,10,RandomForest,ACD,δ13C coll_δ13C carb_δ18O carb,0.6442114177489184
+combination_2_ABCDE,A,10,KNN,ACE,δ13C coll_δ13C carb_δ18O phos,0.6047856060606064
+combination_2_ABCDE,A,10,SVM,ACE,δ13C coll_δ13C carb_δ18O phos,0.7119384120290387
+combination_2_ABCDE,A,10,RandomForest,ACE,δ13C coll_δ13C carb_δ18O phos,0.623614772727273
+combination_2_ABCDE,A,10,KNN,ADE,δ13C coll_δ18O carb_δ18O phos,0.579228354978355
+combination_2_ABCDE,A,10,SVM,ADE,δ13C coll_δ18O carb_δ18O phos,0.6883871362703502
+combination_2_ABCDE,A,10,RandomForest,ADE,δ13C coll_δ18O carb_δ18O phos,0.5926313095238076
+combination_2_ABCDE,A,10,KNN,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.629053463203463
+combination_2_ABCDE,A,10,SVM,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.698332478346331
+combination_2_ABCDE,A,10,RandomForest,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.5667741774891801
+combination_2_ABCDE,A,10,KNN,ABCE,δ13C coll_δ15N coll_δ13C carb_δ18O phos,0.6335470779220775
+combination_2_ABCDE,A,10,SVM,ABCE,δ13C coll_δ15N coll_δ13C carb_δ18O phos,0.7060298485906527
+combination_2_ABCDE,A,10,RandomForest,ABCE,δ13C coll_δ15N coll_δ13C carb_δ18O phos,0.5438985606060627
+combination_2_ABCDE,A,10,KNN,ABDE,δ13C coll_δ15N coll_δ18O carb_δ18O phos,0.6233114718614718
+combination_2_ABCDE,A,10,SVM,ABDE,δ13C coll_δ15N coll_δ18O carb_δ18O phos,0.6850898785671509
+combination_2_ABCDE,A,10,RandomForest,ABDE,δ13C coll_δ15N coll_δ18O carb_δ18O phos,0.546710703463204
+combination_2_ABCDE,A,10,KNN,ACDE,δ13C coll_δ13C carb_δ18O carb_δ18O phos,0.6130695887445886
+combination_2_ABCDE,A,10,SVM,ACDE,δ13C coll_δ13C carb_δ18O carb_δ18O phos,0.6977958090037829
+combination_2_ABCDE,A,10,RandomForest,ACDE,δ13C coll_δ13C carb_δ18O carb_δ18O phos,0.6517551082251092
+combination_2_ABCDE,A,10,KNN,ABCDE,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.6307441558441558
+combination_2_ABCDE,A,10,SVM,ABCDE,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.6705867580073988
+combination_2_ABCDE,A,10,RandomForest,ABCDE,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.5545796753246776
+combination_2_ABCDE,A,15,KNN,A,δ13C coll,0.5700187165775399
+combination_2_ABCDE,A,15,SVM,A,δ13C coll,0.6978319186442544
+combination_2_ABCDE,A,15,RandomForest,A,δ13C coll,0.6286461122994644
+combination_2_ABCDE,A,15,KNN,AB,δ13C coll_δ15N coll,0.6898108556149729
+combination_2_ABCDE,A,15,SVM,AB,δ13C coll_δ15N coll,0.723308086968648
+combination_2_ABCDE,A,15,RandomForest,AB,δ13C coll_δ15N coll,0.6442114153297718
+combination_2_ABCDE,A,15,KNN,AC,δ13C coll_δ13C carb,0.5884253832442068
+combination_2_ABCDE,A,15,SVM,AC,δ13C coll_δ13C carb,0.7023922641175724
+combination_2_ABCDE,A,15,RandomForest,AC,δ13C coll_δ13C carb,0.6708395240641728
+combination_2_ABCDE,A,15,KNN,AD,δ13C coll_δ18O carb,0.5569057932263816
+combination_2_ABCDE,A,15,SVM,AD,δ13C coll_δ18O carb,0.6672234203896055
+combination_2_ABCDE,A,15,RandomForest,AD,δ13C coll_δ18O carb,0.5890383529411752
+combination_2_ABCDE,A,15,KNN,AE,δ13C coll_δ18O phos,0.5679912299465242
+combination_2_ABCDE,A,15,SVM,AE,δ13C coll_δ18O phos,0.6885563633475372
+combination_2_ABCDE,A,15,RandomForest,AE,δ13C coll_δ18O phos,0.6394903582887714
+combination_2_ABCDE,A,15,KNN,ABC,δ13C coll_δ15N coll_δ13C carb,0.7028936541889481
+combination_2_ABCDE,A,15,SVM,ABC,δ13C coll_δ15N coll_δ13C carb,0.730134340129074
+combination_2_ABCDE,A,15,RandomForest,ABC,δ13C coll_δ15N coll_δ13C carb,0.5959472424242452
+combination_2_ABCDE,A,15,KNN,ABD,δ13C coll_δ15N coll_δ18O carb,0.6851654367201426
+combination_2_ABCDE,A,15,SVM,ABD,δ13C coll_δ15N coll_δ18O carb,0.7067112021217354
+combination_2_ABCDE,A,15,RandomForest,ABD,δ13C coll_δ15N coll_δ18O carb,0.6542241336898423
+combination_2_ABCDE,A,15,KNN,ABE,δ13C coll_δ15N coll_δ18O phos,0.6787356862745096
+combination_2_ABCDE,A,15,SVM,ABE,δ13C coll_δ15N coll_δ18O phos,0.7310195118598072
+combination_2_ABCDE,A,15,RandomForest,ABE,δ13C coll_δ15N coll_δ18O phos,0.6352422263814633
+combination_2_ABCDE,A,15,KNN,ACD,δ13C coll_δ13C carb_δ18O carb,0.580946524064171
+combination_2_ABCDE,A,15,SVM,ACD,δ13C coll_δ13C carb_δ18O carb,0.6803115015028302
+combination_2_ABCDE,A,15,RandomForest,ACD,δ13C coll_δ13C carb_δ18O carb,0.6540200606060607
+combination_2_ABCDE,A,15,KNN,ACE,δ13C coll_δ13C carb_δ18O phos,0.594251033868093
+combination_2_ABCDE,A,15,SVM,ACE,δ13C coll_δ13C carb_δ18O phos,0.7172988221634855
+combination_2_ABCDE,A,15,RandomForest,ACE,δ13C coll_δ13C carb_δ18O phos,0.6788547647058811
+combination_2_ABCDE,A,15,KNN,ADE,δ13C coll_δ18O carb_δ18O phos,0.5569667023172905
+combination_2_ABCDE,A,15,SVM,ADE,δ13C coll_δ18O carb_δ18O phos,0.6755772640558193
+combination_2_ABCDE,A,15,RandomForest,ADE,δ13C coll_δ18O carb_δ18O phos,0.5812288074866291
+combination_2_ABCDE,A,15,KNN,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.6871307130124777
+combination_2_ABCDE,A,15,SVM,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.71496962658449
+combination_2_ABCDE,A,15,RandomForest,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.6194772887700569
+combination_2_ABCDE,A,15,KNN,ABCE,δ13C coll_δ15N coll_δ13C carb_δ18O phos,0.7233117290552584
+combination_2_ABCDE,A,15,SVM,ABCE,δ13C coll_δ15N coll_δ13C carb_δ18O phos,0.7273306411853806
+combination_2_ABCDE,A,15,RandomForest,ABCE,δ13C coll_δ15N coll_δ13C carb_δ18O phos,0.6340530819964383
+combination_2_ABCDE,A,15,KNN,ABDE,δ13C coll_δ15N coll_δ18O carb_δ18O phos,0.7047784491978609
+combination_2_ABCDE,A,15,SVM,ABDE,δ13C coll_δ15N coll_δ18O carb_δ18O phos,0.7019129638609641
+combination_2_ABCDE,A,15,RandomForest,ABDE,δ13C coll_δ15N coll_δ18O carb_δ18O phos,0.6236465525846737
+combination_2_ABCDE,A,15,KNN,ACDE,δ13C coll_δ13C carb_δ18O carb_δ18O phos,0.6019832085561498
+combination_2_ABCDE,A,15,SVM,ACDE,δ13C coll_δ13C carb_δ18O carb_δ18O phos,0.6835510490525406
+combination_2_ABCDE,A,15,RandomForest,ACDE,δ13C coll_δ13C carb_δ18O carb_δ18O phos,0.7135033065953655
+combination_2_ABCDE,A,15,KNN,ABCDE,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.6911752049910873
+combination_2_ABCDE,A,15,SVM,ABCDE,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.6807558363462887
+combination_2_ABCDE,A,15,RandomForest,ABCDE,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.643284736185386
+combination_2_ABCDE,A,20,KNN,A,δ13C coll,0.5816348081433527
+combination_2_ABCDE,A,20,SVM,A,δ13C coll,0.7013328846649276
+combination_2_ABCDE,A,20,RandomForest,A,δ13C coll,0.6471665447978228
+combination_2_ABCDE,A,20,KNN,AB,δ13C coll_δ15N coll,0.7511715911436342
+combination_2_ABCDE,A,20,SVM,AB,δ13C coll_δ15N coll,0.7835178019901731
+combination_2_ABCDE,A,20,RandomForest,AB,δ13C coll_δ15N coll,0.6460276990805917
+combination_2_ABCDE,A,20,KNN,AC,δ13C coll_δ13C carb,0.6050561037620789
+combination_2_ABCDE,A,20,SVM,AC,δ13C coll_δ13C carb,0.7297690106618494
+combination_2_ABCDE,A,20,RandomForest,AC,δ13C coll_δ13C carb,0.6636199729805805
+combination_2_ABCDE,A,20,KNN,AD,δ13C coll_δ18O carb,0.5708852730087249
+combination_2_ABCDE,A,20,SVM,AD,δ13C coll_δ18O carb,0.6890754129234282
+combination_2_ABCDE,A,20,RandomForest,AD,δ13C coll_δ18O carb,0.6547222959470876
+combination_2_ABCDE,A,20,KNN,AE,δ13C coll_δ18O phos,0.5811733877474435
+combination_2_ABCDE,A,20,SVM,AE,δ13C coll_δ18O phos,0.715831542899057
+combination_2_ABCDE,A,20,RandomForest,AE,δ13C coll_δ18O phos,0.6666841438690322
+combination_2_ABCDE,A,20,KNN,ABC,δ13C coll_δ15N coll_δ13C carb,0.7649984557650809
+combination_2_ABCDE,A,20,SVM,ABC,δ13C coll_δ15N coll_δ13C carb,0.7912128040480155
+combination_2_ABCDE,A,20,RandomForest,ABC,δ13C coll_δ15N coll_δ13C carb,0.6648441581292847
+combination_2_ABCDE,A,20,KNN,ABD,δ13C coll_δ15N coll_δ18O carb,0.7419010709259781
+combination_2_ABCDE,A,20,SVM,ABD,δ13C coll_δ15N coll_δ18O carb,0.7687315939036133
+combination_2_ABCDE,A,20,RandomForest,ABD,δ13C coll_δ15N coll_δ18O carb,0.619324725959285
+combination_2_ABCDE,A,20,KNN,ABE,δ13C coll_δ15N coll_δ18O phos,0.7374892302279765
+combination_2_ABCDE,A,20,SVM,ABE,δ13C coll_δ15N coll_δ18O phos,0.7721538245924299
+combination_2_ABCDE,A,20,RandomForest,ABE,δ13C coll_δ15N coll_δ18O phos,0.6602160197485697
+combination_2_ABCDE,A,20,KNN,ACD,δ13C coll_δ13C carb_δ18O carb,0.5973745224692746
+combination_2_ABCDE,A,20,SVM,ACD,δ13C coll_δ13C carb_δ18O carb,0.6956934560303585
+combination_2_ABCDE,A,20,RandomForest,ACD,δ13C coll_δ13C carb_δ18O carb,0.6791962864246182
+combination_2_ABCDE,A,20,KNN,ACE,δ13C coll_δ13C carb_δ18O phos,0.6174434018200581
+combination_2_ABCDE,A,20,SVM,ACE,δ13C coll_δ13C carb_δ18O phos,0.7335150711390819
+combination_2_ABCDE,A,20,RandomForest,ACE,δ13C coll_δ13C carb_δ18O phos,0.7017992396566276
+combination_2_ABCDE,A,20,KNN,ADE,δ13C coll_δ18O carb_δ18O phos,0.5941196988460457
+combination_2_ABCDE,A,20,SVM,ADE,δ13C coll_δ18O carb_δ18O phos,0.6914615153233994
+combination_2_ABCDE,A,20,RandomForest,ADE,δ13C coll_δ18O carb_δ18O phos,0.6507747390937245
+combination_2_ABCDE,A,20,KNN,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.750606997373112
+combination_2_ABCDE,A,20,SVM,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.7663596703000467
+combination_2_ABCDE,A,20,RandomForest,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.6900822376864648
+combination_2_ABCDE,A,20,KNN,ABCE,δ13C coll_δ15N coll_δ13C carb_δ18O phos,0.7604481400694248
+combination_2_ABCDE,A,20,SVM,ABCE,δ13C coll_δ15N coll_δ13C carb_δ18O phos,0.7666101291866496
+combination_2_ABCDE,A,20,RandomForest,ABCE,δ13C coll_δ15N coll_δ13C carb_δ18O phos,0.6682843400881919
+combination_2_ABCDE,A,20,KNN,ABDE,δ13C coll_δ15N coll_δ18O carb_δ18O phos,0.7534724294023828
+combination_2_ABCDE,A,20,SVM,ABDE,δ13C coll_δ15N coll_δ18O carb_δ18O phos,0.7563065115388349
+combination_2_ABCDE,A,20,RandomForest,ABDE,δ13C coll_δ15N coll_δ18O carb_δ18O phos,0.6663420382306043
+combination_2_ABCDE,A,20,KNN,ACDE,δ13C coll_δ13C carb_δ18O carb_δ18O phos,0.5955173660756164
+combination_2_ABCDE,A,20,SVM,ACDE,δ13C coll_δ13C carb_δ18O carb_δ18O phos,0.6873093065804774
+combination_2_ABCDE,A,20,RandomForest,ACDE,δ13C coll_δ13C carb_δ18O carb_δ18O phos,0.7161063321137082
+combination_2_ABCDE,A,20,KNN,ABCDE,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.7274674739656628
+combination_2_ABCDE,A,20,SVM,ABCDE,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.741318041603775
+combination_2_ABCDE,A,20,RandomForest,ABCDE,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.6693919031335034
+combination_2_ABCDE,B,10,KNN,B,δ15N coll,1.3230370129870128
+combination_2_ABCDE,B,10,SVM,B,δ15N coll,1.3539167126717586
+combination_2_ABCDE,B,10,RandomForest,B,δ15N coll,1.2783303246753237
+combination_2_ABCDE,B,10,KNN,AB,δ13C coll_δ15N coll,0.1378821428571429
+combination_2_ABCDE,B,10,SVM,AB,δ13C coll_δ15N coll,0.13507743079626808
+combination_2_ABCDE,B,10,RandomForest,AB,δ13C coll_δ15N coll,0.13626993506493484
+combination_2_ABCDE,B,10,KNN,BC,δ15N coll_δ13C carb,1.2457181818181815
+combination_2_ABCDE,B,10,SVM,BC,δ15N coll_δ13C carb,1.4008344035384088
+combination_2_ABCDE,B,10,RandomForest,BC,δ15N coll_δ13C carb,1.254342326839826
+combination_2_ABCDE,B,10,KNN,BD,δ15N coll_δ18O carb,1.3110127705627703
+combination_2_ABCDE,B,10,SVM,BD,δ15N coll_δ18O carb,1.3408151875100436
+combination_2_ABCDE,B,10,RandomForest,BD,δ15N coll_δ18O carb,1.3472141125541115
+combination_2_ABCDE,B,10,KNN,BE,δ15N coll_δ18O phos,1.31566645021645
+combination_2_ABCDE,B,10,SVM,BE,δ15N coll_δ18O phos,1.368854613313168
+combination_2_ABCDE,B,10,RandomForest,BE,δ15N coll_δ18O phos,1.2500997943722938
+combination_2_ABCDE,B,10,KNN,ABC,δ13C coll_δ15N coll_δ13C carb,0.12400064935064932
+combination_2_ABCDE,B,10,SVM,ABC,δ13C coll_δ15N coll_δ13C carb,0.13761917062982015
+combination_2_ABCDE,B,10,RandomForest,ABC,δ13C coll_δ15N coll_δ13C carb,0.1226092532467529
+combination_2_ABCDE,B,10,KNN,ABD,δ13C coll_δ15N coll_δ18O carb,0.1425548701298702
+combination_2_ABCDE,B,10,SVM,ABD,δ13C coll_δ15N coll_δ18O carb,0.14613949370283996
+combination_2_ABCDE,B,10,RandomForest,ABD,δ13C coll_δ15N coll_δ18O carb,0.1366232467532464
+combination_2_ABCDE,B,10,KNN,ABE,δ13C coll_δ15N coll_δ18O phos,0.11367792207792204
+combination_2_ABCDE,B,10,SVM,ABE,δ13C coll_δ15N coll_δ18O phos,0.13620594306212125
+combination_2_ABCDE,B,10,RandomForest,ABE,δ13C coll_δ15N coll_δ18O phos,0.13212561688311644
+combination_2_ABCDE,B,10,KNN,BCD,δ15N coll_δ13C carb_δ18O carb,1.2560739177489175
+combination_2_ABCDE,B,10,SVM,BCD,δ15N coll_δ13C carb_δ18O carb,1.4004858908655735
+combination_2_ABCDE,B,10,RandomForest,BCD,δ15N coll_δ13C carb_δ18O carb,1.3705198701298695
+combination_2_ABCDE,B,10,KNN,BCE,δ15N coll_δ13C carb_δ18O phos,1.2105852813852815
+combination_2_ABCDE,B,10,SVM,BCE,δ15N coll_δ13C carb_δ18O phos,1.3981746775339683
+combination_2_ABCDE,B,10,RandomForest,BCE,δ15N coll_δ13C carb_δ18O phos,1.2587718181818173
+combination_2_ABCDE,B,10,KNN,BDE,δ15N coll_δ18O carb_δ18O phos,1.3255930735930734
+combination_2_ABCDE,B,10,SVM,BDE,δ15N coll_δ18O carb_δ18O phos,1.333156399372442
+combination_2_ABCDE,B,10,RandomForest,BDE,δ15N coll_δ18O carb_δ18O phos,1.2999781493506488
+combination_2_ABCDE,B,10,KNN,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.15785259740259738
+combination_2_ABCDE,B,10,SVM,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.138889703357909
+combination_2_ABCDE,B,10,RandomForest,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.11941055194805181
+combination_2_ABCDE,B,10,KNN,ABCE,δ13C coll_δ15N coll_δ13C carb_δ18O phos,0.1387824675324676
+combination_2_ABCDE,B,10,SVM,ABCE,δ13C coll_δ15N coll_δ13C carb_δ18O phos,0.12994434419704523
+combination_2_ABCDE,B,10,RandomForest,ABCE,δ13C coll_δ15N coll_δ13C carb_δ18O phos,0.14009360389610376
+combination_2_ABCDE,B,10,KNN,ABDE,δ13C coll_δ15N coll_δ18O carb_δ18O phos,0.15528474025974032
+combination_2_ABCDE,B,10,SVM,ABDE,δ13C coll_δ15N coll_δ18O carb_δ18O phos,0.13814261706898695
+combination_2_ABCDE,B,10,RandomForest,ABDE,δ13C coll_δ15N coll_δ18O carb_δ18O phos,0.13478262987012965
+combination_2_ABCDE,B,10,KNN,BCDE,δ15N coll_δ13C carb_δ18O carb_δ18O phos,1.2030747835497835
+combination_2_ABCDE,B,10,SVM,BCDE,δ15N coll_δ13C carb_δ18O carb_δ18O phos,1.3752211049131113
+combination_2_ABCDE,B,10,RandomForest,BCDE,δ15N coll_δ13C carb_δ18O carb_δ18O phos,1.3931229220779218
+combination_2_ABCDE,B,10,KNN,ABCDE,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.181424025974026
+combination_2_ABCDE,B,10,SVM,ABCDE,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.12435945432304725
+combination_2_ABCDE,B,10,RandomForest,ABCDE,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.1222058766233763
+combination_2_ABCDE,B,15,KNN,B,δ15N coll,1.3439342424242424
+combination_2_ABCDE,B,15,SVM,B,δ15N coll,1.3494687116962583
+combination_2_ABCDE,B,15,RandomForest,B,δ15N coll,1.1854680713012473
+combination_2_ABCDE,B,15,KNN,AB,δ13C coll_δ15N coll,0.3384511408199644
+combination_2_ABCDE,B,15,SVM,AB,δ13C coll_δ15N coll,0.27539850720624864
+combination_2_ABCDE,B,15,RandomForest,AB,δ13C coll_δ15N coll,0.22544578074866295
+combination_2_ABCDE,B,15,KNN,BC,δ15N coll_δ13C carb,1.326238128342246
+combination_2_ABCDE,B,15,SVM,BC,δ15N coll_δ13C carb,1.3839001578443493
+combination_2_ABCDE,B,15,RandomForest,BC,δ15N coll_δ13C carb,1.2371343190730835
+combination_2_ABCDE,B,15,KNN,BD,δ15N coll_δ18O carb,1.2884540106951872
+combination_2_ABCDE,B,15,SVM,BD,δ15N coll_δ18O carb,1.32563062796246
+combination_2_ABCDE,B,15,RandomForest,BD,δ15N coll_δ18O carb,1.187546873440285
+combination_2_ABCDE,B,15,KNN,BE,δ15N coll_δ18O phos,1.3325873440285203
+combination_2_ABCDE,B,15,SVM,BE,δ15N coll_δ18O phos,1.3488011289916844
+combination_2_ABCDE,B,15,RandomForest,BE,δ15N coll_δ18O phos,1.2015722709447412
+combination_2_ABCDE,B,15,KNN,ABC,δ13C coll_δ15N coll_δ13C carb,0.3196985204991087
+combination_2_ABCDE,B,15,SVM,ABC,δ13C coll_δ15N coll_δ13C carb,0.27307902599395684
+combination_2_ABCDE,B,15,RandomForest,ABC,δ13C coll_δ15N coll_δ13C carb,0.24562996078431368
+combination_2_ABCDE,B,15,KNN,ABD,δ13C coll_δ15N coll_δ18O carb,0.3092159893048128
+combination_2_ABCDE,B,15,SVM,ABD,δ13C coll_δ15N coll_δ18O carb,0.25499310822682614
+combination_2_ABCDE,B,15,RandomForest,ABD,δ13C coll_δ15N coll_δ18O carb,0.19088083244206794
+combination_2_ABCDE,B,15,KNN,ABE,δ13C coll_δ15N coll_δ18O phos,0.2798939393939395
+combination_2_ABCDE,B,15,SVM,ABE,δ13C coll_δ15N coll_δ18O phos,0.2657450171389092
+combination_2_ABCDE,B,15,RandomForest,ABE,δ13C coll_δ15N coll_δ18O phos,0.21927958288770025
+combination_2_ABCDE,B,15,KNN,BCD,δ15N coll_δ13C carb_δ18O carb,1.2796577896613193
+combination_2_ABCDE,B,15,SVM,BCD,δ15N coll_δ13C carb_δ18O carb,1.3613626860005668
+combination_2_ABCDE,B,15,RandomForest,BCD,δ15N coll_δ13C carb_δ18O carb,1.228073989304812
+combination_2_ABCDE,B,15,KNN,BCE,δ15N coll_δ13C carb_δ18O phos,1.3169182352941176
+combination_2_ABCDE,B,15,SVM,BCE,δ15N coll_δ13C carb_δ18O phos,1.3937002173780233
+combination_2_ABCDE,B,15,RandomForest,BCE,δ15N coll_δ13C carb_δ18O phos,1.2402808253119424
+combination_2_ABCDE,B,15,KNN,BDE,δ15N coll_δ18O carb_δ18O phos,1.2831095008912656
+combination_2_ABCDE,B,15,SVM,BDE,δ15N coll_δ18O carb_δ18O phos,1.3251910693589133
+combination_2_ABCDE,B,15,RandomForest,BDE,δ15N coll_δ18O carb_δ18O phos,1.1536370285204984
+combination_2_ABCDE,B,15,KNN,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.3446403921568627
+combination_2_ABCDE,B,15,SVM,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.2757273342383798
+combination_2_ABCDE,B,15,RandomForest,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.23528357040998196
+combination_2_ABCDE,B,15,KNN,ABCE,δ13C coll_δ15N coll_δ13C carb_δ18O phos,0.3407009447415329
+combination_2_ABCDE,B,15,SVM,ABCE,δ13C coll_δ15N coll_δ13C carb_δ18O phos,0.26783693512825935
+combination_2_ABCDE,B,15,RandomForest,ABCE,δ13C coll_δ15N coll_δ13C carb_δ18O phos,0.2417102263814616
+combination_2_ABCDE,B,15,KNN,ABDE,δ13C coll_δ15N coll_δ18O carb_δ18O phos,0.3132541711229947
+combination_2_ABCDE,B,15,SVM,ABDE,δ13C coll_δ15N coll_δ18O carb_δ18O phos,0.2416226009143454
+combination_2_ABCDE,B,15,RandomForest,ABDE,δ13C coll_δ15N coll_δ18O carb_δ18O phos,0.19110570409982167
+combination_2_ABCDE,B,15,KNN,BCDE,δ15N coll_δ13C carb_δ18O carb_δ18O phos,1.272131907308378
+combination_2_ABCDE,B,15,SVM,BCDE,δ15N coll_δ13C carb_δ18O carb_δ18O phos,1.3227139456977728
+combination_2_ABCDE,B,15,RandomForest,BCDE,δ15N coll_δ13C carb_δ18O carb_δ18O phos,1.2202340142602488
+combination_2_ABCDE,B,15,KNN,ABCDE,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.34535905525846705
+combination_2_ABCDE,B,15,SVM,ABCDE,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.26084867129038825
+combination_2_ABCDE,B,15,RandomForest,ABCDE,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.24121168270944718
+combination_2_ABCDE,B,20,KNN,B,δ15N coll,1.3899988924852238
+combination_2_ABCDE,B,20,SVM,B,δ15N coll,1.3535040003460845
+combination_2_ABCDE,B,20,RandomForest,B,δ15N coll,1.2578059710573215
+combination_2_ABCDE,B,20,KNN,AB,δ13C coll_δ15N coll,0.396895578853551
+combination_2_ABCDE,B,20,SVM,AB,δ13C coll_δ15N coll,0.3692412131757478
+combination_2_ABCDE,B,20,RandomForest,AB,δ13C coll_δ15N coll,0.3723521316258559
+combination_2_ABCDE,B,20,KNN,BC,δ15N coll_δ13C carb,1.4155374092316353
+combination_2_ABCDE,B,20,SVM,BC,δ15N coll_δ13C carb,1.390878440202238
+combination_2_ABCDE,B,20,RandomForest,BC,δ15N coll_δ13C carb,1.25012500764612
+combination_2_ABCDE,B,20,KNN,BD,δ15N coll_δ18O carb,1.3339419903368044
+combination_2_ABCDE,B,20,SVM,BD,δ15N coll_δ18O carb,1.3820106716691432
+combination_2_ABCDE,B,20,RandomForest,BD,δ15N coll_δ18O carb,1.2433995375738807
+combination_2_ABCDE,B,20,KNN,BE,δ15N coll_δ18O phos,1.3664845332582796
+combination_2_ABCDE,B,20,SVM,BE,δ15N coll_δ18O phos,1.3931330922324863
+combination_2_ABCDE,B,20,RandomForest,BE,δ15N coll_δ18O phos,1.160289999014917
+combination_2_ABCDE,B,20,KNN,ABC,δ13C coll_δ15N coll_δ13C carb,0.36917298151796607
+combination_2_ABCDE,B,20,SVM,ABC,δ13C coll_δ15N coll_δ13C carb,0.3800249017798303
+combination_2_ABCDE,B,20,RandomForest,ABC,δ13C coll_δ15N coll_δ13C carb,0.39021481635237815
+combination_2_ABCDE,B,20,KNN,ABD,δ13C coll_δ15N coll_δ18O carb,0.37791583638239984
+combination_2_ABCDE,B,20,SVM,ABD,δ13C coll_δ15N coll_δ18O carb,0.3583933224713244
+combination_2_ABCDE,B,20,RandomForest,ABD,δ13C coll_δ15N coll_δ18O carb,0.36442853724552005
+combination_2_ABCDE,B,20,KNN,ABE,δ13C coll_δ15N coll_δ18O phos,0.36187907496012756
+combination_2_ABCDE,B,20,SVM,ABE,δ13C coll_δ15N coll_δ18O phos,0.3807857192983909
+combination_2_ABCDE,B,20,RandomForest,ABE,δ13C coll_δ15N coll_δ18O phos,0.3549467247865652
+combination_2_ABCDE,B,20,KNN,BCD,δ15N coll_δ13C carb_δ18O carb,1.387568215592457
+combination_2_ABCDE,B,20,SVM,BCD,δ15N coll_δ13C carb_δ18O carb,1.378036258429146
+combination_2_ABCDE,B,20,RandomForest,BCD,δ15N coll_δ13C carb_δ18O carb,1.250026291303123
+combination_2_ABCDE,B,20,KNN,BCE,δ15N coll_δ13C carb_δ18O phos,1.3644453945022985
+combination_2_ABCDE,B,20,SVM,BCE,δ15N coll_δ13C carb_δ18O phos,1.3811155846800784
+combination_2_ABCDE,B,20,RandomForest,BCE,δ15N coll_δ13C carb_δ18O phos,1.217511122197204
+combination_2_ABCDE,B,20,KNN,BDE,δ15N coll_δ18O carb_δ18O phos,1.295789910404353
+combination_2_ABCDE,B,20,SVM,BDE,δ15N coll_δ18O carb_δ18O phos,1.3611991579233862
+combination_2_ABCDE,B,20,RandomForest,BDE,δ15N coll_δ18O carb_δ18O phos,1.2229024838164926
+combination_2_ABCDE,B,20,KNN,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.396167036776433
+combination_2_ABCDE,B,20,SVM,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.368057813407195
+combination_2_ABCDE,B,20,RandomForest,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.3722765309597524
+combination_2_ABCDE,B,20,KNN,ABCE,δ13C coll_δ15N coll_δ13C carb_δ18O phos,0.3822991683084717
+combination_2_ABCDE,B,20,SVM,ABCE,δ13C coll_δ15N coll_δ13C carb_δ18O phos,0.36648399789012265
+combination_2_ABCDE,B,20,RandomForest,ABCE,δ13C coll_δ15N coll_δ13C carb_δ18O phos,0.3753878332864247
+combination_2_ABCDE,B,20,KNN,ABDE,δ13C coll_δ15N coll_δ18O carb_δ18O phos,0.3844354353128811
+combination_2_ABCDE,B,20,SVM,ABDE,δ13C coll_δ15N coll_δ18O carb_δ18O phos,0.33622592364837783
+combination_2_ABCDE,B,20,RandomForest,ABDE,δ13C coll_δ15N coll_δ18O carb_δ18O phos,0.38821373960971944
+combination_2_ABCDE,B,20,KNN,BCDE,δ15N coll_δ13C carb_δ18O carb_δ18O phos,1.3348310657660192
+combination_2_ABCDE,B,20,SVM,BCDE,δ15N coll_δ13C carb_δ18O carb_δ18O phos,1.3908225136240953
+combination_2_ABCDE,B,20,RandomForest,BCDE,δ15N coll_δ13C carb_δ18O carb_δ18O phos,1.2087538624167364
+combination_2_ABCDE,B,20,KNN,ABCDE,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.3848934168308472
+combination_2_ABCDE,B,20,SVM,ABCDE,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.3537854643369675
+combination_2_ABCDE,B,20,RandomForest,ABCDE,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.35467160873440295
+combination_2_ABCDE,C,10,KNN,C,δ13C carb,1.419098917748918
+combination_2_ABCDE,C,10,SVM,C,δ13C carb,1.5066116040549873
+combination_2_ABCDE,C,10,RandomForest,C,δ13C carb,1.4884952380952379
+combination_2_ABCDE,C,10,KNN,AC,δ13C coll_δ13C carb,0.14626266233766225
+combination_2_ABCDE,C,10,SVM,AC,δ13C coll_δ13C carb,0.11687030892175954
+combination_2_ABCDE,C,10,RandomForest,AC,δ13C coll_δ13C carb,0.20386685064935098
+combination_2_ABCDE,C,10,KNN,BC,δ15N coll_δ13C carb,0.15734318181818177
+combination_2_ABCDE,C,10,SVM,BC,δ15N coll_δ13C carb,0.15374919604521037
+combination_2_ABCDE,C,10,RandomForest,BC,δ15N coll_δ13C carb,0.21727626623376645
+combination_2_ABCDE,C,10,KNN,CD,δ13C carb_δ18O carb,1.4085334415584416
+combination_2_ABCDE,C,10,SVM,CD,δ13C carb_δ18O carb,1.5276598792656437
+combination_2_ABCDE,C,10,RandomForest,CD,δ13C carb_δ18O carb,1.4761942748917756
+combination_2_ABCDE,C,10,KNN,CE,δ13C carb_δ18O phos,1.4618630952380953
+combination_2_ABCDE,C,10,SVM,CE,δ13C carb_δ18O phos,1.5167788366510018
+combination_2_ABCDE,C,10,RandomForest,CE,δ13C carb_δ18O phos,1.4951794480519494
+combination_2_ABCDE,C,10,KNN,ABC,δ13C coll_δ15N coll_δ13C carb,0.1771757575757576
+combination_2_ABCDE,C,10,SVM,ABC,δ13C coll_δ15N coll_δ13C carb,0.2521891967810116
+combination_2_ABCDE,C,10,RandomForest,ABC,δ13C coll_δ15N coll_δ13C carb,0.19173507575757615
+combination_2_ABCDE,C,10,KNN,ACD,δ13C coll_δ13C carb_δ18O carb,0.1693275974025974
+combination_2_ABCDE,C,10,SVM,ACD,δ13C coll_δ13C carb_δ18O carb,0.1273239507769689
+combination_2_ABCDE,C,10,RandomForest,ACD,δ13C coll_δ13C carb_δ18O carb,0.18294214285714316
+combination_2_ABCDE,C,10,KNN,ACE,δ13C coll_δ13C carb_δ18O phos,0.14202629870129863
+combination_2_ABCDE,C,10,SVM,ACE,δ13C coll_δ13C carb_δ18O phos,0.11742890363373973
+combination_2_ABCDE,C,10,RandomForest,ACE,δ13C coll_δ13C carb_δ18O phos,0.19558461038961067
+combination_2_ABCDE,C,10,KNN,BCD,δ15N coll_δ13C carb_δ18O carb,0.148975
+combination_2_ABCDE,C,10,SVM,BCD,δ15N coll_δ13C carb_δ18O carb,0.16450101397125888
+combination_2_ABCDE,C,10,RandomForest,BCD,δ15N coll_δ13C carb_δ18O carb,0.22366146103896142
+combination_2_ABCDE,C,10,KNN,BCE,δ15N coll_δ13C carb_δ18O phos,0.14089123376623366
+combination_2_ABCDE,C,10,SVM,BCE,δ15N coll_δ13C carb_δ18O phos,0.16046065049521535
+combination_2_ABCDE,C,10,RandomForest,BCE,δ15N coll_δ13C carb_δ18O phos,0.2208528896103897
+combination_2_ABCDE,C,10,KNN,CDE,δ13C carb_δ18O carb_δ18O phos,1.392829329004329
+combination_2_ABCDE,C,10,SVM,CDE,δ13C carb_δ18O carb_δ18O phos,1.4727539197515895
+combination_2_ABCDE,C,10,RandomForest,CDE,δ13C carb_δ18O carb_δ18O phos,1.4473106385281382
+combination_2_ABCDE,C,10,KNN,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.17403257575757577
+combination_2_ABCDE,C,10,SVM,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.24325569397915975
+combination_2_ABCDE,C,10,RandomForest,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.17250636363636404
+combination_2_ABCDE,C,10,KNN,ABCE,δ13C coll_δ15N coll_δ13C carb_δ18O phos,0.17747575757575756
+combination_2_ABCDE,C,10,SVM,ABCE,δ13C coll_δ15N coll_δ13C carb_δ18O phos,0.26152902636313324
+combination_2_ABCDE,C,10,RandomForest,ABCE,δ13C coll_δ15N coll_δ13C carb_δ18O phos,0.19812265151515174
+combination_2_ABCDE,C,10,KNN,ACDE,δ13C coll_δ13C carb_δ18O carb_δ18O phos,0.16690162337662331
+combination_2_ABCDE,C,10,SVM,ACDE,δ13C coll_δ13C carb_δ18O carb_δ18O phos,0.10894641348653625
+combination_2_ABCDE,C,10,RandomForest,ACDE,δ13C coll_δ13C carb_δ18O carb_δ18O phos,0.21210129870129885
+combination_2_ABCDE,C,10,KNN,BCDE,δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.15097240259740255
+combination_2_ABCDE,C,10,SVM,BCDE,δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.1480206752388235
+combination_2_ABCDE,C,10,RandomForest,BCDE,δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.17905775974025956
+combination_2_ABCDE,C,10,KNN,ABCDE,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.1739007575757576
+combination_2_ABCDE,C,10,SVM,ABCDE,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.26141010076191307
+combination_2_ABCDE,C,10,RandomForest,ABCDE,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.15410621212121234
+combination_2_ABCDE,C,15,KNN,C,δ13C carb,1.3835195900178252
+combination_2_ABCDE,C,15,SVM,C,δ13C carb,1.4618651633319208
+combination_2_ABCDE,C,15,RandomForest,C,δ13C carb,1.4879554884135469
+combination_2_ABCDE,C,15,KNN,AC,δ13C coll_δ13C carb,0.31122771836007124
+combination_2_ABCDE,C,15,SVM,AC,δ13C coll_δ13C carb,0.3151607490950818
+combination_2_ABCDE,C,15,RandomForest,AC,δ13C coll_δ13C carb,0.27335597147950097
+combination_2_ABCDE,C,15,KNN,BC,δ15N coll_δ13C carb,0.28594285204991093
+combination_2_ABCDE,C,15,SVM,BC,δ15N coll_δ13C carb,0.2757137585521065
+combination_2_ABCDE,C,15,RandomForest,BC,δ15N coll_δ13C carb,0.3266263582887702
+combination_2_ABCDE,C,15,KNN,CD,δ13C carb_δ18O carb,1.3526024064171125
+combination_2_ABCDE,C,15,SVM,CD,δ13C carb_δ18O carb,1.4842304586190278
+combination_2_ABCDE,C,15,RandomForest,CD,δ13C carb_δ18O carb,1.4494492923351152
+combination_2_ABCDE,C,15,KNN,CE,δ13C carb_δ18O phos,1.3855380570409985
+combination_2_ABCDE,C,15,SVM,CE,δ13C carb_δ18O phos,1.4378400665753126
+combination_2_ABCDE,C,15,RandomForest,CE,δ13C carb_δ18O phos,1.4606688163992865
+combination_2_ABCDE,C,15,KNN,ABC,δ13C coll_δ15N coll_δ13C carb,0.17998313725490195
+combination_2_ABCDE,C,15,SVM,ABC,δ13C coll_δ15N coll_δ13C carb,0.23905657568811528
+combination_2_ABCDE,C,15,RandomForest,ABC,δ13C coll_δ15N coll_δ13C carb,0.2302751657754009
+combination_2_ABCDE,C,15,KNN,ACD,δ13C coll_δ13C carb_δ18O carb,0.3018378787878787
+combination_2_ABCDE,C,15,SVM,ACD,δ13C coll_δ13C carb_δ18O carb,0.3069662991667953
+combination_2_ABCDE,C,15,RandomForest,ACD,δ13C coll_δ13C carb_δ18O carb,0.3007743814616758
+combination_2_ABCDE,C,15,KNN,ACE,δ13C coll_δ13C carb_δ18O phos,0.29304008912655966
+combination_2_ABCDE,C,15,SVM,ACE,δ13C coll_δ13C carb_δ18O phos,0.29078006619380325
+combination_2_ABCDE,C,15,RandomForest,ACE,δ13C coll_δ13C carb_δ18O phos,0.29741592869875255
+combination_2_ABCDE,C,15,KNN,BCD,δ15N coll_δ13C carb_δ18O carb,0.2603057754010696
+combination_2_ABCDE,C,15,SVM,BCD,δ15N coll_δ13C carb_δ18O carb,0.26060518723033355
+combination_2_ABCDE,C,15,RandomForest,BCD,δ15N coll_δ13C carb_δ18O carb,0.275535629233512
+combination_2_ABCDE,C,15,KNN,BCE,δ15N coll_δ13C carb_δ18O phos,0.25879588235294115
+combination_2_ABCDE,C,15,SVM,BCE,δ15N coll_δ13C carb_δ18O phos,0.2579437431539434
+combination_2_ABCDE,C,15,RandomForest,BCE,δ15N coll_δ13C carb_δ18O phos,0.29256014081996456
+combination_2_ABCDE,C,15,KNN,CDE,δ13C carb_δ18O carb_δ18O phos,1.3434434937611406
+combination_2_ABCDE,C,15,SVM,CDE,δ13C carb_δ18O carb_δ18O phos,1.4675889637382133
+combination_2_ABCDE,C,15,RandomForest,CDE,δ13C carb_δ18O carb_δ18O phos,1.308859443850267
+combination_2_ABCDE,C,15,KNN,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.1766201069518717
+combination_2_ABCDE,C,15,SVM,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.224752347684045
+combination_2_ABCDE,C,15,RandomForest,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.21937623529411776
+combination_2_ABCDE,C,15,KNN,ABCE,δ13C coll_δ15N coll_δ13C carb_δ18O phos,0.17214541889483065
+combination_2_ABCDE,C,15,SVM,ABCE,δ13C coll_δ15N coll_δ13C carb_δ18O phos,0.24607735880553308
+combination_2_ABCDE,C,15,RandomForest,ABCE,δ13C coll_δ15N coll_δ13C carb_δ18O phos,0.2248135276292333
+combination_2_ABCDE,C,15,KNN,ACDE,δ13C coll_δ13C carb_δ18O carb_δ18O phos,0.28767424242424233
+combination_2_ABCDE,C,15,SVM,ACDE,δ13C coll_δ13C carb_δ18O carb_δ18O phos,0.3085275648748319
+combination_2_ABCDE,C,15,RandomForest,ACDE,δ13C coll_δ13C carb_δ18O carb_δ18O phos,0.2932266577540109
+combination_2_ABCDE,C,15,KNN,BCDE,δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.26398213903743317
+combination_2_ABCDE,C,15,SVM,BCDE,δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.25604871183768285
+combination_2_ABCDE,C,15,RandomForest,BCDE,δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.26734958467023184
+combination_2_ABCDE,C,15,KNN,ABCDE,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.18504976827094474
+combination_2_ABCDE,C,15,SVM,ABCDE,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.21849184853044984
+combination_2_ABCDE,C,15,RandomForest,ABCDE,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.22653646880570394
+combination_2_ABCDE,C,20,KNN,C,δ13C carb,1.3910123168214654
+combination_2_ABCDE,C,20,SVM,C,δ13C carb,1.4405783054092198
+combination_2_ABCDE,C,20,RandomForest,C,δ13C carb,1.4281611729993435
+combination_2_ABCDE,C,20,KNN,AC,δ13C coll_δ13C carb,0.3674890866873065
+combination_2_ABCDE,C,20,SVM,AC,δ13C coll_δ13C carb,0.3705806642934931
+combination_2_ABCDE,C,20,RandomForest,AC,δ13C coll_δ13C carb,0.3623198240454081
+combination_2_ABCDE,C,20,KNN,BC,δ15N coll_δ13C carb,0.33881996950933485
+combination_2_ABCDE,C,20,SVM,BC,δ15N coll_δ13C carb,0.322943495495248
+combination_2_ABCDE,C,20,RandomForest,BC,δ15N coll_δ13C carb,0.38377319190355574
+combination_2_ABCDE,C,20,KNN,CD,δ13C carb_δ18O carb,1.3956698602120272
+combination_2_ABCDE,C,20,SVM,CD,δ13C carb_δ18O carb,1.4731880495548275
+combination_2_ABCDE,C,20,RandomForest,CD,δ13C carb_δ18O carb,1.4279783974575482
+combination_2_ABCDE,C,20,KNN,CE,δ13C carb_δ18O phos,1.4035734309034618
+combination_2_ABCDE,C,20,SVM,CE,δ13C carb_δ18O phos,1.4473024568004074
+combination_2_ABCDE,C,20,RandomForest,CE,δ13C carb_δ18O phos,1.4224474923538784
+combination_2_ABCDE,C,20,KNN,ABC,δ13C coll_δ15N coll_δ13C carb,0.2749745848578665
+combination_2_ABCDE,C,20,SVM,ABC,δ13C coll_δ15N coll_δ13C carb,0.33485668553630094
+combination_2_ABCDE,C,20,RandomForest,ABC,δ13C coll_δ15N coll_δ13C carb,0.29751975433905653
+combination_2_ABCDE,C,20,KNN,ACD,δ13C coll_δ13C carb_δ18O carb,0.3649597307439722
+combination_2_ABCDE,C,20,SVM,ACD,δ13C coll_δ13C carb_δ18O carb,0.36680906240092204
+combination_2_ABCDE,C,20,RandomForest,ACD,δ13C coll_δ13C carb_δ18O carb,0.3618593988648092
+combination_2_ABCDE,C,20,KNN,ACE,δ13C coll_δ13C carb_δ18O phos,0.3511863397129186
+combination_2_ABCDE,C,20,SVM,ACE,δ13C coll_δ13C carb_δ18O phos,0.3567380868969995
+combination_2_ABCDE,C,20,RandomForest,ACE,δ13C coll_δ13C carb_δ18O phos,0.3307337718829164
+combination_2_ABCDE,C,20,KNN,BCD,δ15N coll_δ13C carb_δ18O carb,0.33108138239984997
+combination_2_ABCDE,C,20,SVM,BCD,δ15N coll_δ13C carb_δ18O carb,0.3245772058440053
+combination_2_ABCDE,C,20,RandomForest,BCD,δ15N coll_δ13C carb_δ18O carb,0.35847005371047924
+combination_2_ABCDE,C,20,KNN,BCE,δ15N coll_δ13C carb_δ18O phos,0.2973375457359978
+combination_2_ABCDE,C,20,SVM,BCE,δ15N coll_δ13C carb_δ18O phos,0.3251334150365961
+combination_2_ABCDE,C,20,RandomForest,BCE,δ15N coll_δ13C carb_δ18O phos,0.3584551122994652
+combination_2_ABCDE,C,20,KNN,CDE,δ13C carb_δ18O carb_δ18O phos,1.4087275879538421
+combination_2_ABCDE,C,20,SVM,CDE,δ13C carb_δ18O carb_δ18O phos,1.4511594234766156
+combination_2_ABCDE,C,20,RandomForest,CDE,δ13C carb_δ18O carb_δ18O phos,1.4606925018294392
+combination_2_ABCDE,C,20,KNN,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.28251556196641336
+combination_2_ABCDE,C,20,SVM,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.32675457695748317
+combination_2_ABCDE,C,20,RandomForest,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.27866795862651256
+combination_2_ABCDE,C,20,KNN,ABCE,δ13C coll_δ15N coll_δ13C carb_δ18O phos,0.26271721643681395
+combination_2_ABCDE,C,20,SVM,ABCE,δ13C coll_δ15N coll_δ13C carb_δ18O phos,0.3317527563607806
+combination_2_ABCDE,C,20,RandomForest,ABCE,δ13C coll_δ15N coll_δ13C carb_δ18O phos,0.30653184581105164
+combination_2_ABCDE,C,20,KNN,ACDE,δ13C coll_δ13C carb_δ18O carb_δ18O phos,0.3577768908903274
+combination_2_ABCDE,C,20,SVM,ACDE,δ13C coll_δ13C carb_δ18O carb_δ18O phos,0.37016997133761087
+combination_2_ABCDE,C,20,RandomForest,ACDE,δ13C coll_δ13C carb_δ18O carb_δ18O phos,0.3580127308846989
+combination_2_ABCDE,C,20,KNN,BCDE,δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.338946652594052
+combination_2_ABCDE,C,20,SVM,BCDE,δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.33376318368040075
+combination_2_ABCDE,C,20,RandomForest,BCDE,δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.34566844971385635
+combination_2_ABCDE,C,20,KNN,ABCDE,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.2769206224786565
+combination_2_ABCDE,C,20,SVM,ABCDE,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.3156230687692908
+combination_2_ABCDE,C,20,RandomForest,ABCDE,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.30301031203677625
+combination_2_ABCDE,D,10,KNN,D,δ18O carb,0.9051974025974026
+combination_2_ABCDE,D,10,SVM,D,δ18O carb,0.877298950652974
+combination_2_ABCDE,D,10,RandomForest,D,δ18O carb,0.8253443398268396
+combination_2_ABCDE,D,10,KNN,AD,δ13C coll_δ18O carb,0.057097402597402556
+combination_2_ABCDE,D,10,SVM,AD,δ13C coll_δ18O carb,0.06787785887840334
+combination_2_ABCDE,D,10,RandomForest,AD,δ13C coll_δ18O carb,0.07459012987012985
+combination_2_ABCDE,D,10,KNN,BD,δ15N coll_δ18O carb,0.07257532467532476
+combination_2_ABCDE,D,10,SVM,BD,δ15N coll_δ18O carb,0.08012665915421241
+combination_2_ABCDE,D,10,RandomForest,BD,δ15N coll_δ18O carb,0.05820168831168817
+combination_2_ABCDE,D,10,KNN,CD,δ13C carb_δ18O carb,0.06539837662337666
+combination_2_ABCDE,D,10,SVM,CD,δ13C carb_δ18O carb,0.07488665676885123
+combination_2_ABCDE,D,10,RandomForest,CD,δ13C carb_δ18O carb,0.07708035714285719
+combination_2_ABCDE,D,10,KNN,DE,δ18O carb_δ18O phos,0.9452332251082252
+combination_2_ABCDE,D,10,SVM,DE,δ18O carb_δ18O phos,0.9128343302789794
+combination_2_ABCDE,D,10,RandomForest,DE,δ18O carb_δ18O phos,0.8311248701298691
+combination_2_ABCDE,D,10,KNN,ABD,δ13C coll_δ15N coll_δ18O carb,0.11336060606060601
+combination_2_ABCDE,D,10,SVM,ABD,δ13C coll_δ15N coll_δ18O carb,0.12905315582918775
+combination_2_ABCDE,D,10,RandomForest,ABD,δ13C coll_δ15N coll_δ18O carb,0.09694022727272697
+combination_2_ABCDE,D,10,KNN,ACD,δ13C coll_δ13C carb_δ18O carb,0.12139242424242422
+combination_2_ABCDE,D,10,SVM,ACD,δ13C coll_δ13C carb_δ18O carb,0.12142556661500684
+combination_2_ABCDE,D,10,RandomForest,ACD,δ13C coll_δ13C carb_δ18O carb,0.09343787878787856
+combination_2_ABCDE,D,10,KNN,ADE,δ13C coll_δ18O carb_δ18O phos,0.064351948051948
+combination_2_ABCDE,D,10,SVM,ADE,δ13C coll_δ18O carb_δ18O phos,0.07002464242138152
+combination_2_ABCDE,D,10,RandomForest,ADE,δ13C coll_δ18O carb_δ18O phos,0.07977461038961041
+combination_2_ABCDE,D,10,KNN,BCD,δ15N coll_δ13C carb_δ18O carb,0.11589696969696972
+combination_2_ABCDE,D,10,SVM,BCD,δ15N coll_δ13C carb_δ18O carb,0.13970809774550857
+combination_2_ABCDE,D,10,RandomForest,BCD,δ15N coll_δ13C carb_δ18O carb,0.12802795454545424
+combination_2_ABCDE,D,10,KNN,BDE,δ15N coll_δ18O carb_δ18O phos,0.07902532467532476
+combination_2_ABCDE,D,10,SVM,BDE,δ15N coll_δ18O carb_δ18O phos,0.08217117455807424
+combination_2_ABCDE,D,10,RandomForest,BDE,δ15N coll_δ18O carb_δ18O phos,0.08190613636363597
+combination_2_ABCDE,D,10,KNN,CDE,δ13C carb_δ18O carb_δ18O phos,0.061969805194805196
+combination_2_ABCDE,D,10,SVM,CDE,δ13C carb_δ18O carb_δ18O phos,0.07669477789806586
+combination_2_ABCDE,D,10,RandomForest,CDE,δ13C carb_δ18O carb_δ18O phos,0.07146688311688293
+combination_2_ABCDE,D,10,KNN,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.1411495670995671
+combination_2_ABCDE,D,10,SVM,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.14041911943094393
+combination_2_ABCDE,D,10,RandomForest,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.16146616883116877
+combination_2_ABCDE,D,10,KNN,ABDE,δ13C coll_δ15N coll_δ18O carb_δ18O phos,0.11197575757575758
+combination_2_ABCDE,D,10,SVM,ABDE,δ13C coll_δ15N coll_δ18O carb_δ18O phos,0.12685466459885536
+combination_2_ABCDE,D,10,RandomForest,ABDE,δ13C coll_δ15N coll_δ18O carb_δ18O phos,0.09289689393939358
+combination_2_ABCDE,D,10,KNN,ACDE,δ13C coll_δ13C carb_δ18O carb_δ18O phos,0.11629848484848482
+combination_2_ABCDE,D,10,SVM,ACDE,δ13C coll_δ13C carb_δ18O carb_δ18O phos,0.12024417885785647
+combination_2_ABCDE,D,10,RandomForest,ACDE,δ13C coll_δ13C carb_δ18O carb_δ18O phos,0.09261575757575716
+combination_2_ABCDE,D,10,KNN,BCDE,δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.12402424242424244
+combination_2_ABCDE,D,10,SVM,BCDE,δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.1408382242685406
+combination_2_ABCDE,D,10,RandomForest,BCDE,δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.1408034848484846
+combination_2_ABCDE,D,10,KNN,ABCDE,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.1411495670995671
+combination_2_ABCDE,D,10,SVM,ABCDE,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.14044085241208693
+combination_2_ABCDE,D,10,RandomForest,ABCDE,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.1552382792207791
+combination_2_ABCDE,D,15,KNN,D,δ18O carb,0.928017807486631
+combination_2_ABCDE,D,15,SVM,D,δ18O carb,0.8918082946783116
+combination_2_ABCDE,D,15,RandomForest,D,δ18O carb,0.8512074491978605
+combination_2_ABCDE,D,15,KNN,AD,δ13C coll_δ18O carb,0.1650026559714795
+combination_2_ABCDE,D,15,SVM,AD,δ13C coll_δ18O carb,0.16271805683539473
+combination_2_ABCDE,D,15,RandomForest,AD,δ13C coll_δ18O carb,0.15913097504456336
+combination_2_ABCDE,D,15,KNN,BD,δ15N coll_δ18O carb,0.1627923707664885
+combination_2_ABCDE,D,15,SVM,BD,δ15N coll_δ18O carb,0.15658956922043585
+combination_2_ABCDE,D,15,RandomForest,BD,δ15N coll_δ18O carb,0.1675530784313724
+combination_2_ABCDE,D,15,KNN,CD,δ13C carb_δ18O carb,0.173462852049911
+combination_2_ABCDE,D,15,SVM,CD,δ13C carb_δ18O carb,0.17072415743510394
+combination_2_ABCDE,D,15,RandomForest,CD,δ13C carb_δ18O carb,0.17270424420677372
+combination_2_ABCDE,D,15,KNN,DE,δ18O carb_δ18O phos,0.9734450980392158
+combination_2_ABCDE,D,15,SVM,DE,δ18O carb_δ18O phos,0.9015737680952078
+combination_2_ABCDE,D,15,RandomForest,DE,δ18O carb_δ18O phos,0.8308825882352944
+combination_2_ABCDE,D,15,KNN,ABD,δ13C coll_δ15N coll_δ18O carb,0.1394901426024956
+combination_2_ABCDE,D,15,SVM,ABD,δ13C coll_δ15N coll_δ18O carb,0.15118857181499878
+combination_2_ABCDE,D,15,RandomForest,ABD,δ13C coll_δ15N coll_δ18O carb,0.14008939928698733
+combination_2_ABCDE,D,15,KNN,ACD,δ13C coll_δ13C carb_δ18O carb,0.13997226381461675
+combination_2_ABCDE,D,15,SVM,ACD,δ13C coll_δ13C carb_δ18O carb,0.14394636333393887
+combination_2_ABCDE,D,15,RandomForest,ACD,δ13C coll_δ13C carb_δ18O carb,0.14154927629233488
+combination_2_ABCDE,D,15,KNN,ADE,δ13C coll_δ18O carb_δ18O phos,0.15208508021390374
+combination_2_ABCDE,D,15,SVM,ADE,δ13C coll_δ18O carb_δ18O phos,0.1520149128835665
+combination_2_ABCDE,D,15,RandomForest,ADE,δ13C coll_δ18O carb_δ18O phos,0.15364136898395728
+combination_2_ABCDE,D,15,KNN,BCD,δ15N coll_δ13C carb_δ18O carb,0.13664370766488407
+combination_2_ABCDE,D,15,SVM,BCD,δ15N coll_δ13C carb_δ18O carb,0.14370539204216248
+combination_2_ABCDE,D,15,RandomForest,BCD,δ15N coll_δ13C carb_δ18O carb,0.14899230124777194
+combination_2_ABCDE,D,15,KNN,BDE,δ15N coll_δ18O carb_δ18O phos,0.15942449197860964
+combination_2_ABCDE,D,15,SVM,BDE,δ15N coll_δ18O carb_δ18O phos,0.15913794657127958
+combination_2_ABCDE,D,15,RandomForest,BDE,δ15N coll_δ18O carb_δ18O phos,0.1857921016042777
+combination_2_ABCDE,D,15,KNN,CDE,δ13C carb_δ18O carb_δ18O phos,0.14997570409982172
+combination_2_ABCDE,D,15,SVM,CDE,δ13C carb_δ18O carb_δ18O phos,0.16844887482407206
+combination_2_ABCDE,D,15,RandomForest,CDE,δ13C carb_δ18O carb_δ18O phos,0.18299783778966114
+combination_2_ABCDE,D,15,KNN,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.12946450980392163
+combination_2_ABCDE,D,15,SVM,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.15003466060926635
+combination_2_ABCDE,D,15,RandomForest,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.15097324955436736
+combination_2_ABCDE,D,15,KNN,ABDE,δ13C coll_δ15N coll_δ18O carb_δ18O phos,0.14702689839572192
+combination_2_ABCDE,D,15,SVM,ABDE,δ13C coll_δ15N coll_δ18O carb_δ18O phos,0.14712196623982993
+combination_2_ABCDE,D,15,RandomForest,ABDE,δ13C coll_δ15N coll_δ18O carb_δ18O phos,0.11665160427807483
+combination_2_ABCDE,D,15,KNN,ACDE,δ13C coll_δ13C carb_δ18O carb_δ18O phos,0.13018828877005348
+combination_2_ABCDE,D,15,SVM,ACDE,δ13C coll_δ13C carb_δ18O carb_δ18O phos,0.14531259089394574
+combination_2_ABCDE,D,15,RandomForest,ACDE,δ13C coll_δ13C carb_δ18O carb_δ18O phos,0.1312628181818181
+combination_2_ABCDE,D,15,KNN,BCDE,δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.14588081996434937
+combination_2_ABCDE,D,15,SVM,BCDE,δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.14099906989503236
+combination_2_ABCDE,D,15,RandomForest,BCDE,δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.15832047058823526
+combination_2_ABCDE,D,15,KNN,ABCDE,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.13047087344028524
+combination_2_ABCDE,D,15,SVM,ABCDE,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.14684179689603544
+combination_2_ABCDE,D,15,RandomForest,ABCDE,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.15606223351158646
+combination_2_ABCDE,D,20,KNN,D,δ18O carb,0.9428811431654003
+combination_2_ABCDE,D,20,SVM,D,δ18O carb,0.8903448931585709
+combination_2_ABCDE,D,20,RandomForest,D,δ18O carb,0.7931217880195136
+combination_2_ABCDE,D,20,KNN,AD,δ13C coll_δ18O carb,0.1888908499859274
+combination_2_ABCDE,D,20,SVM,AD,δ13C coll_δ18O carb,0.1976247308237503
+combination_2_ABCDE,D,20,RandomForest,AD,δ13C coll_δ18O carb,0.1778576771273101
+combination_2_ABCDE,D,20,KNN,BD,δ15N coll_δ18O carb,0.19142960784313728
+combination_2_ABCDE,D,20,SVM,BD,δ15N coll_δ18O carb,0.18492101727197405
+combination_2_ABCDE,D,20,RandomForest,BD,δ15N coll_δ18O carb,0.19853023740500966
+combination_2_ABCDE,D,20,KNN,CD,δ13C carb_δ18O carb,0.20295574350314297
+combination_2_ABCDE,D,20,SVM,CD,δ13C carb_δ18O carb,0.20839695084311058
+combination_2_ABCDE,D,20,RandomForest,CD,δ13C carb_δ18O carb,0.19599436631016037
+combination_2_ABCDE,D,20,KNN,DE,δ18O carb_δ18O phos,0.9718325133689841
+combination_2_ABCDE,D,20,SVM,DE,δ18O carb_δ18O phos,0.9240632495946496
+combination_2_ABCDE,D,20,RandomForest,DE,δ18O carb_δ18O phos,0.8330047958063608
+combination_2_ABCDE,D,20,KNN,ABD,δ13C coll_δ15N coll_δ18O carb,0.15946878975513648
+combination_2_ABCDE,D,20,SVM,ABD,δ13C coll_δ15N coll_δ18O carb,0.1701780341571863
+combination_2_ABCDE,D,20,RandomForest,ABD,δ13C coll_δ15N coll_δ18O carb,0.15388950206398325
+combination_2_ABCDE,D,20,KNN,ACD,δ13C coll_δ13C carb_δ18O carb,0.17867861244019131
+combination_2_ABCDE,D,20,SVM,ACD,δ13C coll_δ13C carb_δ18O carb,0.17338577767067187
+combination_2_ABCDE,D,20,RandomForest,ACD,δ13C coll_δ13C carb_δ18O carb,0.1691104237733369
+combination_2_ABCDE,D,20,KNN,ADE,δ13C coll_δ18O carb_δ18O phos,0.20128107983863402
+combination_2_ABCDE,D,20,SVM,ADE,δ13C coll_δ18O carb_δ18O phos,0.19039606968302553
+combination_2_ABCDE,D,20,RandomForest,ADE,δ13C coll_δ18O carb_δ18O phos,0.17976524214279022
+combination_2_ABCDE,D,20,KNN,BCD,δ15N coll_δ13C carb_δ18O carb,0.1621850792757294
+combination_2_ABCDE,D,20,SVM,BCD,δ15N coll_δ13C carb_δ18O carb,0.17506406460755014
+combination_2_ABCDE,D,20,RandomForest,BCD,δ15N coll_δ13C carb_δ18O carb,0.17340892119335755
+combination_2_ABCDE,D,20,KNN,BDE,δ15N coll_δ18O carb_δ18O phos,0.19773599634112018
+combination_2_ABCDE,D,20,SVM,BDE,δ15N coll_δ18O carb_δ18O phos,0.1840494419677679
+combination_2_ABCDE,D,20,RandomForest,BDE,δ15N coll_δ18O carb_δ18O phos,0.1934925394033208
+combination_2_ABCDE,D,20,KNN,CDE,δ13C carb_δ18O carb_δ18O phos,0.19721959658504554
+combination_2_ABCDE,D,20,SVM,CDE,δ13C carb_δ18O carb_δ18O phos,0.20815455857591297
+combination_2_ABCDE,D,20,RandomForest,CDE,δ13C carb_δ18O carb_δ18O phos,0.20937698287831888
+combination_2_ABCDE,D,20,KNN,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.15693889436157243
+combination_2_ABCDE,D,20,SVM,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.16434427665713883
+combination_2_ABCDE,D,20,RandomForest,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.16532569556243554
+combination_2_ABCDE,D,20,KNN,ABDE,δ13C coll_δ15N coll_δ18O carb_δ18O phos,0.15967133689839574
+combination_2_ABCDE,D,20,SVM,ABDE,δ13C coll_δ15N coll_δ18O carb_δ18O phos,0.16632848282983628
+combination_2_ABCDE,D,20,RandomForest,ABDE,δ13C coll_δ15N coll_δ18O carb_δ18O phos,0.15716961351909167
+combination_2_ABCDE,D,20,KNN,ACDE,δ13C coll_δ13C carb_δ18O carb_δ18O phos,0.17647158457641426
+combination_2_ABCDE,D,20,SVM,ACDE,δ13C coll_δ13C carb_δ18O carb_δ18O phos,0.17683340832400446
+combination_2_ABCDE,D,20,RandomForest,ACDE,δ13C coll_δ13C carb_δ18O carb_δ18O phos,0.16518773177596405
+combination_2_ABCDE,D,20,KNN,BCDE,δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.1760683957219251
+combination_2_ABCDE,D,20,SVM,BCDE,δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.18134200889079044
+combination_2_ABCDE,D,20,RandomForest,BCDE,δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.17214339253213232
+combination_2_ABCDE,D,20,KNN,ABCDE,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.16309994652406418
+combination_2_ABCDE,D,20,SVM,ABCDE,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.1743378672354316
+combination_2_ABCDE,D,20,RandomForest,ABCDE,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.1664151844450698
+combination_2_ABCDE,E,10,KNN,E,δ18O phos,0.7138300865800868
+combination_2_ABCDE,E,10,SVM,E,δ18O phos,0.6613680657785964
+combination_2_ABCDE,E,10,RandomForest,E,δ18O phos,0.687569999999999
+combination_2_ABCDE,E,10,KNN,AE,δ13C coll_δ18O phos,0.06826071428571431
+combination_2_ABCDE,E,10,SVM,AE,δ13C coll_δ18O phos,0.08187279270529504
+combination_2_ABCDE,E,10,RandomForest,AE,δ13C coll_δ18O phos,0.09936678571428477
+combination_2_ABCDE,E,10,KNN,BE,δ15N coll_δ18O phos,0.08115714285714297
+combination_2_ABCDE,E,10,SVM,BE,δ15N coll_δ18O phos,0.08310585530685258
+combination_2_ABCDE,E,10,RandomForest,BE,δ15N coll_δ18O phos,0.08786967532467409
+combination_2_ABCDE,E,10,KNN,CE,δ13C carb_δ18O phos,0.0699214285714286
+combination_2_ABCDE,E,10,SVM,CE,δ13C carb_δ18O phos,0.0797565776246903
+combination_2_ABCDE,E,10,RandomForest,CE,δ13C carb_δ18O phos,0.10589759740259592
+combination_2_ABCDE,E,10,KNN,DE,δ18O carb_δ18O phos,0.06523149350649364
+combination_2_ABCDE,E,10,SVM,DE,δ18O carb_δ18O phos,0.10121815703527177
+combination_2_ABCDE,E,10,RandomForest,DE,δ18O carb_δ18O phos,0.10718360389610333
+combination_2_ABCDE,E,10,KNN,ABE,δ13C coll_δ15N coll_δ18O phos,0.12357424242424249
+combination_2_ABCDE,E,10,SVM,ABE,δ13C coll_δ15N coll_δ18O phos,0.09247606897401624
+combination_2_ABCDE,E,10,RandomForest,ABE,δ13C coll_δ15N coll_δ18O phos,0.12041795454545452
+combination_2_ABCDE,E,10,KNN,ACE,δ13C coll_δ13C carb_δ18O phos,0.1161015151515152
+combination_2_ABCDE,E,10,SVM,ACE,δ13C coll_δ13C carb_δ18O phos,0.09349215226315655
+combination_2_ABCDE,E,10,RandomForest,ACE,δ13C coll_δ13C carb_δ18O phos,0.11020431818181857
+combination_2_ABCDE,E,10,KNN,ADE,δ13C coll_δ18O carb_δ18O phos,0.12634242424242434
+combination_2_ABCDE,E,10,SVM,ADE,δ13C coll_δ18O carb_δ18O phos,0.0895262285454093
+combination_2_ABCDE,E,10,RandomForest,ADE,δ13C coll_δ18O carb_δ18O phos,0.11265553030303024
+combination_2_ABCDE,E,10,KNN,BCE,δ15N coll_δ13C carb_δ18O phos,0.1110901515151516
+combination_2_ABCDE,E,10,SVM,BCE,δ15N coll_δ13C carb_δ18O phos,0.09142049454177448
+combination_2_ABCDE,E,10,RandomForest,BCE,δ15N coll_δ13C carb_δ18O phos,0.11632303030303008
+combination_2_ABCDE,E,10,KNN,BDE,δ15N coll_δ18O carb_δ18O phos,0.12159924242424247
+combination_2_ABCDE,E,10,SVM,BDE,δ15N coll_δ18O carb_δ18O phos,0.08277659388430918
+combination_2_ABCDE,E,10,RandomForest,BDE,δ15N coll_δ18O carb_δ18O phos,0.10494446969696936
+combination_2_ABCDE,E,10,KNN,CDE,δ13C carb_δ18O carb_δ18O phos,0.10664090909090909
+combination_2_ABCDE,E,10,SVM,CDE,δ13C carb_δ18O carb_δ18O phos,0.09950041800571849
+combination_2_ABCDE,E,10,RandomForest,CDE,δ13C carb_δ18O carb_δ18O phos,0.1298273484848484
+combination_2_ABCDE,E,10,KNN,ABCE,δ13C coll_δ15N coll_δ13C carb_δ18O phos,0.0397742424242424
+combination_2_ABCDE,E,10,SVM,ABCE,δ13C coll_δ15N coll_δ13C carb_δ18O phos,0.04212975742850898
+combination_2_ABCDE,E,10,RandomForest,ABCE,δ13C coll_δ15N coll_δ13C carb_δ18O phos,0.03147027056277078
+combination_2_ABCDE,E,10,KNN,ABDE,δ13C coll_δ15N coll_δ18O carb_δ18O phos,0.03638766233766241
+combination_2_ABCDE,E,10,SVM,ABDE,δ13C coll_δ15N coll_δ18O carb_δ18O phos,0.03861426374715306
+combination_2_ABCDE,E,10,RandomForest,ABDE,δ13C coll_δ15N coll_δ18O carb_δ18O phos,0.04961900432900439
+combination_2_ABCDE,E,10,KNN,ACDE,δ13C coll_δ13C carb_δ18O carb_δ18O phos,0.048617532467532434
+combination_2_ABCDE,E,10,SVM,ACDE,δ13C coll_δ13C carb_δ18O carb_δ18O phos,0.03721294826390868
+combination_2_ABCDE,E,10,RandomForest,ACDE,δ13C coll_δ13C carb_δ18O carb_δ18O phos,0.0523826623376626
+combination_2_ABCDE,E,10,KNN,BCDE,δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.05656634199134204
+combination_2_ABCDE,E,10,SVM,BCDE,δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.05072919163023358
+combination_2_ABCDE,E,10,RandomForest,BCDE,δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.05557714285714303
+combination_2_ABCDE,E,10,KNN,ABCDE,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.07569069264069261
+combination_2_ABCDE,E,10,SVM,ABCDE,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.06346769982736977
+combination_2_ABCDE,E,10,RandomForest,ABCDE,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.08675352813852791
+combination_2_ABCDE,E,15,KNN,E,δ18O phos,0.7271931194295899
+combination_2_ABCDE,E,15,SVM,E,δ18O phos,0.6718728600422633
+combination_2_ABCDE,E,15,RandomForest,E,δ18O phos,0.686455103386804
+combination_2_ABCDE,E,15,KNN,AE,δ13C coll_δ18O phos,0.12003190730837796
+combination_2_ABCDE,E,15,SVM,AE,δ13C coll_δ18O phos,0.11837231741680884
+combination_2_ABCDE,E,15,RandomForest,AE,δ13C coll_δ18O phos,0.12674160784313632
+combination_2_ABCDE,E,15,KNN,BE,δ15N coll_δ18O phos,0.13255707664884145
+combination_2_ABCDE,E,15,SVM,BE,δ15N coll_δ18O phos,0.1151563954436339
+combination_2_ABCDE,E,15,RandomForest,BE,δ15N coll_δ18O phos,0.11533582709447317
+combination_2_ABCDE,E,15,KNN,CE,δ13C carb_δ18O phos,0.11314210338680927
+combination_2_ABCDE,E,15,SVM,CE,δ13C carb_δ18O phos,0.12462778872886471
+combination_2_ABCDE,E,15,RandomForest,CE,δ13C carb_δ18O phos,0.1448181479500889
+combination_2_ABCDE,E,15,KNN,DE,δ18O carb_δ18O phos,0.1394755793226382
+combination_2_ABCDE,E,15,SVM,DE,δ18O carb_δ18O phos,0.15667020224556505
+combination_2_ABCDE,E,15,RandomForest,DE,δ18O carb_δ18O phos,0.13071749019607765
+combination_2_ABCDE,E,15,KNN,ABE,δ13C coll_δ15N coll_δ18O phos,0.14236237076648842
+combination_2_ABCDE,E,15,SVM,ABE,δ13C coll_δ15N coll_δ18O phos,0.12771533765881615
+combination_2_ABCDE,E,15,RandomForest,ABE,δ13C coll_δ15N coll_δ18O phos,0.13715942067736153
+combination_2_ABCDE,E,15,KNN,ACE,δ13C coll_δ13C carb_δ18O phos,0.1357729768270944
+combination_2_ABCDE,E,15,SVM,ACE,δ13C coll_δ13C carb_δ18O phos,0.1391797092484534
+combination_2_ABCDE,E,15,RandomForest,ACE,δ13C coll_δ13C carb_δ18O phos,0.15236687700534762
+combination_2_ABCDE,E,15,KNN,ADE,δ13C coll_δ18O carb_δ18O phos,0.14684905525846706
+combination_2_ABCDE,E,15,SVM,ADE,δ13C coll_δ18O carb_δ18O phos,0.1375222129778738
+combination_2_ABCDE,E,15,RandomForest,ADE,δ13C coll_δ18O carb_δ18O phos,0.13138918716577544
+combination_2_ABCDE,E,15,KNN,BCE,δ15N coll_δ13C carb_δ18O phos,0.12315536541889482
+combination_2_ABCDE,E,15,SVM,BCE,δ15N coll_δ13C carb_δ18O phos,0.11096431504645994
+combination_2_ABCDE,E,15,RandomForest,BCE,δ15N coll_δ13C carb_δ18O phos,0.13002920677361818
+combination_2_ABCDE,E,15,KNN,BDE,δ15N coll_δ18O carb_δ18O phos,0.13983732620320852
+combination_2_ABCDE,E,15,SVM,BDE,δ15N coll_δ18O carb_δ18O phos,0.12157420944754746
+combination_2_ABCDE,E,15,RandomForest,BDE,δ15N coll_δ18O carb_δ18O phos,0.13330262388591863
+combination_2_ABCDE,E,15,KNN,CDE,δ13C carb_δ18O carb_δ18O phos,0.13376891265597146
+combination_2_ABCDE,E,15,SVM,CDE,δ13C carb_δ18O carb_δ18O phos,0.12208257397817715
+combination_2_ABCDE,E,15,RandomForest,CDE,δ13C carb_δ18O carb_δ18O phos,0.1433882959001782
+combination_2_ABCDE,E,15,KNN,ABCE,δ13C coll_δ15N coll_δ13C carb_δ18O phos,0.07904486631016042
+combination_2_ABCDE,E,15,SVM,ABCE,δ13C coll_δ15N coll_δ13C carb_δ18O phos,0.08038713367691146
+combination_2_ABCDE,E,15,RandomForest,ABCE,δ13C coll_δ15N coll_δ13C carb_δ18O phos,0.08666921746880626
+combination_2_ABCDE,E,15,KNN,ABDE,δ13C coll_δ15N coll_δ18O carb_δ18O phos,0.08681099821746888
+combination_2_ABCDE,E,15,SVM,ABDE,δ13C coll_δ15N coll_δ18O carb_δ18O phos,0.0698558789580093
+combination_2_ABCDE,E,15,RandomForest,ABDE,δ13C coll_δ15N coll_δ18O carb_δ18O phos,0.07162604634581168
+combination_2_ABCDE,E,15,KNN,ACDE,δ13C coll_δ13C carb_δ18O carb_δ18O phos,0.09012229946524054
+combination_2_ABCDE,E,15,SVM,ACDE,δ13C coll_δ13C carb_δ18O carb_δ18O phos,0.07125444519302161
+combination_2_ABCDE,E,15,RandomForest,ACDE,δ13C coll_δ13C carb_δ18O carb_δ18O phos,0.10620446345811077
+combination_2_ABCDE,E,15,KNN,BCDE,δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.09757336898395731
+combination_2_ABCDE,E,15,SVM,BCDE,δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.08277181308519631
+combination_2_ABCDE,E,15,RandomForest,BCDE,δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.10491262210338695
+combination_2_ABCDE,E,15,KNN,ABCDE,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.1660568805704099
+combination_2_ABCDE,E,15,SVM,ABCDE,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.14657521217536282
+combination_2_ABCDE,E,15,RandomForest,ABCDE,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.16523190196078488
+combination_2_ABCDE,E,20,KNN,E,δ18O phos,0.7402923304249931
+combination_2_ABCDE,E,20,SVM,E,δ18O phos,0.7005815438771341
+combination_2_ABCDE,E,20,RandomForest,E,δ18O phos,0.6922806125809152
+combination_2_ABCDE,E,20,KNN,AE,δ13C coll_δ18O phos,0.15214032085561505
+combination_2_ABCDE,E,20,SVM,AE,δ13C coll_δ18O phos,0.13373296517159794
+combination_2_ABCDE,E,20,RandomForest,AE,δ13C coll_δ18O phos,0.14959492916783862
+combination_2_ABCDE,E,20,KNN,BE,δ15N coll_δ18O phos,0.14664832676611322
+combination_2_ABCDE,E,20,SVM,BE,δ15N coll_δ18O phos,0.13448424770709136
+combination_2_ABCDE,E,20,RandomForest,BE,δ15N coll_δ18O phos,0.1360651204146723
+combination_2_ABCDE,E,20,KNN,CE,δ13C carb_δ18O phos,0.1444006379585327
+combination_2_ABCDE,E,20,SVM,CE,δ13C carb_δ18O phos,0.1462097464114608
+combination_2_ABCDE,E,20,RandomForest,CE,δ13C carb_δ18O phos,0.15570905507083213
+combination_2_ABCDE,E,20,KNN,DE,δ18O carb_δ18O phos,0.179722567314007
+combination_2_ABCDE,E,20,SVM,DE,δ18O carb_δ18O phos,0.1884060188135716
+combination_2_ABCDE,E,20,RandomForest,DE,δ18O carb_δ18O phos,0.19257045041748752
+combination_2_ABCDE,E,20,KNN,ABE,δ13C coll_δ15N coll_δ18O phos,0.17451594896331732
+combination_2_ABCDE,E,20,SVM,ABE,δ13C coll_δ15N coll_δ18O phos,0.15679685332105517
+combination_2_ABCDE,E,20,RandomForest,ABE,δ13C coll_δ15N coll_δ18O phos,0.16448336025893556
+combination_2_ABCDE,E,20,KNN,ACE,δ13C coll_δ13C carb_δ18O phos,0.16287754526691053
+combination_2_ABCDE,E,20,SVM,ACE,δ13C coll_δ13C carb_δ18O phos,0.16098655276665974
+combination_2_ABCDE,E,20,RandomForest,ACE,δ13C coll_δ13C carb_δ18O phos,0.1691612226287647
+combination_2_ABCDE,E,20,KNN,ADE,δ13C coll_δ18O carb_δ18O phos,0.1693811703724552
+combination_2_ABCDE,E,20,SVM,ADE,δ13C coll_δ18O carb_δ18O phos,0.1518859644966131
+combination_2_ABCDE,E,20,RandomForest,ADE,δ13C coll_δ18O carb_δ18O phos,0.13213673885918015
+combination_2_ABCDE,E,20,KNN,BCE,δ15N coll_δ13C carb_δ18O phos,0.1458121990805892
+combination_2_ABCDE,E,20,SVM,BCE,δ15N coll_δ13C carb_δ18O phos,0.12958302128545124
+combination_2_ABCDE,E,20,RandomForest,BCE,δ15N coll_δ13C carb_δ18O phos,0.15856988709072156
+combination_2_ABCDE,E,20,KNN,BDE,δ15N coll_δ18O carb_δ18O phos,0.15331562200956933
+combination_2_ABCDE,E,20,SVM,BDE,δ15N coll_δ18O carb_δ18O phos,0.13343027432470192
+combination_2_ABCDE,E,20,RandomForest,BDE,δ15N coll_δ18O carb_δ18O phos,0.14535216469650125
+combination_2_ABCDE,E,20,KNN,CDE,δ13C carb_δ18O carb_δ18O phos,0.15711925555868275
+combination_2_ABCDE,E,20,SVM,CDE,δ13C carb_δ18O carb_δ18O phos,0.14510754892659752
+combination_2_ABCDE,E,20,RandomForest,CDE,δ13C carb_δ18O carb_δ18O phos,0.14711926761422323
+combination_2_ABCDE,E,20,KNN,ABCE,δ13C coll_δ15N coll_δ13C carb_δ18O phos,0.10414653110047847
+combination_2_ABCDE,E,20,SVM,ABCE,δ13C coll_δ15N coll_δ13C carb_δ18O phos,0.08532206307595255
+combination_2_ABCDE,E,20,RandomForest,ABCE,δ13C coll_δ15N coll_δ13C carb_δ18O phos,0.08647400501923282
+combination_2_ABCDE,E,20,KNN,ABDE,δ13C coll_δ15N coll_δ18O carb_δ18O phos,0.10674504972323859
+combination_2_ABCDE,E,20,SVM,ABDE,δ13C coll_δ15N coll_δ18O carb_δ18O phos,0.08647210127268778
+combination_2_ABCDE,E,20,RandomForest,ABDE,δ13C coll_δ15N coll_δ18O carb_δ18O phos,0.0864436868843231
+combination_2_ABCDE,E,20,KNN,ACDE,δ13C coll_δ13C carb_δ18O carb_δ18O phos,0.11669183131625852
+combination_2_ABCDE,E,20,SVM,ACDE,δ13C coll_δ13C carb_δ18O carb_δ18O phos,0.08953176293918585
+combination_2_ABCDE,E,20,RandomForest,ACDE,δ13C coll_δ13C carb_δ18O carb_δ18O phos,0.101038724505113
+combination_2_ABCDE,E,20,KNN,BCDE,δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.11327669762641904
+combination_2_ABCDE,E,20,SVM,BCDE,δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.08791475322783568
+combination_2_ABCDE,E,20,RandomForest,BCDE,δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.09572580148231571
+combination_2_ABCDE,E,20,KNN,ABCDE,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.14762621118303784
+combination_2_ABCDE,E,20,SVM,ABCDE,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.14352783728943086
+combination_2_ABCDE,E,20,RandomForest,ABCDE,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ18O phos,0.1558637714607377
+combination_3_ABCDF,A,10,KNN,A,δ13C coll,1.2214000000000003
+combination_3_ABCDF,A,10,SVM,A,δ13C coll,1.2525504386699635
+combination_3_ABCDF,A,10,RandomForest,A,δ13C coll,0.8556349999999906
+combination_3_ABCDF,A,10,KNN,AB,δ13C coll_δ15N coll,1.368066666666667
+combination_3_ABCDF,A,10,SVM,AB,δ13C coll_δ15N coll,1.2592947264311944
+combination_3_ABCDF,A,10,RandomForest,AB,δ13C coll_δ15N coll,0.8722766666666562
+combination_3_ABCDF,A,10,KNN,AC,δ13C coll_δ13C carb,1.2377333333333334
+combination_3_ABCDF,A,10,SVM,AC,δ13C coll_δ13C carb,1.3090364502186922
+combination_3_ABCDF,A,10,RandomForest,AC,δ13C coll_δ13C carb,1.0404783333333196
+combination_3_ABCDF,A,10,KNN,AD,δ13C coll_δ18O carb,1.2210000000000003
+combination_3_ABCDF,A,10,SVM,AD,δ13C coll_δ18O carb,1.1310825774753834
+combination_3_ABCDF,A,10,RandomForest,AD,δ13C coll_δ18O carb,0.85738833333332
+combination_3_ABCDF,A,10,KNN,AF,δ13C coll_δ34S coll,1.2317333333333338
+combination_3_ABCDF,A,10,SVM,AF,δ13C coll_δ34S coll,1.2277003296662872
+combination_3_ABCDF,A,10,RandomForest,AF,δ13C coll_δ34S coll,0.8461433333333241
+combination_3_ABCDF,A,10,KNN,ABC,δ13C coll_δ15N coll_δ13C carb,1.2844333333333338
+combination_3_ABCDF,A,10,SVM,ABC,δ13C coll_δ15N coll_δ13C carb,1.2168134716853127
+combination_3_ABCDF,A,10,RandomForest,ABC,δ13C coll_δ15N coll_δ13C carb,0.914114999999992
+combination_3_ABCDF,A,10,KNN,ABD,δ13C coll_δ15N coll_δ18O carb,1.4117166666666674
+combination_3_ABCDF,A,10,SVM,ABD,δ13C coll_δ15N coll_δ18O carb,1.2535552142524815
+combination_3_ABCDF,A,10,RandomForest,ABD,δ13C coll_δ15N coll_δ18O carb,0.8650166666666579
+combination_3_ABCDF,A,10,KNN,ABF,δ13C coll_δ15N coll_δ34S coll,1.4315833333333339
+combination_3_ABCDF,A,10,SVM,ABF,δ13C coll_δ15N coll_δ34S coll,1.2397936997746672
+combination_3_ABCDF,A,10,RandomForest,ABF,δ13C coll_δ15N coll_δ34S coll,0.843088333333322
+combination_3_ABCDF,A,10,KNN,ACD,δ13C coll_δ13C carb_δ18O carb,1.24105
+combination_3_ABCDF,A,10,SVM,ACD,δ13C coll_δ13C carb_δ18O carb,1.3718129104591288
+combination_3_ABCDF,A,10,RandomForest,ACD,δ13C coll_δ13C carb_δ18O carb,1.0233466666666566
+combination_3_ABCDF,A,10,KNN,ACF,δ13C coll_δ13C carb_δ34S coll,1.28045
+combination_3_ABCDF,A,10,SVM,ACF,δ13C coll_δ13C carb_δ34S coll,1.2958556020176912
+combination_3_ABCDF,A,10,RandomForest,ACF,δ13C coll_δ13C carb_δ34S coll,0.9922766666666565
+combination_3_ABCDF,A,10,KNN,ADF,δ13C coll_δ18O carb_δ34S coll,1.2478500000000008
+combination_3_ABCDF,A,10,SVM,ADF,δ13C coll_δ18O carb_δ34S coll,1.1016359713771458
+combination_3_ABCDF,A,10,RandomForest,ADF,δ13C coll_δ18O carb_δ34S coll,0.8490066666666554
+combination_3_ABCDF,A,10,KNN,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,1.2948500000000003
+combination_3_ABCDF,A,10,SVM,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,1.1966669015927356
+combination_3_ABCDF,A,10,RandomForest,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.9182916666666554
+combination_3_ABCDF,A,10,KNN,ABCF,δ13C coll_δ15N coll_δ13C carb_δ34S coll,1.3059833333333337
+combination_3_ABCDF,A,10,SVM,ABCF,δ13C coll_δ15N coll_δ13C carb_δ34S coll,1.2122570706837965
+combination_3_ABCDF,A,10,RandomForest,ABCF,δ13C coll_δ15N coll_δ13C carb_δ34S coll,0.8760399999999887
+combination_3_ABCDF,A,10,KNN,ABDF,δ13C coll_δ15N coll_δ18O carb_δ34S coll,1.4240166666666672
+combination_3_ABCDF,A,10,SVM,ABDF,δ13C coll_δ15N coll_δ18O carb_δ34S coll,1.2446726754287065
+combination_3_ABCDF,A,10,RandomForest,ABDF,δ13C coll_δ15N coll_δ18O carb_δ34S coll,0.8701983333333217
+combination_3_ABCDF,A,10,KNN,ACDF,δ13C coll_δ13C carb_δ18O carb_δ34S coll,1.2546166666666667
+combination_3_ABCDF,A,10,SVM,ACDF,δ13C coll_δ13C carb_δ18O carb_δ34S coll,1.365888787785255
+combination_3_ABCDF,A,10,RandomForest,ACDF,δ13C coll_δ13C carb_δ18O carb_δ34S coll,1.023181666666654
+combination_3_ABCDF,A,10,KNN,ABCDF,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ34S coll,1.3078500000000004
+combination_3_ABCDF,A,10,SVM,ABCDF,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ34S coll,1.1844385690753465
+combination_3_ABCDF,A,10,RandomForest,ABCDF,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.9206999999999909
+combination_3_ABCDF,A,15,KNN,A,δ13C coll,1.1944000000000004
+combination_3_ABCDF,A,15,SVM,A,δ13C coll,1.1781296275708206
+combination_3_ABCDF,A,15,RandomForest,A,δ13C coll,0.8247959999999892
+combination_3_ABCDF,A,15,KNN,AB,δ13C coll_δ15N coll,1.3226000000000002
+combination_3_ABCDF,A,15,SVM,AB,δ13C coll_δ15N coll,1.165681941750717
+combination_3_ABCDF,A,15,RandomForest,AB,δ13C coll_δ15N coll,0.8726563333333243
+combination_3_ABCDF,A,15,KNN,AC,δ13C coll_δ13C carb,1.1818533333333332
+combination_3_ABCDF,A,15,SVM,AC,δ13C coll_δ13C carb,1.2776698947319174
+combination_3_ABCDF,A,15,RandomForest,AC,δ13C coll_δ13C carb,0.992286666666657
+combination_3_ABCDF,A,15,KNN,AD,δ13C coll_δ18O carb,1.1942
+combination_3_ABCDF,A,15,SVM,AD,δ13C coll_δ18O carb,1.0803853917190875
+combination_3_ABCDF,A,15,RandomForest,AD,δ13C coll_δ18O carb,0.8373879999999897
+combination_3_ABCDF,A,15,KNN,AF,δ13C coll_δ34S coll,1.1941600000000006
+combination_3_ABCDF,A,15,SVM,AF,δ13C coll_δ34S coll,1.1602084565820316
+combination_3_ABCDF,A,15,RandomForest,AF,δ13C coll_δ34S coll,0.8328919999999858
+combination_3_ABCDF,A,15,KNN,ABC,δ13C coll_δ15N coll_δ13C carb,1.2817000000000003
+combination_3_ABCDF,A,15,SVM,ABC,δ13C coll_δ15N coll_δ13C carb,1.1582685795787306
+combination_3_ABCDF,A,15,RandomForest,ABC,δ13C coll_δ15N coll_δ13C carb,0.8472379999999908
+combination_3_ABCDF,A,15,KNN,ABD,δ13C coll_δ15N coll_δ18O carb,1.3488000000000004
+combination_3_ABCDF,A,15,SVM,ABD,δ13C coll_δ15N coll_δ18O carb,1.164328091410442
+combination_3_ABCDF,A,15,RandomForest,ABD,δ13C coll_δ15N coll_δ18O carb,0.8589126666666573
+combination_3_ABCDF,A,15,KNN,ABF,δ13C coll_δ15N coll_δ34S coll,1.3536800000000004
+combination_3_ABCDF,A,15,SVM,ABF,δ13C coll_δ15N coll_δ34S coll,1.1568332259688032
+combination_3_ABCDF,A,15,RandomForest,ABF,δ13C coll_δ15N coll_δ34S coll,0.824684666666656
+combination_3_ABCDF,A,15,KNN,ACD,δ13C coll_δ13C carb_δ18O carb,1.1974400000000003
+combination_3_ABCDF,A,15,SVM,ACD,δ13C coll_δ13C carb_δ18O carb,1.330261975392434
+combination_3_ABCDF,A,15,RandomForest,ACD,δ13C coll_δ13C carb_δ18O carb,1.070082666666658
+combination_3_ABCDF,A,15,KNN,ACF,δ13C coll_δ13C carb_δ34S coll,1.1925733333333333
+combination_3_ABCDF,A,15,SVM,ACF,δ13C coll_δ13C carb_δ34S coll,1.2612487417397549
+combination_3_ABCDF,A,15,RandomForest,ACF,δ13C coll_δ13C carb_δ34S coll,0.9833443333333218
+combination_3_ABCDF,A,15,KNN,ADF,δ13C coll_δ18O carb_δ34S coll,1.1938800000000007
+combination_3_ABCDF,A,15,SVM,ADF,δ13C coll_δ18O carb_δ34S coll,1.0732738509319781
+combination_3_ABCDF,A,15,RandomForest,ADF,δ13C coll_δ18O carb_δ34S coll,0.8153863333333208
+combination_3_ABCDF,A,15,KNN,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,1.2726400000000004
+combination_3_ABCDF,A,15,SVM,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,1.1587295104846023
+combination_3_ABCDF,A,15,RandomForest,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.8248193333333255
+combination_3_ABCDF,A,15,KNN,ABCF,δ13C coll_δ15N coll_δ13C carb_δ34S coll,1.2718300000000002
+combination_3_ABCDF,A,15,SVM,ABCF,δ13C coll_δ15N coll_δ13C carb_δ34S coll,1.1346193380488296
+combination_3_ABCDF,A,15,RandomForest,ABCF,δ13C coll_δ15N coll_δ13C carb_δ34S coll,0.7625189999999955
+combination_3_ABCDF,A,15,KNN,ABDF,δ13C coll_δ15N coll_δ18O carb_δ34S coll,1.2668833333333331
+combination_3_ABCDF,A,15,SVM,ABDF,δ13C coll_δ15N coll_δ18O carb_δ34S coll,1.1294129746821746
+combination_3_ABCDF,A,15,RandomForest,ABDF,δ13C coll_δ15N coll_δ18O carb_δ34S coll,0.8113383333333252
+combination_3_ABCDF,A,15,KNN,ACDF,δ13C coll_δ13C carb_δ18O carb_δ34S coll,1.1970166666666675
+combination_3_ABCDF,A,15,SVM,ACDF,δ13C coll_δ13C carb_δ18O carb_δ34S coll,1.3081378057528843
+combination_3_ABCDF,A,15,RandomForest,ACDF,δ13C coll_δ13C carb_δ18O carb_δ34S coll,1.0040509999999923
+combination_3_ABCDF,A,15,KNN,ABCDF,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ34S coll,1.2422700000000007
+combination_3_ABCDF,A,15,SVM,ABCDF,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ34S coll,1.1755752367346273
+combination_3_ABCDF,A,15,RandomForest,ABCDF,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.8069599999999915
+combination_3_ABCDF,A,20,KNN,A,δ13C coll,0.8374038095238099
+combination_3_ABCDF,A,20,SVM,A,δ13C coll,0.8419209903057954
+combination_3_ABCDF,A,20,RandomForest,A,δ13C coll,0.6608492380952283
+combination_3_ABCDF,A,20,KNN,AB,δ13C coll_δ15N coll,0.9494704761904768
+combination_3_ABCDF,A,20,SVM,AB,δ13C coll_δ15N coll,0.8688959489797243
+combination_3_ABCDF,A,20,RandomForest,AB,δ13C coll_δ15N coll,0.7051542857142812
+combination_3_ABCDF,A,20,KNN,AC,δ13C coll_δ13C carb,0.8918114285714287
+combination_3_ABCDF,A,20,SVM,AC,δ13C coll_δ13C carb,0.9373540365983984
+combination_3_ABCDF,A,20,RandomForest,AC,δ13C coll_δ13C carb,0.7953638095238071
+combination_3_ABCDF,A,20,KNN,AD,δ13C coll_δ18O carb,0.8765161904761909
+combination_3_ABCDF,A,20,SVM,AD,δ13C coll_δ18O carb,0.8403228970414457
+combination_3_ABCDF,A,20,RandomForest,AD,δ13C coll_δ18O carb,0.6511846666666583
+combination_3_ABCDF,A,20,KNN,AF,δ13C coll_δ34S coll,0.8405019047619049
+combination_3_ABCDF,A,20,SVM,AF,δ13C coll_δ34S coll,0.8425227003097822
+combination_3_ABCDF,A,20,RandomForest,AF,δ13C coll_δ34S coll,0.6046756190476111
+combination_3_ABCDF,A,20,KNN,ABC,δ13C coll_δ15N coll_δ13C carb,0.9023657142857143
+combination_3_ABCDF,A,20,SVM,ABC,δ13C coll_δ15N coll_δ13C carb,0.7979699252432004
+combination_3_ABCDF,A,20,RandomForest,ABC,δ13C coll_δ15N coll_δ13C carb,0.6524292380952337
+combination_3_ABCDF,A,20,KNN,ABD,δ13C coll_δ15N coll_δ18O carb,0.9545990476190479
+combination_3_ABCDF,A,20,SVM,ABD,δ13C coll_δ15N coll_δ18O carb,0.8744509736458058
+combination_3_ABCDF,A,20,RandomForest,ABD,δ13C coll_δ15N coll_δ18O carb,0.6873839047618999
+combination_3_ABCDF,A,20,KNN,ABF,δ13C coll_δ15N coll_δ34S coll,0.9297276190476197
+combination_3_ABCDF,A,20,SVM,ABF,δ13C coll_δ15N coll_δ34S coll,0.856822391480973
+combination_3_ABCDF,A,20,RandomForest,ABF,δ13C coll_δ15N coll_δ34S coll,0.6818379999999927
+combination_3_ABCDF,A,20,KNN,ACD,δ13C coll_δ13C carb_δ18O carb,0.8754152380952384
+combination_3_ABCDF,A,20,SVM,ACD,δ13C coll_δ13C carb_δ18O carb,0.9446732356041416
+combination_3_ABCDF,A,20,RandomForest,ACD,δ13C coll_δ13C carb_δ18O carb,0.8230039047618991
+combination_3_ABCDF,A,20,KNN,ACF,δ13C coll_δ13C carb_δ34S coll,0.8747990476190475
+combination_3_ABCDF,A,20,SVM,ACF,δ13C coll_δ13C carb_δ34S coll,0.9126546756803948
+combination_3_ABCDF,A,20,RandomForest,ACF,δ13C coll_δ13C carb_δ34S coll,0.8058792380952328
+combination_3_ABCDF,A,20,KNN,ADF,δ13C coll_δ18O carb_δ34S coll,0.8395485714285714
+combination_3_ABCDF,A,20,SVM,ADF,δ13C coll_δ18O carb_δ34S coll,0.8494738202792748
+combination_3_ABCDF,A,20,RandomForest,ADF,δ13C coll_δ18O carb_δ34S coll,0.6400386666666605
+combination_3_ABCDF,A,20,KNN,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.9147628571428573
+combination_3_ABCDF,A,20,SVM,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.7757928001543645
+combination_3_ABCDF,A,20,RandomForest,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.6872126666666609
+combination_3_ABCDF,A,20,KNN,ABCF,δ13C coll_δ15N coll_δ13C carb_δ34S coll,0.8995514285714286
+combination_3_ABCDF,A,20,SVM,ABCF,δ13C coll_δ15N coll_δ13C carb_δ34S coll,0.8119555631741953
+combination_3_ABCDF,A,20,RandomForest,ABCF,δ13C coll_δ15N coll_δ13C carb_δ34S coll,0.680757523809516
+combination_3_ABCDF,A,20,KNN,ABDF,δ13C coll_δ15N coll_δ18O carb_δ34S coll,0.8919457142857148
+combination_3_ABCDF,A,20,SVM,ABDF,δ13C coll_δ15N coll_δ18O carb_δ34S coll,0.8563627901712539
+combination_3_ABCDF,A,20,RandomForest,ABDF,δ13C coll_δ15N coll_δ18O carb_δ34S coll,0.6940325714285611
+combination_3_ABCDF,A,20,KNN,ACDF,δ13C coll_δ13C carb_δ18O carb_δ34S coll,0.8322266666666668
+combination_3_ABCDF,A,20,SVM,ACDF,δ13C coll_δ13C carb_δ18O carb_δ34S coll,0.9231088418332687
+combination_3_ABCDF,A,20,RandomForest,ACDF,δ13C coll_δ13C carb_δ18O carb_δ34S coll,0.77825228571428
+combination_3_ABCDF,A,20,KNN,ABCDF,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.8920523809523813
+combination_3_ABCDF,A,20,SVM,ABCDF,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.801779193738114
+combination_3_ABCDF,A,20,RandomForest,ABCDF,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.679019999999993
+combination_3_ABCDF,B,10,KNN,B,δ15N coll,1.4231499999999997
+combination_3_ABCDF,B,10,SVM,B,δ15N coll,1.325411220287212
+combination_3_ABCDF,B,10,RandomForest,B,δ15N coll,0.8502249999999985
+combination_3_ABCDF,B,10,KNN,AB,δ13C coll_δ15N coll,0.6344666666666667
+combination_3_ABCDF,B,10,SVM,AB,δ13C coll_δ15N coll,0.6034992827607996
+combination_3_ABCDF,B,10,RandomForest,AB,δ13C coll_δ15N coll,0.36297333333333365
+combination_3_ABCDF,B,10,KNN,BC,δ15N coll_δ13C carb,1.2984166666666663
+combination_3_ABCDF,B,10,SVM,BC,δ15N coll_δ13C carb,1.2535051954403857
+combination_3_ABCDF,B,10,RandomForest,BC,δ15N coll_δ13C carb,0.758981666666666
+combination_3_ABCDF,B,10,KNN,BD,δ15N coll_δ18O carb,1.4231499999999997
+combination_3_ABCDF,B,10,SVM,BD,δ15N coll_δ18O carb,1.190643089887079
+combination_3_ABCDF,B,10,RandomForest,BD,δ15N coll_δ18O carb,0.7005983333333314
+combination_3_ABCDF,B,10,KNN,BF,δ15N coll_δ34S coll,1.3794166666666663
+combination_3_ABCDF,B,10,SVM,BF,δ15N coll_δ34S coll,1.3409801365131653
+combination_3_ABCDF,B,10,RandomForest,BF,δ15N coll_δ34S coll,0.8215783333333313
+combination_3_ABCDF,B,10,KNN,ABC,δ13C coll_δ15N coll_δ13C carb,0.6756666666666667
+combination_3_ABCDF,B,10,SVM,ABC,δ13C coll_δ15N coll_δ13C carb,0.600961038248583
+combination_3_ABCDF,B,10,RandomForest,ABC,δ13C coll_δ15N coll_δ13C carb,0.43843333333333323
+combination_3_ABCDF,B,10,KNN,ABD,δ13C coll_δ15N coll_δ18O carb,0.6289333333333331
+combination_3_ABCDF,B,10,SVM,ABD,δ13C coll_δ15N coll_δ18O carb,0.5758106668051362
+combination_3_ABCDF,B,10,RandomForest,ABD,δ13C coll_δ15N coll_δ18O carb,0.32452000000000003
+combination_3_ABCDF,B,10,KNN,ABF,δ13C coll_δ15N coll_δ34S coll,0.6366666666666665
+combination_3_ABCDF,B,10,SVM,ABF,δ13C coll_δ15N coll_δ34S coll,0.6202741448137251
+combination_3_ABCDF,B,10,RandomForest,ABF,δ13C coll_δ15N coll_δ34S coll,0.4538666666666664
+combination_3_ABCDF,B,10,KNN,BCD,δ15N coll_δ13C carb_δ18O carb,1.2237499999999997
+combination_3_ABCDF,B,10,SVM,BCD,δ15N coll_δ13C carb_δ18O carb,1.252144823893489
+combination_3_ABCDF,B,10,RandomForest,BCD,δ15N coll_δ13C carb_δ18O carb,0.7180616666666648
+combination_3_ABCDF,B,10,KNN,BCF,δ15N coll_δ13C carb_δ34S coll,1.2369333333333334
+combination_3_ABCDF,B,10,SVM,BCF,δ15N coll_δ13C carb_δ34S coll,1.28163099620816
+combination_3_ABCDF,B,10,RandomForest,BCF,δ15N coll_δ13C carb_δ34S coll,0.7458066666666642
+combination_3_ABCDF,B,10,KNN,BDF,δ15N coll_δ18O carb_δ34S coll,1.3339333333333334
+combination_3_ABCDF,B,10,SVM,BDF,δ15N coll_δ18O carb_δ34S coll,1.2175465250251778
+combination_3_ABCDF,B,10,RandomForest,BDF,δ15N coll_δ18O carb_δ34S coll,0.7305083333333291
+combination_3_ABCDF,B,10,KNN,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.6756666666666667
+combination_3_ABCDF,B,10,SVM,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.6014553259204505
+combination_3_ABCDF,B,10,RandomForest,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.35282
+combination_3_ABCDF,B,10,KNN,ABCF,δ13C coll_δ15N coll_δ13C carb_δ34S coll,0.6756666666666667
+combination_3_ABCDF,B,10,SVM,ABCF,δ13C coll_δ15N coll_δ13C carb_δ34S coll,0.6010372080534563
+combination_3_ABCDF,B,10,RandomForest,ABCF,δ13C coll_δ15N coll_δ13C carb_δ34S coll,0.4538733333333333
+combination_3_ABCDF,B,10,KNN,ABDF,δ13C coll_δ15N coll_δ18O carb_δ34S coll,0.6289333333333331
+combination_3_ABCDF,B,10,SVM,ABDF,δ13C coll_δ15N coll_δ18O carb_δ34S coll,0.577845589383118
+combination_3_ABCDF,B,10,RandomForest,ABDF,δ13C coll_δ15N coll_δ18O carb_δ34S coll,0.3323533333333332
+combination_3_ABCDF,B,10,KNN,BCDF,δ15N coll_δ13C carb_δ18O carb_δ34S coll,1.2057499999999997
+combination_3_ABCDF,B,10,SVM,BCDF,δ15N coll_δ13C carb_δ18O carb_δ34S coll,1.2514591323044673
+combination_3_ABCDF,B,10,RandomForest,BCDF,δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.748878333333332
+combination_3_ABCDF,B,10,KNN,ABCDF,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.6211999999999994
+combination_3_ABCDF,B,10,SVM,ABCDF,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.6105175952794241
+combination_3_ABCDF,B,10,RandomForest,ABCDF,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.42971333333333295
+combination_3_ABCDF,B,15,KNN,B,δ15N coll,1.3647200000000002
+combination_3_ABCDF,B,15,SVM,B,δ15N coll,1.2008261542084457
+combination_3_ABCDF,B,15,RandomForest,B,δ15N coll,0.8587416666666657
+combination_3_ABCDF,B,15,KNN,AB,δ13C coll_δ15N coll,0.4800000000000001
+combination_3_ABCDF,B,15,SVM,AB,δ13C coll_δ15N coll,0.43117542305371037
+combination_3_ABCDF,B,15,RandomForest,AB,δ13C coll_δ15N coll,0.2912920000000004
+combination_3_ABCDF,B,15,KNN,BC,δ15N coll_δ13C carb,1.21594
+combination_3_ABCDF,B,15,SVM,BC,δ15N coll_δ13C carb,1.1999197667389818
+combination_3_ABCDF,B,15,RandomForest,BC,δ15N coll_δ13C carb,0.7887326666666653
+combination_3_ABCDF,B,15,KNN,BD,δ15N coll_δ18O carb,1.3325200000000001
+combination_3_ABCDF,B,15,SVM,BD,δ15N coll_δ18O carb,1.115784822921416
+combination_3_ABCDF,B,15,RandomForest,BD,δ15N coll_δ18O carb,0.7736906666666649
+combination_3_ABCDF,B,15,KNN,BF,δ15N coll_δ34S coll,1.2994533333333336
+combination_3_ABCDF,B,15,SVM,BF,δ15N coll_δ34S coll,1.2249795274725412
+combination_3_ABCDF,B,15,RandomForest,BF,δ15N coll_δ34S coll,0.7972053333333307
+combination_3_ABCDF,B,15,KNN,ABC,δ13C coll_δ15N coll_δ13C carb,0.5314800000000003
+combination_3_ABCDF,B,15,SVM,ABC,δ13C coll_δ15N coll_δ13C carb,0.4235350196818343
+combination_3_ABCDF,B,15,RandomForest,ABC,δ13C coll_δ15N coll_δ13C carb,0.22273600000000005
+combination_3_ABCDF,B,15,KNN,ABD,δ13C coll_δ15N coll_δ18O carb,0.4766800000000001
+combination_3_ABCDF,B,15,SVM,ABD,δ13C coll_δ15N coll_δ18O carb,0.4093924584455291
+combination_3_ABCDF,B,15,RandomForest,ABD,δ13C coll_δ15N coll_δ18O carb,0.24562399999999993
+combination_3_ABCDF,B,15,KNN,ABF,δ13C coll_δ15N coll_δ34S coll,0.4677199999999998
+combination_3_ABCDF,B,15,SVM,ABF,δ13C coll_δ15N coll_δ34S coll,0.43059578340432114
+combination_3_ABCDF,B,15,RandomForest,ABF,δ13C coll_δ15N coll_δ34S coll,0.3049040000000002
+combination_3_ABCDF,B,15,KNN,BCD,δ15N coll_δ13C carb_δ18O carb,1.1439
+combination_3_ABCDF,B,15,SVM,BCD,δ15N coll_δ13C carb_δ18O carb,1.1923703070872453
+combination_3_ABCDF,B,15,RandomForest,BCD,δ15N coll_δ13C carb_δ18O carb,0.8136563333333319
+combination_3_ABCDF,B,15,KNN,BCF,δ15N coll_δ13C carb_δ34S coll,1.1131799999999998
+combination_3_ABCDF,B,15,SVM,BCF,δ15N coll_δ13C carb_δ34S coll,1.218428898829392
+combination_3_ABCDF,B,15,RandomForest,BCF,δ15N coll_δ13C carb_δ34S coll,0.8787523333333311
+combination_3_ABCDF,B,15,KNN,BDF,δ15N coll_δ18O carb_δ34S coll,1.23812
+combination_3_ABCDF,B,15,SVM,BDF,δ15N coll_δ18O carb_δ34S coll,1.1392349697328814
+combination_3_ABCDF,B,15,RandomForest,BDF,δ15N coll_δ18O carb_δ34S coll,0.8820883333333315
+combination_3_ABCDF,B,15,KNN,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.5334800000000003
+combination_3_ABCDF,B,15,SVM,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.4021529525445181
+combination_3_ABCDF,B,15,RandomForest,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.42312399999999994
+combination_3_ABCDF,B,15,KNN,ABCF,δ13C coll_δ15N coll_δ13C carb_δ34S coll,0.51308
+combination_3_ABCDF,B,15,SVM,ABCF,δ13C coll_δ15N coll_δ13C carb_δ34S coll,0.43704405515208766
+combination_3_ABCDF,B,15,RandomForest,ABCF,δ13C coll_δ15N coll_δ13C carb_δ34S coll,0.383935999999999
+combination_3_ABCDF,B,15,KNN,ABDF,δ13C coll_δ15N coll_δ18O carb_δ34S coll,0.4138800000000001
+combination_3_ABCDF,B,15,SVM,ABDF,δ13C coll_δ15N coll_δ18O carb_δ34S coll,0.4060052617390843
+combination_3_ABCDF,B,15,RandomForest,ABDF,δ13C coll_δ15N coll_δ18O carb_δ34S coll,0.20807999999999977
+combination_3_ABCDF,B,15,KNN,BCDF,δ15N coll_δ13C carb_δ18O carb_δ34S coll,1.0768799999999998
+combination_3_ABCDF,B,15,SVM,BCDF,δ15N coll_δ13C carb_δ18O carb_δ34S coll,1.1539711879811863
+combination_3_ABCDF,B,15,RandomForest,BCDF,δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.9732956666666649
+combination_3_ABCDF,B,15,KNN,ABCDF,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.48687999999999965
+combination_3_ABCDF,B,15,SVM,ABCDF,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.3898309481923875
+combination_3_ABCDF,B,15,RandomForest,ABCDF,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.2349640000000001
+combination_3_ABCDF,B,20,KNN,B,δ15N coll,1.485685714285714
+combination_3_ABCDF,B,20,SVM,B,δ15N coll,1.37613768000615
+combination_3_ABCDF,B,20,RandomForest,B,δ15N coll,0.891937714285714
+combination_3_ABCDF,B,20,KNN,AB,δ13C coll_δ15N coll,0.3998761904761905
+combination_3_ABCDF,B,20,SVM,AB,δ13C coll_δ15N coll,0.46109072868679873
+combination_3_ABCDF,B,20,RandomForest,AB,δ13C coll_δ15N coll,0.409325238095238
+combination_3_ABCDF,B,20,KNN,BC,δ15N coll_δ13C carb,1.426019047619048
+combination_3_ABCDF,B,20,SVM,BC,δ15N coll_δ13C carb,1.3971824430633677
+combination_3_ABCDF,B,20,RandomForest,BC,δ15N coll_δ13C carb,0.87117219047619
+combination_3_ABCDF,B,20,KNN,BD,δ15N coll_δ18O carb,1.440435238095238
+combination_3_ABCDF,B,20,SVM,BD,δ15N coll_δ18O carb,1.3856471827508612
+combination_3_ABCDF,B,20,RandomForest,BD,δ15N coll_δ18O carb,0.8831439999999992
+combination_3_ABCDF,B,20,KNN,BF,δ15N coll_δ34S coll,1.3579038095238096
+combination_3_ABCDF,B,20,SVM,BF,δ15N coll_δ34S coll,1.393153831608579
+combination_3_ABCDF,B,20,RandomForest,BF,δ15N coll_δ34S coll,0.8811682857142851
+combination_3_ABCDF,B,20,KNN,ABC,δ13C coll_δ15N coll_δ13C carb,0.4417904761904762
+combination_3_ABCDF,B,20,SVM,ABC,δ13C coll_δ15N coll_δ13C carb,0.4622574924575714
+combination_3_ABCDF,B,20,RandomForest,ABC,δ13C coll_δ15N coll_δ13C carb,0.4141504761904765
+combination_3_ABCDF,B,20,KNN,ABD,δ13C coll_δ15N coll_δ18O carb,0.3796333333333333
+combination_3_ABCDF,B,20,SVM,ABD,δ13C coll_δ15N coll_δ18O carb,0.4399697888489234
+combination_3_ABCDF,B,20,RandomForest,ABD,δ13C coll_δ15N coll_δ18O carb,0.3792680952380954
+combination_3_ABCDF,B,20,KNN,ABF,δ13C coll_δ15N coll_δ34S coll,0.39739047619047607
+combination_3_ABCDF,B,20,SVM,ABF,δ13C coll_δ15N coll_δ34S coll,0.45445540516586413
+combination_3_ABCDF,B,20,RandomForest,ABF,δ13C coll_δ15N coll_δ34S coll,0.4350985714285714
+combination_3_ABCDF,B,20,KNN,BCD,δ15N coll_δ13C carb_δ18O carb,1.4064809523809525
+combination_3_ABCDF,B,20,SVM,BCD,δ15N coll_δ13C carb_δ18O carb,1.4120694970939915
+combination_3_ABCDF,B,20,RandomForest,BCD,δ15N coll_δ13C carb_δ18O carb,0.8856368571428567
+combination_3_ABCDF,B,20,KNN,BCF,δ15N coll_δ13C carb_δ34S coll,1.320684761904762
+combination_3_ABCDF,B,20,SVM,BCF,δ15N coll_δ13C carb_δ34S coll,1.3713758227663866
+combination_3_ABCDF,B,20,RandomForest,BCF,δ15N coll_δ13C carb_δ34S coll,0.9125265714285721
+combination_3_ABCDF,B,20,KNN,BDF,δ15N coll_δ18O carb_δ34S coll,1.3699285714285714
+combination_3_ABCDF,B,20,SVM,BDF,δ15N coll_δ18O carb_δ34S coll,1.3842242671394511
+combination_3_ABCDF,B,20,RandomForest,BDF,δ15N coll_δ18O carb_δ34S coll,0.9697399999999996
+combination_3_ABCDF,B,20,KNN,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.44321904761904757
+combination_3_ABCDF,B,20,SVM,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.4545366157733602
+combination_3_ABCDF,B,20,RandomForest,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.38145952380952414
+combination_3_ABCDF,B,20,KNN,ABCF,δ13C coll_δ15N coll_δ13C carb_δ34S coll,0.42082380952380954
+combination_3_ABCDF,B,20,SVM,ABCF,δ13C coll_δ15N coll_δ13C carb_δ34S coll,0.4635165643177447
+combination_3_ABCDF,B,20,RandomForest,ABCF,δ13C coll_δ15N coll_δ13C carb_δ34S coll,0.4342652380952384
+combination_3_ABCDF,B,20,KNN,ABDF,δ13C coll_δ15N coll_δ18O carb_δ34S coll,0.3701904761904762
+combination_3_ABCDF,B,20,SVM,ABDF,δ13C coll_δ15N coll_δ18O carb_δ34S coll,0.43855853976567405
+combination_3_ABCDF,B,20,RandomForest,ABDF,δ13C coll_δ15N coll_δ18O carb_δ34S coll,0.40653047619047616
+combination_3_ABCDF,B,20,KNN,BCDF,δ15N coll_δ13C carb_δ18O carb_δ34S coll,1.3630742857142855
+combination_3_ABCDF,B,20,SVM,BCDF,δ15N coll_δ13C carb_δ18O carb_δ34S coll,1.4015734302141682
+combination_3_ABCDF,B,20,RandomForest,BCDF,δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.8728499047619046
+combination_3_ABCDF,B,20,KNN,ABCDF,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.37903809523809523
+combination_3_ABCDF,B,20,SVM,ABCDF,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.42524444143683693
+combination_3_ABCDF,B,20,RandomForest,ABCDF,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.448956190476191
+combination_3_ABCDF,C,10,KNN,C,δ13C carb,2.2822999999999998
+combination_3_ABCDF,C,10,SVM,C,δ13C carb,2.0852477432179013
+combination_3_ABCDF,C,10,RandomForest,C,δ13C carb,1.5325866666666657
+combination_3_ABCDF,C,10,KNN,AC,δ13C coll_δ13C carb,0.8369999999999997
+combination_3_ABCDF,C,10,SVM,AC,δ13C coll_δ13C carb,0.7222782438235527
+combination_3_ABCDF,C,10,RandomForest,AC,δ13C coll_δ13C carb,0.6744800000000006
+combination_3_ABCDF,C,10,KNN,BC,δ15N coll_δ13C carb,0.8511999999999998
+combination_3_ABCDF,C,10,SVM,BC,δ15N coll_δ13C carb,0.6387319984957279
+combination_3_ABCDF,C,10,RandomForest,BC,δ15N coll_δ13C carb,0.5613599999999964
+combination_3_ABCDF,C,10,KNN,CD,δ13C carb_δ18O carb,2.3388999999999998
+combination_3_ABCDF,C,10,SVM,CD,δ13C carb_δ18O carb,2.150381529845533
+combination_3_ABCDF,C,10,RandomForest,CD,δ13C carb_δ18O carb,1.5466383333333333
+combination_3_ABCDF,C,10,KNN,CF,δ13C carb_δ34S coll,2.301633333333333
+combination_3_ABCDF,C,10,SVM,CF,δ13C carb_δ34S coll,2.0840541839286977
+combination_3_ABCDF,C,10,RandomForest,CF,δ13C carb_δ34S coll,1.4672499999999942
+combination_3_ABCDF,C,10,KNN,ABC,δ13C coll_δ15N coll_δ13C carb,0.13106666666666658
+combination_3_ABCDF,C,10,SVM,ABC,δ13C coll_δ15N coll_δ13C carb,0.05339468961328168
+combination_3_ABCDF,C,10,RandomForest,ABC,δ13C coll_δ15N coll_δ13C carb,0.06125333333333408
+combination_3_ABCDF,C,10,KNN,ACD,δ13C coll_δ13C carb_δ18O carb,0.8431999999999997
+combination_3_ABCDF,C,10,SVM,ACD,δ13C coll_δ13C carb_δ18O carb,0.6792406840985985
+combination_3_ABCDF,C,10,RandomForest,ACD,δ13C coll_δ13C carb_δ18O carb,0.7755666666666685
+combination_3_ABCDF,C,10,KNN,ACF,δ13C coll_δ13C carb_δ34S coll,0.827333333333333
+combination_3_ABCDF,C,10,SVM,ACF,δ13C coll_δ13C carb_δ34S coll,0.7796461414792667
+combination_3_ABCDF,C,10,RandomForest,ACF,δ13C coll_δ13C carb_δ34S coll,0.6623933333333316
+combination_3_ABCDF,C,10,KNN,BCD,δ15N coll_δ13C carb_δ18O carb,0.8371999999999998
+combination_3_ABCDF,C,10,SVM,BCD,δ15N coll_δ13C carb_δ18O carb,0.6494122006819758
+combination_3_ABCDF,C,10,RandomForest,BCD,δ15N coll_δ13C carb_δ18O carb,0.554259999999996
+combination_3_ABCDF,C,10,KNN,BCF,δ15N coll_δ13C carb_δ34S coll,0.825333333333333
+combination_3_ABCDF,C,10,SVM,BCF,δ15N coll_δ13C carb_δ34S coll,0.7038474368347136
+combination_3_ABCDF,C,10,RandomForest,BCF,δ15N coll_δ13C carb_δ34S coll,0.5602666666666618
+combination_3_ABCDF,C,10,KNN,CDF,δ13C carb_δ18O carb_δ34S coll,2.284983333333333
+combination_3_ABCDF,C,10,SVM,CDF,δ13C carb_δ18O carb_δ34S coll,2.1983577219457695
+combination_3_ABCDF,C,10,RandomForest,CDF,δ13C carb_δ18O carb_δ34S coll,1.564994999999997
+combination_3_ABCDF,C,10,KNN,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.09821666666666656
+combination_3_ABCDF,C,10,SVM,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.01593669526529077
+combination_3_ABCDF,C,10,RandomForest,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.10493333333333459
+combination_3_ABCDF,C,10,KNN,ABCF,δ13C coll_δ15N coll_δ13C carb_δ34S coll,0.08636666666666656
+combination_3_ABCDF,C,10,SVM,ABCF,δ13C coll_δ15N coll_δ13C carb_δ34S coll,0.04551626506305967
+combination_3_ABCDF,C,10,RandomForest,ABCF,δ13C coll_δ15N coll_δ13C carb_δ34S coll,0.0543533333333334
+combination_3_ABCDF,C,10,KNN,ACDF,δ13C coll_δ13C carb_δ18O carb_δ34S coll,0.8431999999999997
+combination_3_ABCDF,C,10,SVM,ACDF,δ13C coll_δ13C carb_δ18O carb_δ34S coll,0.6818564137142604
+combination_3_ABCDF,C,10,RandomForest,ACDF,δ13C coll_δ13C carb_δ18O carb_δ34S coll,0.9260933333333334
+combination_3_ABCDF,C,10,KNN,BCDF,δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.8371999999999998
+combination_3_ABCDF,C,10,SVM,BCDF,δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.6493168894961681
+combination_3_ABCDF,C,10,RandomForest,BCDF,δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.5824599999999958
+combination_3_ABCDF,C,10,KNN,ABCDF,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.10194999999999994
+combination_3_ABCDF,C,10,SVM,ABCDF,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.01491533726755483
+combination_3_ABCDF,C,10,RandomForest,ABCDF,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.08090833333333268
+combination_3_ABCDF,C,15,KNN,C,δ13C carb,2.0572333333333335
+combination_3_ABCDF,C,15,SVM,C,δ13C carb,1.7841214879448049
+combination_3_ABCDF,C,15,RandomForest,C,δ13C carb,1.2322923333333315
+combination_3_ABCDF,C,15,KNN,AC,δ13C coll_δ13C carb,0.7250399999999997
+combination_3_ABCDF,C,15,SVM,AC,δ13C coll_δ13C carb,0.7007751411323884
+combination_3_ABCDF,C,15,RandomForest,AC,δ13C coll_δ13C carb,0.6661439999999994
+combination_3_ABCDF,C,15,KNN,BC,δ15N coll_δ13C carb,0.7431199999999999
+combination_3_ABCDF,C,15,SVM,BC,δ15N coll_δ13C carb,0.6169687325308153
+combination_3_ABCDF,C,15,RandomForest,BC,δ15N coll_δ13C carb,0.44668399999999575
+combination_3_ABCDF,C,15,KNN,CD,δ13C carb_δ18O carb,2.1002866666666664
+combination_3_ABCDF,C,15,SVM,CD,δ13C carb_δ18O carb,1.8276255691862857
+combination_3_ABCDF,C,15,RandomForest,CD,δ13C carb_δ18O carb,1.300482666666667
+combination_3_ABCDF,C,15,KNN,CF,δ13C carb_δ34S coll,2.040353333333333
+combination_3_ABCDF,C,15,SVM,CF,δ13C carb_δ34S coll,1.7782206347838347
+combination_3_ABCDF,C,15,RandomForest,CF,δ13C carb_δ34S coll,1.2098059999999937
+combination_3_ABCDF,C,15,KNN,ABC,δ13C coll_δ15N coll_δ13C carb,0.08835999999999998
+combination_3_ABCDF,C,15,SVM,ABC,δ13C coll_δ15N coll_δ13C carb,0.03679801536449716
+combination_3_ABCDF,C,15,RandomForest,ABC,δ13C coll_δ15N coll_δ13C carb,0.04181200000000082
+combination_3_ABCDF,C,15,KNN,ACD,δ13C coll_δ13C carb_δ18O carb,0.7565199999999996
+combination_3_ABCDF,C,15,SVM,ACD,δ13C coll_δ13C carb_δ18O carb,0.6638047155605358
+combination_3_ABCDF,C,15,RandomForest,ACD,δ13C coll_δ13C carb_δ18O carb,0.7142120000000007
+combination_3_ABCDF,C,15,KNN,ACF,δ13C coll_δ13C carb_δ34S coll,0.7224799999999997
+combination_3_ABCDF,C,15,SVM,ACF,δ13C coll_δ13C carb_δ34S coll,0.7428181447081215
+combination_3_ABCDF,C,15,RandomForest,ACF,δ13C coll_δ13C carb_δ34S coll,0.7189680000000008
+combination_3_ABCDF,C,15,KNN,BCD,δ15N coll_δ13C carb_δ18O carb,0.7485599999999997
+combination_3_ABCDF,C,15,SVM,BCD,δ15N coll_δ13C carb_δ18O carb,0.6294949639014558
+combination_3_ABCDF,C,15,RandomForest,BCD,δ15N coll_δ13C carb_δ18O carb,0.4189159999999942
+combination_3_ABCDF,C,15,KNN,BCF,δ15N coll_δ13C carb_δ34S coll,0.7172399999999998
+combination_3_ABCDF,C,15,SVM,BCF,δ15N coll_δ13C carb_δ34S coll,0.6617642049045347
+combination_3_ABCDF,C,15,RandomForest,BCF,δ15N coll_δ13C carb_δ34S coll,0.45386399999999527
+combination_3_ABCDF,C,15,KNN,CDF,δ13C carb_δ18O carb_δ34S coll,2.0401266666666666
+combination_3_ABCDF,C,15,SVM,CDF,δ13C carb_δ18O carb_δ34S coll,1.8468230636397578
+combination_3_ABCDF,C,15,RandomForest,CDF,δ13C carb_δ18O carb_δ34S coll,1.2488273333333337
+combination_3_ABCDF,C,15,KNN,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.045839999999999964
+combination_3_ABCDF,C,15,SVM,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.015233993890708819
+combination_3_ABCDF,C,15,RandomForest,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.0693200000000008
+combination_3_ABCDF,C,15,KNN,ABCF,δ13C coll_δ15N coll_δ13C carb_δ34S coll,0.05152000000000001
+combination_3_ABCDF,C,15,SVM,ABCF,δ13C coll_δ15N coll_δ13C carb_δ34S coll,0.032136915884344364
+combination_3_ABCDF,C,15,RandomForest,ABCF,δ13C coll_δ15N coll_δ13C carb_δ34S coll,0.12182000000000037
+combination_3_ABCDF,C,15,KNN,ACDF,δ13C coll_δ13C carb_δ18O carb_δ34S coll,0.7236399999999996
+combination_3_ABCDF,C,15,SVM,ACDF,δ13C coll_δ13C carb_δ18O carb_δ34S coll,0.6831615023764166
+combination_3_ABCDF,C,15,RandomForest,ACDF,δ13C coll_δ13C carb_δ18O carb_δ34S coll,0.7433160000000008
+combination_3_ABCDF,C,15,KNN,BCDF,δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.7415199999999997
+combination_3_ABCDF,C,15,SVM,BCDF,δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.6242275437691659
+combination_3_ABCDF,C,15,RandomForest,BCDF,δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.46779599999999644
+combination_3_ABCDF,C,15,KNN,ABCDF,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.04579999999999991
+combination_3_ABCDF,C,15,SVM,ABCDF,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.0023300714043291747
+combination_3_ABCDF,C,15,RandomForest,ABCDF,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.07696800000000081
+combination_3_ABCDF,C,20,KNN,C,δ13C carb,1.9302019047619048
+combination_3_ABCDF,C,20,SVM,C,δ13C carb,1.686874230010174
+combination_3_ABCDF,C,20,RandomForest,C,δ13C carb,1.33292885714286
+combination_3_ABCDF,C,20,KNN,AC,δ13C coll_δ13C carb,0.419152380952381
+combination_3_ABCDF,C,20,SVM,AC,δ13C coll_δ13C carb,0.3626623899199002
+combination_3_ABCDF,C,20,RandomForest,AC,δ13C coll_δ13C carb,0.46087285714285803
+combination_3_ABCDF,C,20,KNN,BC,δ15N coll_δ13C carb,0.4379666666666667
+combination_3_ABCDF,C,20,SVM,BC,δ15N coll_δ13C carb,0.34847454880164247
+combination_3_ABCDF,C,20,RandomForest,BC,δ15N coll_δ13C carb,0.32935142857142696
+combination_3_ABCDF,C,20,KNN,CD,δ13C carb_δ18O carb,1.9417285714285715
+combination_3_ABCDF,C,20,SVM,CD,δ13C carb_δ18O carb,1.781268471979308
+combination_3_ABCDF,C,20,RandomForest,CD,δ13C carb_δ18O carb,1.3653843809523818
+combination_3_ABCDF,C,20,KNN,CF,δ13C carb_δ34S coll,1.8883247619047623
+combination_3_ABCDF,C,20,SVM,CF,δ13C carb_δ34S coll,1.6723307761302308
+combination_3_ABCDF,C,20,RandomForest,CF,δ13C carb_δ34S coll,1.34710361904762
+combination_3_ABCDF,C,20,KNN,ABC,δ13C coll_δ15N coll_δ13C carb,0.09035428571428569
+combination_3_ABCDF,C,20,SVM,ABC,δ13C coll_δ15N coll_δ13C carb,0.0345643284989907
+combination_3_ABCDF,C,20,RandomForest,ABC,δ13C coll_δ15N coll_δ13C carb,0.0756286666666666
+combination_3_ABCDF,C,20,KNN,ACD,δ13C coll_δ13C carb_δ18O carb,0.44316190476190476
+combination_3_ABCDF,C,20,SVM,ACD,δ13C coll_δ13C carb_δ18O carb,0.38484155262911435
+combination_3_ABCDF,C,20,RandomForest,ACD,δ13C coll_δ13C carb_δ18O carb,0.5102823809523807
+combination_3_ABCDF,C,20,KNN,ACF,δ13C coll_δ13C carb_δ34S coll,0.4228476190476191
+combination_3_ABCDF,C,20,SVM,ACF,δ13C coll_δ13C carb_δ34S coll,0.39200038358919753
+combination_3_ABCDF,C,20,RandomForest,ACF,δ13C coll_δ13C carb_δ34S coll,0.4793585714285715
+combination_3_ABCDF,C,20,KNN,BCD,δ15N coll_δ13C carb_δ18O carb,0.4524
+combination_3_ABCDF,C,20,SVM,BCD,δ15N coll_δ13C carb_δ18O carb,0.3795249698506168
+combination_3_ABCDF,C,20,RandomForest,BCD,δ15N coll_δ13C carb_δ18O carb,0.3150661904761882
+combination_3_ABCDF,C,20,KNN,BCF,δ15N coll_δ13C carb_δ34S coll,0.42892857142857144
+combination_3_ABCDF,C,20,SVM,BCF,δ15N coll_δ13C carb_δ34S coll,0.37971576784226146
+combination_3_ABCDF,C,20,RandomForest,BCF,δ15N coll_δ13C carb_δ34S coll,0.3768528571428556
+combination_3_ABCDF,C,20,KNN,CDF,δ13C carb_δ18O carb_δ34S coll,1.9559285714285715
+combination_3_ABCDF,C,20,SVM,CDF,δ13C carb_δ18O carb_δ34S coll,1.7848985379787372
+combination_3_ABCDF,C,20,RandomForest,CDF,δ13C carb_δ18O carb_δ34S coll,1.385571333333334
+combination_3_ABCDF,C,20,KNN,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.05611428571428569
+combination_3_ABCDF,C,20,SVM,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.022170195186885844
+combination_3_ABCDF,C,20,RandomForest,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.05570123809523836
+combination_3_ABCDF,C,20,KNN,ABCF,δ13C coll_δ15N coll_δ13C carb_δ34S coll,0.0596542857142857
+combination_3_ABCDF,C,20,SVM,ABCF,δ13C coll_δ15N coll_δ13C carb_δ34S coll,0.03500152081821233
+combination_3_ABCDF,C,20,RandomForest,ABCF,δ13C coll_δ15N coll_δ13C carb_δ34S coll,0.06093257142857136
+combination_3_ABCDF,C,20,KNN,ACDF,δ13C coll_δ13C carb_δ18O carb_δ34S coll,0.42851904761904763
+combination_3_ABCDF,C,20,SVM,ACDF,δ13C coll_δ13C carb_δ18O carb_δ34S coll,0.39660229729920565
+combination_3_ABCDF,C,20,RandomForest,ACDF,δ13C coll_δ13C carb_δ18O carb_δ34S coll,0.48704904761904794
+combination_3_ABCDF,C,20,KNN,BCDF,δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.4505714285714285
+combination_3_ABCDF,C,20,SVM,BCDF,δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.39331704112078975
+combination_3_ABCDF,C,20,RandomForest,BCDF,δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.3235147619047608
+combination_3_ABCDF,C,20,KNN,ABCDF,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.04207428571428566
+combination_3_ABCDF,C,20,SVM,ABCDF,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.030785564512570935
+combination_3_ABCDF,C,20,RandomForest,ABCDF,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.05824771428571403
+combination_3_ABCDF,D,10,KNN,D,δ18O carb,1.356583333333333
+combination_3_ABCDF,D,10,SVM,D,δ18O carb,1.469758210557139
+combination_3_ABCDF,D,10,RandomForest,D,δ18O carb,1.3426233333333353
+combination_3_ABCDF,D,10,KNN,AD,δ13C coll_δ18O carb,0.6209333333333337
+combination_3_ABCDF,D,10,SVM,AD,δ13C coll_δ18O carb,0.6842552002137248
+combination_3_ABCDF,D,10,RandomForest,AD,δ13C coll_δ18O carb,0.6087733333333325
+combination_3_ABCDF,D,10,KNN,BD,δ15N coll_δ18O carb,0.5744
+combination_3_ABCDF,D,10,SVM,BD,δ15N coll_δ18O carb,0.6612524378773351
+combination_3_ABCDF,D,10,RandomForest,BD,δ15N coll_δ18O carb,0.6687733333333344
+combination_3_ABCDF,D,10,KNN,CD,δ13C carb_δ18O carb,0.7152666666666668
+combination_3_ABCDF,D,10,SVM,CD,δ13C carb_δ18O carb,0.813832668768786
+combination_3_ABCDF,D,10,RandomForest,CD,δ13C carb_δ18O carb,0.6580400000000001
+combination_3_ABCDF,D,10,KNN,DF,δ18O carb_δ34S coll,1.3717833333333331
+combination_3_ABCDF,D,10,SVM,DF,δ18O carb_δ34S coll,1.4199220945316695
+combination_3_ABCDF,D,10,RandomForest,DF,δ18O carb_δ34S coll,1.2961733333333354
+combination_3_ABCDF,D,10,KNN,ABD,δ13C coll_δ15N coll_δ18O carb,0.05718333333333332
+combination_3_ABCDF,D,10,SVM,ABD,δ13C coll_δ15N coll_δ18O carb,0.10127686894832522
+combination_3_ABCDF,D,10,RandomForest,ABD,δ13C coll_δ15N coll_δ18O carb,0.06577499999999965
+combination_3_ABCDF,D,10,KNN,ACD,δ13C coll_δ13C carb_δ18O carb,0.06785000000000005
+combination_3_ABCDF,D,10,SVM,ACD,δ13C coll_δ13C carb_δ18O carb,0.11396107645761014
+combination_3_ABCDF,D,10,RandomForest,ACD,δ13C coll_δ13C carb_δ18O carb,0.07867499999999979
+combination_3_ABCDF,D,10,KNN,ADF,δ13C coll_δ18O carb_δ34S coll,0.7013999999999999
+combination_3_ABCDF,D,10,SVM,ADF,δ13C coll_δ18O carb_δ34S coll,0.641716587385503
+combination_3_ABCDF,D,10,RandomForest,ADF,δ13C coll_δ18O carb_δ34S coll,0.5938066666666671
+combination_3_ABCDF,D,10,KNN,BCD,δ15N coll_δ13C carb_δ18O carb,0.09423333333333336
+combination_3_ABCDF,D,10,SVM,BCD,δ15N coll_δ13C carb_δ18O carb,0.10322565703119713
+combination_3_ABCDF,D,10,RandomForest,BCD,δ15N coll_δ13C carb_δ18O carb,0.09583833333333333
+combination_3_ABCDF,D,10,KNN,BDF,δ15N coll_δ18O carb_δ34S coll,0.5933333333333332
+combination_3_ABCDF,D,10,SVM,BDF,δ15N coll_δ18O carb_δ34S coll,0.6480903137378118
+combination_3_ABCDF,D,10,RandomForest,BDF,δ15N coll_δ18O carb_δ34S coll,0.7049000000000003
+combination_3_ABCDF,D,10,KNN,CDF,δ13C carb_δ18O carb_δ34S coll,0.7380000000000004
+combination_3_ABCDF,D,10,SVM,CDF,δ13C carb_δ18O carb_δ34S coll,0.7805228907587001
+combination_3_ABCDF,D,10,RandomForest,CDF,δ13C carb_δ18O carb_δ34S coll,0.671413333333333
+combination_3_ABCDF,D,10,KNN,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.04620000000000006
+combination_3_ABCDF,D,10,SVM,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.05930930314002554
+combination_3_ABCDF,D,10,RandomForest,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.08594000000000013
+combination_3_ABCDF,D,10,KNN,ABDF,δ13C coll_δ15N coll_δ18O carb_δ34S coll,0.055233333333333336
+combination_3_ABCDF,D,10,SVM,ABDF,δ13C coll_δ15N coll_δ18O carb_δ34S coll,0.09477379191282922
+combination_3_ABCDF,D,10,RandomForest,ABDF,δ13C coll_δ15N coll_δ18O carb_δ34S coll,0.071206666666666
+combination_3_ABCDF,D,10,KNN,ACDF,δ13C coll_δ13C carb_δ18O carb_δ34S coll,0.06590000000000007
+combination_3_ABCDF,D,10,SVM,ACDF,δ13C coll_δ13C carb_δ18O carb_δ34S coll,0.10745799942211413
+combination_3_ABCDF,D,10,RandomForest,ACDF,δ13C coll_δ13C carb_δ18O carb_δ34S coll,0.11559666666666661
+combination_3_ABCDF,D,10,KNN,BCDF,δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.0980333333333333
+combination_3_ABCDF,D,10,SVM,BCDF,δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.09015238857207208
+combination_3_ABCDF,D,10,RandomForest,BCDF,δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.10128666666666655
+combination_3_ABCDF,D,10,KNN,ABCDF,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.04620000000000006
+combination_3_ABCDF,D,10,SVM,ABCDF,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.05930930314002554
+combination_3_ABCDF,D,10,RandomForest,ABCDF,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.06938500000000011
+combination_3_ABCDF,D,15,KNN,D,δ18O carb,1.1315966666666664
+combination_3_ABCDF,D,15,SVM,D,δ18O carb,1.2788257664585378
+combination_3_ABCDF,D,15,RandomForest,D,δ18O carb,1.155025666666667
+combination_3_ABCDF,D,15,KNN,AD,δ13C coll_δ18O carb,0.5244800000000004
+combination_3_ABCDF,D,15,SVM,AD,δ13C coll_δ18O carb,0.5550216637593481
+combination_3_ABCDF,D,15,RandomForest,AD,δ13C coll_δ18O carb,0.5248920000000006
+combination_3_ABCDF,D,15,KNN,BD,δ15N coll_δ18O carb,0.51692
+combination_3_ABCDF,D,15,SVM,BD,δ15N coll_δ18O carb,0.5313253468783031
+combination_3_ABCDF,D,15,RandomForest,BD,δ15N coll_δ18O carb,0.6360680000000011
+combination_3_ABCDF,D,15,KNN,CD,δ13C carb_δ18O carb,0.6129600000000004
+combination_3_ABCDF,D,15,SVM,CD,δ13C carb_δ18O carb,0.635167976070586
+combination_3_ABCDF,D,15,RandomForest,CD,δ13C carb_δ18O carb,0.5727720000000003
+combination_3_ABCDF,D,15,KNN,DF,δ18O carb_δ34S coll,1.1398899999999998
+combination_3_ABCDF,D,15,SVM,DF,δ18O carb_δ34S coll,1.2576534735082707
+combination_3_ABCDF,D,15,RandomForest,DF,δ18O carb_δ34S coll,1.1419406666666692
+combination_3_ABCDF,D,15,KNN,ABD,δ13C coll_δ15N coll_δ18O carb,0.04420000000000005
+combination_3_ABCDF,D,15,SVM,ABD,δ13C coll_δ15N coll_δ18O carb,0.058558978121362945
+combination_3_ABCDF,D,15,RandomForest,ABD,δ13C coll_δ15N coll_δ18O carb,0.059688000000000165
+combination_3_ABCDF,D,15,KNN,ACD,δ13C coll_δ13C carb_δ18O carb,0.05160000000000007
+combination_3_ABCDF,D,15,SVM,ACD,δ13C coll_δ13C carb_δ18O carb,0.06233584143256291
+combination_3_ABCDF,D,15,RandomForest,ACD,δ13C coll_δ13C carb_δ18O carb,0.07315999999999985
+combination_3_ABCDF,D,15,KNN,ADF,δ13C coll_δ18O carb_δ34S coll,0.6154
+combination_3_ABCDF,D,15,SVM,ADF,δ13C coll_δ18O carb_δ34S coll,0.5405774129404997
+combination_3_ABCDF,D,15,RandomForest,ADF,δ13C coll_δ18O carb_δ34S coll,0.5155359999999994
+combination_3_ABCDF,D,15,KNN,BCD,δ15N coll_δ13C carb_δ18O carb,0.06768000000000005
+combination_3_ABCDF,D,15,SVM,BCD,δ15N coll_δ13C carb_δ18O carb,0.07670902788187768
+combination_3_ABCDF,D,15,RandomForest,BCD,δ15N coll_δ13C carb_δ18O carb,0.07183199999999992
+combination_3_ABCDF,D,15,KNN,BDF,δ15N coll_δ18O carb_δ34S coll,0.5264000000000003
+combination_3_ABCDF,D,15,SVM,BDF,δ15N coll_δ18O carb_δ34S coll,0.5359801003628959
+combination_3_ABCDF,D,15,RandomForest,BDF,δ15N coll_δ18O carb_δ34S coll,0.5118439999999997
+combination_3_ABCDF,D,15,KNN,CDF,δ13C carb_δ18O carb_δ34S coll,0.6251600000000004
+combination_3_ABCDF,D,15,SVM,CDF,δ13C carb_δ18O carb_δ34S coll,0.614065323554832
+combination_3_ABCDF,D,15,RandomForest,CDF,δ13C carb_δ18O carb_δ34S coll,0.5558040000000003
+combination_3_ABCDF,D,15,KNN,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.11257000000000003
+combination_3_ABCDF,D,15,SVM,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.11676419679926386
+combination_3_ABCDF,D,15,RandomForest,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.2045000000000002
+combination_3_ABCDF,D,15,KNN,ABDF,δ13C coll_δ15N coll_δ18O carb_δ34S coll,0.04080000000000013
+combination_3_ABCDF,D,15,SVM,ABDF,δ13C coll_δ15N coll_δ18O carb_δ34S coll,0.04888941258723299
+combination_3_ABCDF,D,15,RandomForest,ABDF,δ13C coll_δ15N coll_δ18O carb_δ34S coll,0.046264000000000145
+combination_3_ABCDF,D,15,KNN,ACDF,δ13C coll_δ13C carb_δ18O carb_δ34S coll,0.050040000000000084
+combination_3_ABCDF,D,15,SVM,ACDF,δ13C coll_δ13C carb_δ18O carb_δ34S coll,0.05110942671615752
+combination_3_ABCDF,D,15,RandomForest,ACDF,δ13C coll_δ13C carb_δ18O carb_δ34S coll,0.06895599999999977
+combination_3_ABCDF,D,15,KNN,BCDF,δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.07071999999999999
+combination_3_ABCDF,D,15,SVM,BCDF,δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.06143180838840824
+combination_3_ABCDF,D,15,RandomForest,BCDF,δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.06603199999999976
+combination_3_ABCDF,D,15,KNN,ABCDF,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.10381999999999994
+combination_3_ABCDF,D,15,SVM,ABCDF,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.11458557195197824
+combination_3_ABCDF,D,15,RandomForest,ABCDF,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.15849500000000075
+combination_3_ABCDF,D,20,KNN,D,δ18O carb,1.1655000000000002
+combination_3_ABCDF,D,20,SVM,D,δ18O carb,1.2719518125515217
+combination_3_ABCDF,D,20,RandomForest,D,δ18O carb,1.2409858095238089
+combination_3_ABCDF,D,20,KNN,AD,δ13C coll_δ18O carb,0.40621904761904776
+combination_3_ABCDF,D,20,SVM,AD,δ13C coll_δ18O carb,0.4160018838163252
+combination_3_ABCDF,D,20,RandomForest,AD,δ13C coll_δ18O carb,0.3816938095238093
+combination_3_ABCDF,D,20,KNN,BD,δ15N coll_δ18O carb,0.3743809523809524
+combination_3_ABCDF,D,20,SVM,BD,δ15N coll_δ18O carb,0.374196699659808
+combination_3_ABCDF,D,20,RandomForest,BD,δ15N coll_δ18O carb,0.37495714285714277
+combination_3_ABCDF,D,20,KNN,CD,δ13C carb_δ18O carb,0.4351142857142859
+combination_3_ABCDF,D,20,SVM,CD,δ13C carb_δ18O carb,0.4839039399530588
+combination_3_ABCDF,D,20,RandomForest,CD,δ13C carb_δ18O carb,0.40156428571428593
+combination_3_ABCDF,D,20,KNN,DF,δ18O carb_δ34S coll,1.1210295238095243
+combination_3_ABCDF,D,20,SVM,DF,δ18O carb_δ34S coll,1.2320025393952274
+combination_3_ABCDF,D,20,RandomForest,DF,δ18O carb_δ34S coll,1.2408888571428585
+combination_3_ABCDF,D,20,KNN,ABD,δ13C coll_δ15N coll_δ18O carb,0.1251180952380954
+combination_3_ABCDF,D,20,SVM,ABD,δ13C coll_δ15N coll_δ18O carb,0.13772339962894495
+combination_3_ABCDF,D,20,RandomForest,ABD,δ13C coll_δ15N coll_δ18O carb,0.08926209523809495
+combination_3_ABCDF,D,20,KNN,ACD,δ13C coll_δ13C carb_δ18O carb,0.12266571428571435
+combination_3_ABCDF,D,20,SVM,ACD,δ13C coll_δ13C carb_δ18O carb,0.11817543166097073
+combination_3_ABCDF,D,20,RandomForest,ACD,δ13C coll_δ13C carb_δ18O carb,0.11823533333333329
+combination_3_ABCDF,D,20,KNN,ADF,δ13C coll_δ18O carb_δ34S coll,0.4102809523809525
+combination_3_ABCDF,D,20,SVM,ADF,δ13C coll_δ18O carb_δ34S coll,0.4223190256567614
+combination_3_ABCDF,D,20,RandomForest,ADF,δ13C coll_δ18O carb_δ34S coll,0.3858761904761898
+combination_3_ABCDF,D,20,KNN,BCD,δ15N coll_δ13C carb_δ18O carb,0.14040095238095246
+combination_3_ABCDF,D,20,SVM,BCD,δ15N coll_δ13C carb_δ18O carb,0.13944625520374326
+combination_3_ABCDF,D,20,RandomForest,BCD,δ15N coll_δ13C carb_δ18O carb,0.08898857142857101
+combination_3_ABCDF,D,20,KNN,BDF,δ15N coll_δ18O carb_δ34S coll,0.35849523809523814
+combination_3_ABCDF,D,20,SVM,BDF,δ15N coll_δ18O carb_δ34S coll,0.3701691214959107
+combination_3_ABCDF,D,20,RandomForest,BDF,δ15N coll_δ18O carb_δ34S coll,0.38376619047619015
+combination_3_ABCDF,D,20,KNN,CDF,δ13C carb_δ18O carb_δ34S coll,0.4222857142857145
+combination_3_ABCDF,D,20,SVM,CDF,δ13C carb_δ18O carb_δ34S coll,0.4485231088645295
+combination_3_ABCDF,D,20,RandomForest,CDF,δ13C carb_δ18O carb_δ34S coll,0.4358804761904761
+combination_3_ABCDF,D,20,KNN,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.19947333333333345
+combination_3_ABCDF,D,20,SVM,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.263474855154697
+combination_3_ABCDF,D,20,RandomForest,ABCD,δ13C coll_δ15N coll_δ13C carb_δ18O carb,0.3013211428571419
+combination_3_ABCDF,D,20,KNN,ABDF,δ13C coll_δ15N coll_δ18O carb_δ34S coll,0.10085142857142868
+combination_3_ABCDF,D,20,SVM,ABDF,δ13C coll_δ15N coll_δ18O carb_δ34S coll,0.13226335102015938
+combination_3_ABCDF,D,20,RandomForest,ABDF,δ13C coll_δ15N coll_δ18O carb_δ34S coll,0.07046304761904733
+combination_3_ABCDF,D,20,KNN,ACDF,δ13C coll_δ13C carb_δ18O carb_δ34S coll,0.1213657142857143
+combination_3_ABCDF,D,20,SVM,ACDF,δ13C coll_δ13C carb_δ18O carb_δ34S coll,0.12192883362840914
+combination_3_ABCDF,D,20,RandomForest,ACDF,δ13C coll_δ13C carb_δ18O carb_δ34S coll,0.11735876190476173
+combination_3_ABCDF,D,20,KNN,BCDF,δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.12144761904761907
+combination_3_ABCDF,D,20,SVM,BCDF,δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.14227457014898107
+combination_3_ABCDF,D,20,RandomForest,BCDF,δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.10682790476190437
+combination_3_ABCDF,D,20,KNN,ABCDF,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.2129666666666668
+combination_3_ABCDF,D,20,SVM,ABCDF,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.2820557616160796
+combination_3_ABCDF,D,20,RandomForest,ABCDF,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.32058266666666657
+combination_3_ABCDF,F,10,KNN,F,δ34S coll,0.9783333333333337
+combination_3_ABCDF,F,10,SVM,F,δ34S coll,1.289861918008241
+combination_3_ABCDF,F,10,RandomForest,F,δ34S coll,1.3247200000000035
+combination_3_ABCDF,F,10,KNN,AF,δ13C coll_δ34S coll,0.19386666666666688
+combination_3_ABCDF,F,10,SVM,AF,δ13C coll_δ34S coll,0.2657800315842681
+combination_3_ABCDF,F,10,RandomForest,AF,δ13C coll_δ34S coll,0.27980000000000055
+combination_3_ABCDF,F,10,KNN,BF,δ15N coll_δ34S coll,0.17046666666666693
+combination_3_ABCDF,F,10,SVM,BF,δ15N coll_δ34S coll,0.3648687389823474
+combination_3_ABCDF,F,10,RandomForest,BF,δ15N coll_δ34S coll,0.30982666666666864
+combination_3_ABCDF,F,10,KNN,CF,δ13C carb_δ34S coll,0.19546666666666682
+combination_3_ABCDF,F,10,SVM,CF,δ13C carb_δ34S coll,0.306120077017372
+combination_3_ABCDF,F,10,RandomForest,CF,δ13C carb_δ34S coll,0.3000533333333332
+combination_3_ABCDF,F,10,KNN,DF,δ18O carb_δ34S coll,0.1796666666666668
+combination_3_ABCDF,F,10,SVM,DF,δ18O carb_δ34S coll,0.2963299378637295
+combination_3_ABCDF,F,10,RandomForest,DF,δ18O carb_δ34S coll,0.2935733333333359
+combination_3_ABCDF,F,10,KNN,ABF,δ13C coll_δ15N coll_δ34S coll,0.15831666666666672
+combination_3_ABCDF,F,10,SVM,ABF,δ13C coll_δ15N coll_δ34S coll,0.21596395661243212
+combination_3_ABCDF,F,10,RandomForest,ABF,δ13C coll_δ15N coll_δ34S coll,0.25694000000000067
+combination_3_ABCDF,F,10,KNN,ACF,δ13C coll_δ13C carb_δ34S coll,0.15578333333333338
+combination_3_ABCDF,F,10,SVM,ACF,δ13C coll_δ13C carb_δ34S coll,0.1816082006277375
+combination_3_ABCDF,F,10,RandomForest,ACF,δ13C coll_δ13C carb_δ34S coll,0.2030399999999995
+combination_3_ABCDF,F,10,KNN,ADF,δ13C coll_δ18O carb_δ34S coll,0.17758333333333337
+combination_3_ABCDF,F,10,SVM,ADF,δ13C coll_δ18O carb_δ34S coll,0.17858653437398014
+combination_3_ABCDF,F,10,RandomForest,ADF,δ13C coll_δ18O carb_δ34S coll,0.15770833333333395
+combination_3_ABCDF,F,10,KNN,BCF,δ15N coll_δ13C carb_δ34S coll,0.2129666666666666
+combination_3_ABCDF,F,10,SVM,BCF,δ15N coll_δ13C carb_δ34S coll,0.21966702805797259
+combination_3_ABCDF,F,10,RandomForest,BCF,δ15N coll_δ13C carb_δ34S coll,0.24639166666666723
+combination_3_ABCDF,F,10,KNN,BDF,δ15N coll_δ18O carb_δ34S coll,0.16889999999999994
+combination_3_ABCDF,F,10,SVM,BDF,δ15N coll_δ18O carb_δ34S coll,0.22855092374847458
+combination_3_ABCDF,F,10,RandomForest,BDF,δ15N coll_δ18O carb_δ34S coll,0.2163083333333339
+combination_3_ABCDF,F,10,KNN,CDF,δ13C carb_δ18O carb_δ34S coll,0.17983333333333335
+combination_3_ABCDF,F,10,SVM,CDF,δ13C carb_δ18O carb_δ34S coll,0.19212696194947618
+combination_3_ABCDF,F,10,RandomForest,CDF,δ13C carb_δ18O carb_δ34S coll,0.13431000000000054
+combination_3_ABCDF,F,10,KNN,ABCF,δ13C coll_δ15N coll_δ13C carb_δ34S coll,0.02789999999999999
+combination_3_ABCDF,F,10,SVM,ABCF,δ13C coll_δ15N coll_δ13C carb_δ34S coll,0.06618334635728802
+combination_3_ABCDF,F,10,RandomForest,ABCF,δ13C coll_δ15N coll_δ13C carb_δ34S coll,0.06974499999999999
+combination_3_ABCDF,F,10,KNN,ABDF,δ13C coll_δ15N coll_δ18O carb_δ34S coll,0.026400000000000024
+combination_3_ABCDF,F,10,SVM,ABDF,δ13C coll_δ15N coll_δ18O carb_δ34S coll,0.04344016500546148
+combination_3_ABCDF,F,10,RandomForest,ABDF,δ13C coll_δ15N coll_δ18O carb_δ34S coll,0.02905999999999951
+combination_3_ABCDF,F,10,KNN,ACDF,δ13C coll_δ13C carb_δ18O carb_δ34S coll,0.026400000000000024
+combination_3_ABCDF,F,10,SVM,ACDF,δ13C coll_δ13C carb_δ18O carb_δ34S coll,0.04344016500546148
+combination_3_ABCDF,F,10,RandomForest,ACDF,δ13C coll_δ13C carb_δ18O carb_δ34S coll,0.038659999999999514
+combination_3_ABCDF,F,10,KNN,BCDF,δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.08529999999999997
+combination_3_ABCDF,F,10,SVM,BCDF,δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.03971445879786302
+combination_3_ABCDF,F,10,RandomForest,BCDF,δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.004505000000000514
+combination_3_ABCDF,F,10,KNN,ABCDF,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.1319333333333334
+combination_3_ABCDF,F,10,SVM,ABCDF,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.20717848963301072
+combination_3_ABCDF,F,10,RandomForest,ABCDF,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.23190666666666798
+combination_3_ABCDF,F,15,KNN,F,δ34S coll,0.8509333333333334
+combination_3_ABCDF,F,15,SVM,F,δ34S coll,1.1456506950478738
+combination_3_ABCDF,F,15,RandomForest,F,δ34S coll,1.268771333333334
+combination_3_ABCDF,F,15,KNN,AF,δ13C coll_δ34S coll,0.1332400000000002
+combination_3_ABCDF,F,15,SVM,AF,δ13C coll_δ34S coll,0.19642746250625287
+combination_3_ABCDF,F,15,RandomForest,AF,δ13C coll_δ34S coll,0.21418400000000176
+combination_3_ABCDF,F,15,KNN,BF,δ15N coll_δ34S coll,0.10456000000000017
+combination_3_ABCDF,F,15,SVM,BF,δ15N coll_δ34S coll,0.2683132618528828
+combination_3_ABCDF,F,15,RandomForest,BF,δ15N coll_δ34S coll,0.2321040000000017
+combination_3_ABCDF,F,15,KNN,CF,δ13C carb_δ34S coll,0.1123600000000001
+combination_3_ABCDF,F,15,SVM,CF,δ13C carb_δ34S coll,0.22383137648215437
+combination_3_ABCDF,F,15,RandomForest,CF,δ13C carb_δ34S coll,0.2502040000000021
+combination_3_ABCDF,F,15,KNN,DF,δ18O carb_δ34S coll,0.11452000000000004
+combination_3_ABCDF,F,15,SVM,DF,δ18O carb_δ34S coll,0.22859843194758572
+combination_3_ABCDF,F,15,RandomForest,DF,δ18O carb_δ34S coll,0.20502799999999982
+combination_3_ABCDF,F,15,KNN,ABF,δ13C coll_δ15N coll_δ34S coll,0.10440000000000005
+combination_3_ABCDF,F,15,SVM,ABF,δ13C coll_δ15N coll_δ34S coll,0.13181270160315522
+combination_3_ABCDF,F,15,RandomForest,ABF,δ13C coll_δ15N coll_δ34S coll,0.12864800000000082
+combination_3_ABCDF,F,15,KNN,ACF,δ13C coll_δ13C carb_δ34S coll,0.08408000000000002
+combination_3_ABCDF,F,15,SVM,ACF,δ13C coll_δ13C carb_δ34S coll,0.09295843098457801
+combination_3_ABCDF,F,15,RandomForest,ACF,δ13C coll_δ13C carb_δ34S coll,0.11054799999999958
+combination_3_ABCDF,F,15,KNN,ADF,δ13C coll_δ18O carb_δ34S coll,0.09896
+combination_3_ABCDF,F,15,SVM,ADF,δ13C coll_δ18O carb_δ34S coll,0.0982132713717484
+combination_3_ABCDF,F,15,RandomForest,ADF,δ13C coll_δ18O carb_δ34S coll,0.10770000000000039
+combination_3_ABCDF,F,15,KNN,BCF,δ15N coll_δ13C carb_δ34S coll,0.09719999999999998
+combination_3_ABCDF,F,15,SVM,BCF,δ15N coll_δ13C carb_δ34S coll,0.11965279160576756
+combination_3_ABCDF,F,15,RandomForest,BCF,δ15N coll_δ13C carb_δ34S coll,0.11136400000000002
+combination_3_ABCDF,F,15,KNN,BDF,δ15N coll_δ18O carb_δ34S coll,0.10884
+combination_3_ABCDF,F,15,SVM,BDF,δ15N coll_δ18O carb_δ34S coll,0.1262175532092924
+combination_3_ABCDF,F,15,RandomForest,BDF,δ15N coll_δ18O carb_δ34S coll,0.1322600000000004
+combination_3_ABCDF,F,15,KNN,CDF,δ13C carb_δ18O carb_δ34S coll,0.09516000000000005
+combination_3_ABCDF,F,15,SVM,CDF,δ13C carb_δ18O carb_δ34S coll,0.12286048369305476
+combination_3_ABCDF,F,15,RandomForest,CDF,δ13C carb_δ18O carb_δ34S coll,0.09752000000000038
+combination_3_ABCDF,F,15,KNN,ABCF,δ13C coll_δ15N coll_δ13C carb_δ34S coll,0.24189000000000002
+combination_3_ABCDF,F,15,SVM,ABCF,δ13C coll_δ15N coll_δ13C carb_δ34S coll,0.2531571779199133
+combination_3_ABCDF,F,15,RandomForest,ABCF,δ13C coll_δ15N coll_δ13C carb_δ34S coll,0.331863
+combination_3_ABCDF,F,15,KNN,ABDF,δ13C coll_δ15N coll_δ18O carb_δ34S coll,0.24184999999999998
+combination_3_ABCDF,F,15,SVM,ABDF,δ13C coll_δ15N coll_δ18O carb_δ34S coll,0.22991561876234518
+combination_3_ABCDF,F,15,RandomForest,ABDF,δ13C coll_δ15N coll_δ18O carb_δ34S coll,0.276835
+combination_3_ABCDF,F,15,KNN,ACDF,δ13C coll_δ13C carb_δ18O carb_δ34S coll,0.2323800000000001
+combination_3_ABCDF,F,15,SVM,ACDF,δ13C coll_δ13C carb_δ18O carb_δ34S coll,0.22833365035266878
+combination_3_ABCDF,F,15,RandomForest,ACDF,δ13C coll_δ13C carb_δ18O carb_δ34S coll,0.2827009999999996
+combination_3_ABCDF,F,15,KNN,BCDF,δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.2894500000000001
+combination_3_ABCDF,F,15,SVM,BCDF,δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.25178636932324644
+combination_3_ABCDF,F,15,RandomForest,BCDF,δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.2918900000000004
+combination_3_ABCDF,F,15,KNN,ABCDF,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.10911000000000004
+combination_3_ABCDF,F,15,SVM,ABCDF,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.16773176093063985
+combination_3_ABCDF,F,15,RandomForest,ABCDF,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.17223900000000172
+combination_3_ABCDF,F,20,KNN,F,δ34S coll,0.946855238095238
+combination_3_ABCDF,F,20,SVM,F,δ34S coll,1.1423281126688107
+combination_3_ABCDF,F,20,RandomForest,F,δ34S coll,1.1937294285714306
+combination_3_ABCDF,F,20,KNN,AF,δ13C coll_δ34S coll,0.14609047619047635
+combination_3_ABCDF,F,20,SVM,AF,δ13C coll_δ34S coll,0.17958614838694584
+combination_3_ABCDF,F,20,RandomForest,AF,δ13C coll_δ34S coll,0.19484476190476296
+combination_3_ABCDF,F,20,KNN,BF,δ15N coll_δ34S coll,0.15300000000000002
+combination_3_ABCDF,F,20,SVM,BF,δ15N coll_δ34S coll,0.23114645495641656
+combination_3_ABCDF,F,20,RandomForest,BF,δ15N coll_δ34S coll,0.2956561904761914
+combination_3_ABCDF,F,20,KNN,CF,δ13C carb_δ34S coll,0.13629523809523808
+combination_3_ABCDF,F,20,SVM,CF,δ13C carb_δ34S coll,0.21015386395653063
+combination_3_ABCDF,F,20,RandomForest,CF,δ13C carb_δ34S coll,0.3187528571428563
+combination_3_ABCDF,F,20,KNN,DF,δ18O carb_δ34S coll,0.1770904761904762
+combination_3_ABCDF,F,20,SVM,DF,δ18O carb_δ34S coll,0.1818824008162886
+combination_3_ABCDF,F,20,RandomForest,DF,δ18O carb_δ34S coll,0.21564904761904713
+combination_3_ABCDF,F,20,KNN,ABF,δ13C coll_δ15N coll_δ34S coll,0.09965047619047618
+combination_3_ABCDF,F,20,SVM,ABF,δ13C coll_δ15N coll_δ34S coll,0.10304163753893843
+combination_3_ABCDF,F,20,RandomForest,ABF,δ13C coll_δ15N coll_δ34S coll,0.12047514285714378
+combination_3_ABCDF,F,20,KNN,ACF,δ13C coll_δ13C carb_δ34S coll,0.07736857142857138
+combination_3_ABCDF,F,20,SVM,ACF,δ13C coll_δ13C carb_δ34S coll,0.07132877508890909
+combination_3_ABCDF,F,20,RandomForest,ACF,δ13C coll_δ13C carb_δ34S coll,0.09144838095238161
+combination_3_ABCDF,F,20,KNN,ADF,δ13C coll_δ18O carb_δ34S coll,0.09188380952380952
+combination_3_ABCDF,F,20,SVM,ADF,δ13C coll_δ18O carb_δ34S coll,0.07278781889731364
+combination_3_ABCDF,F,20,RandomForest,ADF,δ13C coll_δ18O carb_δ34S coll,0.11387371428571498
+combination_3_ABCDF,F,20,KNN,BCF,δ15N coll_δ13C carb_δ34S coll,0.0935847619047619
+combination_3_ABCDF,F,20,SVM,BCF,δ15N coll_δ13C carb_δ34S coll,0.09741940970536063
+combination_3_ABCDF,F,20,RandomForest,BCF,δ15N coll_δ13C carb_δ34S coll,0.17675904761904837
+combination_3_ABCDF,F,20,KNN,BDF,δ15N coll_δ18O carb_δ34S coll,0.10189904761904763
+combination_3_ABCDF,F,20,SVM,BDF,δ15N coll_δ18O carb_δ34S coll,0.10477390795495607
+combination_3_ABCDF,F,20,RandomForest,BDF,δ15N coll_δ18O carb_δ34S coll,0.1781543809523817
+combination_3_ABCDF,F,20,KNN,CDF,δ13C carb_δ18O carb_δ34S coll,0.09055523809523812
+combination_3_ABCDF,F,20,SVM,CDF,δ13C carb_δ18O carb_δ34S coll,0.11251706033740252
+combination_3_ABCDF,F,20,RandomForest,CDF,δ13C carb_δ18O carb_δ34S coll,0.1282680952380964
+combination_3_ABCDF,F,20,KNN,ABCF,δ13C coll_δ15N coll_δ13C carb_δ34S coll,0.2602485714285714
+combination_3_ABCDF,F,20,SVM,ABCF,δ13C coll_δ15N coll_δ13C carb_δ34S coll,0.3024903308251844
+combination_3_ABCDF,F,20,RandomForest,ABCF,δ13C coll_δ15N coll_δ13C carb_δ34S coll,0.32427485714285714
+combination_3_ABCDF,F,20,KNN,ABDF,δ13C coll_δ15N coll_δ18O carb_δ34S coll,0.27382190476190477
+combination_3_ABCDF,F,20,SVM,ABDF,δ13C coll_δ15N coll_δ18O carb_δ34S coll,0.2752488170526736
+combination_3_ABCDF,F,20,RandomForest,ABDF,δ13C coll_δ15N coll_δ18O carb_δ34S coll,0.31089695238095233
+combination_3_ABCDF,F,20,KNN,ACDF,δ13C coll_δ13C carb_δ18O carb_δ34S coll,0.21833428571428576
+combination_3_ABCDF,F,20,SVM,ACDF,δ13C coll_δ13C carb_δ18O carb_δ34S coll,0.2620967434244738
+combination_3_ABCDF,F,20,RandomForest,ACDF,δ13C coll_δ13C carb_δ18O carb_δ34S coll,0.266590476190476
+combination_3_ABCDF,F,20,KNN,BCDF,δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.33938095238095234
+combination_3_ABCDF,F,20,SVM,BCDF,δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.31826279489767706
+combination_3_ABCDF,F,20,RandomForest,BCDF,δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.32204180952380984
+combination_3_ABCDF,F,20,KNN,ABCDF,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.2801895238095238
+combination_3_ABCDF,F,20,SVM,ABCDF,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.2976292145347069
+combination_3_ABCDF,F,20,RandomForest,ABCDF,δ13C coll_δ15N coll_δ13C carb_δ18O carb_δ34S coll,0.2659985714285725
