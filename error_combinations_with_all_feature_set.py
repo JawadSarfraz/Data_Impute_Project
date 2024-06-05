@@ -26,6 +26,28 @@ def calculate_mae_filtered(original, imputed, missing_mask):
     else:
         return 0  # Return 0 if there are no imputed values to avoid division by zero
 
+def calculate_mape_filtered(original, imputed, missing_mask):
+    """
+    The function calculates mean absolute percentage error (MAPE) between two arrays (columns)
+    after considering only imputed values.
+    
+    Params:
+    original: array contains original column values before removal of values.
+    imputed: array contains values after imputation of missing values.
+    missing_mask: boolean array where True indicates the values that were originally missing.
+    
+    return: The function returns Mean Absolute Percentage Error (MAPE) between
+    original and imputed values, but only for the values that were imputed.
+    """
+    imputed_values = imputed[missing_mask]
+    original_values = original[missing_mask]
+
+    # Return MAPE for imputed values
+    if len(original_values) > 0:
+        return np.mean(np.abs((original_values - imputed_values) / original_values)) * 100
+    else:
+        return 0  # Return 0 if there are no imputed values to avoid division by zero
+
 def ensure_dir(directory):
     """
     The function `ensure_dir` creates a directory if it does not already exist.    
@@ -65,6 +87,19 @@ def translate_feature_set(feature_set, feature_names):
     """
     return '_'.join(feature_names[feature] for feature in feature_set)
 
+def format_feature_name(feature, feature_names):
+    """
+    Format feature name for the DataFrame.
+
+    Params:
+    feature (str): Single character representing the feature (e.g., 'A').
+    feature_names (dict): Mapping of single feature characters to their actual names.
+
+    Returns:
+    str: Formatted feature name (e.g., 'A (δ13C coll)').
+    """
+    return f"{feature} ({feature_names[feature]})"
+
 # Mapping of features into their actual names.
 feature_names = {
     'A': 'δ13C coll',
@@ -93,7 +128,7 @@ algorithms = ['KNN', 'SVM', 'RandomForest']
 final_results = []
 
 # Iterating over different combinations of features, algorithms, percentages, and seeds to calculate Mean
-# Absolute Error (MAE) for imputed data compared to original data.
+# Absolute Error (MAE) and Mean Absolute Percentage Error (MAPE) for imputed data compared to original data.
 for combination in combinations_list:
     original_file_path = os.path.join(base_original_path, f"{combination}.xlsx")
     if os.path.exists(original_file_path):
@@ -107,6 +142,7 @@ for combination in combinations_list:
                 for feature_set in feature_sets:
                     for algorithm in algorithms:
                         mae_values = []
+                        mape_values = []
 
                         for seed in seeds:
                             result_file_path = os.path.join(base_result_path, f"{combination}/{feature_set}/{percentage}/{seed}/result_data_{algorithm}.xlsx")
@@ -120,19 +156,25 @@ for combination in combinations_list:
                                     imputed_feature = result_data[feature]
                                     missing_mask = missing_data[feature].isna()  # Identify missing values mask
                                     mae = calculate_mae_filtered(original_data[feature], imputed_feature, missing_mask)
+                                    mape = calculate_mape_filtered(original_data[feature], imputed_feature, missing_mask)
                                     mae_values.append(mae)
+                                    mape_values.append(mape)
 
-                        # Average MAE
+                        # Average MAE and MAPE
                         mean_mae = np.mean(mae_values) if mae_values else float('inf')
+                        mean_mape = np.mean(mape_values) if mape_values else float('inf')
                         
                         # Translate feature set name
                         translated_feature_set = translate_feature_set(feature_set, feature_names)
+                        
+                        # Format feature name
+                        formatted_feature = format_feature_name(feature, feature_names)
 
                         # Aggregate results
-                        final_results.append([combination, feature, percentage, algorithm, feature_set, translated_feature_set, mean_mae])
+                        final_results.append([combination, formatted_feature, percentage, algorithm, feature_set, translated_feature_set, mean_mae, mean_mape])
 
 # Create DataFrame and save to CSV
-df_final = pd.DataFrame(final_results, columns=['Combination', 'Feature', 'Percentage', 'Algorithm', 'FeatureSet', 'TranslatedFeatureSet', 'MAE'])
+df_final = pd.DataFrame(final_results, columns=['Combination', 'Feature', 'Percentage', 'Algorithm', 'FeatureSet', 'TranslatedFeatureSet', 'MAE', 'MAPE'])
 output_file_path = os.path.join(output_dir, 'error_analysis_with_all_featureset.csv')
 df_final.to_csv(output_file_path, index=False)
 
