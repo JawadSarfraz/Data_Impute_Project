@@ -27,8 +27,8 @@ def remove_data(df, columns_to_modify, percentage, seed):
     return modified_df
 
 # Define base paths
-combination_base_path = 'data_impute_project/combinations2/terrestrial_mammals/'
-output_base_path = 'data_impute_project/removed_data2/terrestrial_mammals/'
+combination_base_path = 'data_impute_project/combinations/terrestrial_mammals/'
+output_base_path = 'data_impute_project/removed_data/terrestrial_mammals/'
 
 # List of filenames to be processed, you can adjust this to loop through your actual files
 filenames = [
