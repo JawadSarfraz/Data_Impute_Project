@@ -100,9 +100,9 @@ def impute_with_svm(df):
 def impute_and_save(input_dir, base_output_dir, df, current_subdir):
     algorithms = {
         'KNN': impute_with_knn, 
-        #'RandomForest': impute_with_random_forest,
+        'RandomForest': impute_with_random_forest,
         # 'BayesianRidge': impute_with_bayesian_ridge,
-        #'SVM': impute_with_svm
+        'SVM': impute_with_svm
         #'MICE': impute_with_mice
     }
     
