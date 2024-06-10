@@ -3,8 +3,8 @@ import os
 import time
 
 # Define base directories for data storage and combinations output
-base_data_dir = 'data_impute_project/data'
-base_combination_dir = 'data_impute_project/combinations'
+base_data_dir = 'data_impute_project/data2'
+base_combination_dir = 'data_impute_project/combinations2'
 
 # The `combinations_map` dictionary is mapping different categories of data files to their respective
 # column combinations. Each key in the dictionary represents a category of data, such as
@@ -56,6 +56,8 @@ for file_name, combos in combinations_map.items():
     file_path = os.path.join(base_data_dir, f"{file_name}.xlsx")
     df = pd.read_excel(file_path)
 
+    # Extract ID(Speciman) column (last column of the dataframe)
+    id_col = df.iloc[:, -1]
     # Generating combinations of columns from the data files and Saving them as separate Excel files.
     for idx, combination in enumerate(combos, start=1):
         # Create dir for the category if it does not exist
@@ -64,7 +66,9 @@ for file_name, combos in combinations_map.items():
         
         # Create subset of DataFrame with selected columns and remove rows with missing values
         combo_df = remove_missing_values(df[combination], combination)
-        
+        # Add the ID column as the first column
+        combo_df.insert(0, 'ID', id_col)
+
         # Construct the combination filename with column labels
         cols_in_filename = ''.join(combination)
         combo_filename = f"combination_{idx}_{cols_in_filename}.xlsx"  # Updated filename
