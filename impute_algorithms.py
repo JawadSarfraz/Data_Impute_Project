@@ -107,7 +107,7 @@ def impute_and_save(input_dir, base_output_dir, df, current_subdir):
     }
     
     # Modify the output directory to match the required structure
-    modified_output_dir = current_subdir.replace('removed_data2', 'algorithm_result2')
+    modified_output_dir = current_subdir.replace('removed_data', 'algorithm_result')
 
     # Extract the ID column
     id_col = df[['ID']]
@@ -129,8 +129,8 @@ def impute_and_save(input_dir, base_output_dir, df, current_subdir):
         print(f"Saved: {result_path}")
 
 # Initial directory setup
-base_dir = 'data_impute_project/removed_data2/terrestrial_mammals'
-output_base_dir = 'data_impute_project/algorithm_result2/terrestrial_mammals'  # Base directory for output
+base_dir = 'data_impute_project/removed_data/terrestrial_mammals'
+output_base_dir = 'data_impute_project/algorithm_result/terrestrial_mammals'  # Base directory for output
 
 # Iterating through each directory and file for imputation in the `base_dir` directory using `os.walk()`
 for subdir, _, files in os.walk(base_dir):

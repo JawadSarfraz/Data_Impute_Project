@@ -3,8 +3,8 @@ import os
 import time
 
 # Define base directories for data storage and combinations output
-base_data_dir = 'data_impute_project/data2'
-base_combination_dir = 'data_impute_project/combinations2'
+base_data_dir = 'data_impute_project/data'
+base_combination_dir = 'data_impute_project/combinations'
 
 # The `combinations_map` dictionary is mapping different categories of data files to their respective
 # column combinations. Each key in the dictionary represents a category of data, such as
