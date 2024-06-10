@@ -33,8 +33,8 @@ output_base_path = 'data_impute_project/removed_data2/terrestrial_mammals/'
 # List of filenames to be processed, you can adjust this to loop through your actual files
 filenames = [
     'combination_1_ABCD.xlsx',
-    #'combination_2_ABCDE.xlsx',
-    #'combination_3_ABCDF.xlsx'
+    'combination_2_ABCDE.xlsx',
+    'combination_3_ABCDF.xlsx'
     # Add other filenames as necessary
 ]
 
