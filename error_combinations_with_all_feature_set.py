@@ -133,7 +133,7 @@ for combination in combinations_list:
     original_file_path = os.path.join(base_original_path, f"{combination}.xlsx")
     if os.path.exists(original_file_path):
         original_data = pd.read_excel(original_file_path)
-        features = original_data.columns.dropna()
+        features = original_data.columns[1:]  # Exclude the first column which is the ID column
 
         for feature in features:
             feature_sets = get_feature_sets(features, feature)
