@@ -100,20 +100,27 @@ def impute_with_svm(df):
 def impute_and_save(input_dir, base_output_dir, df, current_subdir):
     algorithms = {
         'KNN': impute_with_knn, 
-        'RandomForest': impute_with_random_forest,
+        #'RandomForest': impute_with_random_forest,
         # 'BayesianRidge': impute_with_bayesian_ridge,
-        'SVM': impute_with_svm
+        #'SVM': impute_with_svm
         #'MICE': impute_with_mice
     }
     
     # Modify the output directory to match the required structure
-    modified_output_dir = current_subdir.replace('removed_data', 'algorithm_result')
+    modified_output_dir = current_subdir.replace('removed_data2', 'algorithm_result2')
+
+    # Extract the ID column
+    id_col = df[['ID']]
+
+    # Exclude the ID column from imputation
+    df_numeric = df.drop(columns=['ID'])
     
     # Iterating over a dictionary called `algorithms`, where the keys are
     # algorithm names ('KNN', 'RandomForest', 'SVM') and the values are the corresponding imputation
     # functions (`impute_with_knn`, `impute_with_random_forest`, `impute_with_svm`).
     for name, func in algorithms.items():
-        imputed_df = func(df.select_dtypes(include=[np.number]))  # Impute numeric columns
+        imputed_df = func(df_numeric.select_dtypes(include=[np.number]))  # Impute numeric columns
+        imputed_df = pd.concat([id_col, imputed_df], axis=1)  # Combine ID column with imputed data
         result_file = f'result_data_{name}.xlsx'
         result_path = os.path.join(modified_output_dir, result_file)
         # Ensure the output directory exists
@@ -122,8 +129,8 @@ def impute_and_save(input_dir, base_output_dir, df, current_subdir):
         print(f"Saved: {result_path}")
 
 # Initial directory setup
-base_dir = 'data_impute_project/removed_data/terrestrial_mammals'
-output_base_dir = 'data_impute_project/algorithm_result/terrestrial_mammals'  # Base directory for output
+base_dir = 'data_impute_project/removed_data2/terrestrial_mammals'
+output_base_dir = 'data_impute_project/algorithm_result2/terrestrial_mammals'  # Base directory for output
 
 # Iterating through each directory and file for imputation in the `base_dir` directory using `os.walk()`
 for subdir, _, files in os.walk(base_dir):
