@@ -50,3 +50,7 @@ Integrate SVM implementation and produce the resulted files for Terr Mammals
 -- graphs are being tested initially but its need more working to finalize it...
 
 -- split_dataset script updates to work for the modified file so that it update file to consider ID's of species as well.
+
+-- combination_generation is being modified so it produce combinations along with ID embed in it.
+
+-- percentage_removal_data_from_features is being implementated to cater the ID values, it ignore the ID while removing data.
