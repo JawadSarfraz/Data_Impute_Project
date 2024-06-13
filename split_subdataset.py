@@ -6,7 +6,7 @@ file_path = 'modified_dataset.xlsx'
 xls = pd.ExcelFile(file_path)
 
 # Base directory where the individual datasets will be stored
-base_dir = 'data_impute_project/data2/'
+base_dir = 'data_impute_project/data/'
 os.makedirs(base_dir, exist_ok=True)
 
 # Loop & Load through each sheet in Excel file
