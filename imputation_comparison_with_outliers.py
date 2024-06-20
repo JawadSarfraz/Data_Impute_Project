@@ -5,11 +5,31 @@ import itertools
 import time
 
 def ensure_dir(directory):
+    """
+    Ensure specified directory exists; create it if it does not.
+    
+    Params:
+    directory (str): Path to dir to check/create.
+    """
     if not os.path.exists(directory):
         os.makedirs(directory)
 
-# Function to collect the imputed values along with the original values and the IDs
 def collect_imputed_values(original, imputed_knn, imputed_svm, imputed_rf, missing_mask, id_col):
+    """
+    Collect imputed values along with original values and the IDs.
+    
+    Parames:
+    original (pd.Series): Original data values with missing values.
+    imputed_knn (pd.Series): KNN imputed data values.
+    imputed_svm (pd.Series): SVM imputed data values.
+    imputed_rf (pd.Series): Random Forest imputed data values.
+    missing_mask (pd.Series): Boolean mask indicating where original data had missing values.
+    id_col (pd.Series): IDs corresponding to the data rows.
+    
+    Returns:
+    pd.DataFrame: DataFrame containing IDs, original values, and imputed values for each method.
+    """
+
     data = {
         'ID': id_col[missing_mask],
         'OriginalDataValue': original[missing_mask],
@@ -19,13 +39,22 @@ def collect_imputed_values(original, imputed_knn, imputed_svm, imputed_rf, missi
     }
     return pd.DataFrame(data)
 
-# Function to detect outliers using Median Absolute Deviation (MAD)
 def detect_outliers_mad(data, threshold=3.0):
-    median = np.median(data)
-    abs_deviation = np.abs(data - median)
-    mad = np.median(abs_deviation)
-    modified_z_scores = 0.6745 * abs_deviation / mad
-    outliers = modified_z_scores > threshold
+    """
+    Detect outliers using Median Absolute Deviation (MAD) method.
+    
+    Parameters:
+    data (pd.Series): Data values to check for outliers.
+    threshold (float): Threshold to determine what is considered an outlier.
+    
+    Returns:
+    pd.Series: boolean mask indicating which values are outliers.
+    """
+    median = np.median(data) # Calculate median of data
+    abs_deviation = np.abs(data - median) #Calculate absolute deviation from median
+    mad = np.median(abs_deviation) # Calculate median of absolute deviations
+    modified_z_scores = 0.6745 * abs_deviation / mad #  Calculate modified Z-scores
+    outliers = modified_z_scores > threshold # Identify outliers based on the threshold
     return outliers
 
 # Ensure output directory exists
@@ -42,9 +71,10 @@ removed_data_base_path = 'data_impute_project/removed_data/terrestrial_mammals'
 percentages = ['10', '15', '20']
 seeds = ['seed1', 'seed2', 'seed3', 'seed4', 'seed5']
 
+# Iterate through each combination in the combinations list
 for combination in combinations_list:
     original_file_path = os.path.join(base_original_path, f"{combination}.xlsx")
-    if os.path.exists(original_file_path):
+    if os.path.exists(original_file_path): # Check if original file exists
         original_data = pd.read_excel(original_file_path)
         id_col = original_data.iloc[:, 0]  # As first column is the ID column
         features = original_data.columns[1:]  # Exclude the ID column
@@ -54,6 +84,7 @@ for combination in combinations_list:
             for subset in itertools.combinations(features, L):
                 feature_combination = "".join(subset)  # Join features
                 
+                # Iterate through each percentage and seed
                 for percentage in percentages:
                     for seed in seeds:
                         knn_path = os.path.join(base_result_path, f"{combination}/{feature_combination}/{percentage}/{seed}/result_data_KNN.xlsx")
@@ -61,12 +92,14 @@ for combination in combinations_list:
                         rf_path = os.path.join(base_result_path, f"{combination}/{feature_combination}/{percentage}/{seed}/result_data_RandomForest.xlsx")
                         missing_file_path = os.path.join(removed_data_base_path, f"{combination}/{feature_combination}/{percentage}/{seed}/missing_data.xlsx")
                         
+                        # Def paths for imputed data and missing data files
                         if all(os.path.exists(path) for path in [knn_path, svm_path, rf_path, missing_file_path]):
                             knn_data = pd.read_excel(knn_path)
                             svm_data = pd.read_excel(svm_path)
                             rf_data = pd.read_excel(rf_path)
                             missing_data = pd.read_excel(missing_file_path)
                             
+                            # Check if all necessary files exist
                             if all(feature in knn_data.columns for feature in subset) and all(feature in svm_data.columns for feature in subset) and all(feature in rf_data.columns for feature in subset):
                                 # Collect imputed values for each feature in the subset
                                 original_values = original_data[list(subset)]
@@ -82,7 +115,7 @@ for combination in combinations_list:
                                     svm_values[subset[0]],
                                     rf_values[subset[0]],
                                     missing_mask,
-                                    id_col
+                                    id_col # Collecting IDs corresponding to missing values
                                 )
 
                                 # Detect outliers using MAD method
@@ -97,5 +130,5 @@ for combination in combinations_list:
                                 imputed_values_df.to_excel(output_file_path, index=False)
                                 print(f"Saved: {output_file_path}")
 
-end_time = time.time()
+end_time = time.time() # End the time/clock
 print(f"Running time of the script: {end_time - start_time} seconds")
