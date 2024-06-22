@@ -56,3 +56,5 @@ Integrate SVM implementation and produce the resulted files for Terr Mammals
 -- percentage_removal_data_from_features is being implementated to cater the ID values, it ignore the ID while removing data.
 
 -- Scripts are being Updated so that it works with new Dataset contains ID's of every Rows
+
+-- All plot of median with outliers of each algos with every combinations of every featureSets are present in plots dir for terr mammals
