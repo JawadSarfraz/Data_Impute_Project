@@ -52,4 +52,7 @@ Integrate SVM implementation and produce the resulted files for Terr Mammals
 
 -- Scatter plots of MAE being created contains all features of all combinations in which all featureSet, algos and FeatureSet are present of terr mammals
 
--- find_min_mae_tm script generate file contains min MAE of all features of all combinations for particular algo, it process file --> error_analysis_with_all_featureset.csv to determine it 
+-- find_min_mae_tm script generate file contains min MAE of all features of all combinations for particular algo, it process file --> error_analysis_with_all_featureset.csv to determine it..
+
+
+-- Well some scripts gives quite bad err--> NEED UPDATES to imputatioan_comparison, imp_test, imputatioan_comparison_with_outliers, generate_box_plot_algos_comparison
