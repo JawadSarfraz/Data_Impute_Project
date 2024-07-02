@@ -123,7 +123,7 @@ for combination in combinations_list:
                                     ensure_dir(feature_output_dir)
                                     output_file_path = os.path.join(feature_output_dir, f"{seed}_imputed_comparison.xlsx")
                                     imputed_values_df.to_excel(output_file_path, index=False)
-                                    #print(f"Saved: {output_file_path}")
+                                    print(f"Saved: {output_file_path}")
 
 end_time = time.time()
 print(f"Running time of the script: {end_time - start_time} seconds")
