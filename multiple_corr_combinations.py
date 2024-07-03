@@ -23,18 +23,21 @@ def calculate_and_save_correlation(base_path, result_base):
                 # Read data, converting empty strings/spaces to NaN's
                 data = pd.read_excel(file_path).replace({'': np.nan, ' ': np.nan})
 
+                # Filter for numeric columns only
+                numeric_data = data.select_dtypes(include=[np.number])
+
                 # Prepare the DataFrame to store results
-                results = pd.DataFrame(columns=['Variable 1', 'Variable 2', 'Correlation Coefficient', 'P-Value'])
+                results = pd.DataFrame(columns=['Feature 1', 'Feature 2', 'Correlation Coefficient', 'P-Value'])
 
                 # Calculate correlations and p-values
-                for col1, col2 in combinations(data.columns, 2):
+                for col1, col2 in combinations(numeric_data.columns, 2):
                     # Drop rows where either column is NaN before correlation calculation
-                    subset = data[[col1, col2]].dropna()
+                    subset = numeric_data[[col1, col2]].dropna()
                     if not subset.empty:
                         corr_coefficient, p_value = pearsonr(subset[col1], subset[col2])
                         new_row = pd.DataFrame({
-                            'Variable 1': [col1],
-                            'Variable 2': [col2],
+                            'Feature 1': [col1],
+                            'Feature 2': [col2],
                             'Correlation Coefficient': [corr_coefficient],
                             'P-Value': [p_value]
                         })
