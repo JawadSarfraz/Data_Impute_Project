@@ -12,7 +12,6 @@ from sklearn.impute import SimpleImputer
 
 
 # Imputation functions
-
 def impute_with_knn(df):
     """
     The function impute_with_knn imputes missing values in a DataFrame using the K-Nearest Neighbors
@@ -31,7 +30,7 @@ def impute_with_knn(df):
     imputed_data = imputer.fit_transform(df)
     return pd.DataFrame(imputed_data, columns=df.columns)
 
-def impute_with_random_forest(df):
+def impute_with_random_forest_MICE(df):
     """
     The function impute_with_random_forest uses a Random Forest regressor to impute missing values in a
     DataFrame.
@@ -49,11 +48,22 @@ def impute_with_random_forest(df):
     return pd.DataFrame(imputed_data, columns=df.columns)
 
 
-# def impute_with_bayesian_ridge(df):
-#     br_imputer = IterativeImputer(estimator=BayesianRidge(), max_iter=25, tol=0.05, random_state=0)
-#     imputed_data = br_imputer.fit_transform(df)
-#     return pd.DataFrame(imputed_data, columns=df.columns)
-
+def impute_with_random_forest(df, n_estimators=100, max_depth=None, random_state=None):
+    df_numeric = df.select_dtypes(include=[np.number])
+    for column in df_numeric.columns:
+        not_missing = df_numeric[df_numeric[column].notna()]
+        features = not_missing.drop(columns=[column])
+        target = not_missing[column]
+        
+        model = RandomForestRegressor(n_estimators=n_estimators, max_depth=max_depth, random_state=random_state)
+        model.fit(features, target)
+        
+        missing = df_numeric[df_numeric[column].isna()]
+        if not missing.empty:
+            missing_features = missing.drop(columns=[column])
+            predicted_values = model.predict(missing_features)
+            df.loc[missing.index, column] = predicted_values
+    return df
 
 
 def impute_with_svm(df):
@@ -100,14 +110,13 @@ def impute_with_svm(df):
 def impute_and_save(input_dir, base_output_dir, df, current_subdir):
     algorithms = {
         'KNN': impute_with_knn, 
-        'RandomForest': impute_with_random_forest,
-        # 'BayesianRidge': impute_with_bayesian_ridge,
+        'RandomForest': lambda df: impute_with_random_forest(df, n_estimators=200, max_depth=10, random_state=20),
         'SVM': impute_with_svm
         #'MICE': impute_with_mice
     }
     
     # Modify the output directory to match the required structure
-    modified_output_dir = current_subdir.replace('removed_data', 'algorithm_result')
+    modified_output_dir = current_subdir.replace('removed_data', 'impute_algos_result')
 
     # Extract the ID column
     id_col = df[['ID']]
@@ -130,7 +139,7 @@ def impute_and_save(input_dir, base_output_dir, df, current_subdir):
 
 # Initial directory setup
 base_dir = 'data_impute_project/removed_data/terrestrial_mammals'
-output_base_dir = 'data_impute_project/algorithm_result/terrestrial_mammals'  # Base directory for output
+output_base_dir = 'data_impute_project/impute_algos_result/terrestrial_mammals' # Base directory for output
 
 # Iterating through each directory and file for imputation in the `base_dir` directory using `os.walk()`
 for subdir, _, files in os.walk(base_dir):

@@ -3,11 +3,11 @@ import matplotlib.pyplot as plt
 import os
 
 # Load CSV file
-file_path = 'data_impute_project/error_metrics/error_analysis_with_all_featureset.csv'
+file_path = 'data_impute_project/error_metrics/error_analysis_with_all_featuresets.csv'
 data = pd.read_csv(file_path)
 
 # Output directory for plots
-output_dir = 'data_impute_project/mae_scatter_plots/terrestrial_mammals'
+output_dir = 'data_impute_project/mae_scatter_plots/terrestrial_mammals_MAE_all_features'
 os.makedirs(output_dir, exist_ok=True)
 
 # Define markers and colors

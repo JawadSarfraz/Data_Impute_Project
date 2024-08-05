@@ -116,7 +116,7 @@ start_time = time.time()
 # Setup
 base_original_path = 'data_impute_project/combinations/terrestrial_mammals'
 combinations_list = ['combination_1_ABCD', 'combination_2_ABCDE', 'combination_3_ABCDF']
-base_result_path = 'data_impute_project/algorithm_result/terrestrial_mammals'
+base_result_path = 'data_impute_project/impute_algos_result/terrestrial_mammals'
 removed_data_base_path = 'data_impute_project/removed_data/terrestrial_mammals'
 output_dir = 'data_impute_project/error_metrics'
 ensure_dir(output_dir)
@@ -175,7 +175,7 @@ for combination in combinations_list:
 
 # Create DataFrame and save to CSV
 df_final = pd.DataFrame(final_results, columns=['Combination', 'Feature', 'Percentage', 'Algorithm', 'FeatureSet', 'TranslatedFeatureSet', 'MAE', 'MAPE'])
-output_file_path = os.path.join(output_dir, 'error_analysis_with_all_featureset.csv')
+output_file_path = os.path.join(output_dir, 'error_analysis_with_all_featuresets.csv')
 df_final.to_csv(output_file_path, index=False)
 
 # End timer and print running time
