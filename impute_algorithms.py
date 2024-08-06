@@ -101,18 +101,13 @@ def impute_with_svm(df):
             df.loc[missing.index, column] = predicted_values
     return df
 
-# def impute_with_mice(df):
-#     mice_imputer = IterativeImputer(max_iter=15, random_state=0)
-#     imputed_data = mice_imputer.fit_transform(df)
-#     return pd.DataFrame(imputed_data, columns=df.columns)
-
 # Function to apply imputation and save the results
 def impute_and_save(input_dir, base_output_dir, df, current_subdir):
     algorithms = {
-        'KNN': impute_with_knn, 
-        'RandomForest': lambda df: impute_with_random_forest(df, n_estimators=200, max_depth=10, random_state=20),
-        'SVM': impute_with_svm
-        #'MICE': impute_with_mice
+        #'KNN': impute_with_knn, 
+        #'RandomForest': lambda df: impute_with_random_forest(df, n_estimators=200, max_depth=10, random_state=20),
+        #'SVM': impute_with_svm,
+        'RandomForest_MICE': impute_with_random_forest_MICE
     }
     
     # Modify the output directory to match the required structure

@@ -54,3 +54,5 @@ Integrate SVM implementation and produce the resulted files for Terr Mammals
 -- Well some scripts gives quite bad err--> NEED UPDATES to imputatioan_comparison, imp_test,imputatioan_comparison_with_outliers, generate_box_plot_algos_comparison
 
 -- generate_mae_scatter_plots_tm --> Script use to generate Scatter Plots for Feature against all Feature Set in all combinations of **Terr Mammals,** output is present in **mae_scatter_plots** dir
+
+-- impute_algorithms --> Script updated so that **RandomForest** algorithm embed with **MICE** algorithm so that both work together to get better result
