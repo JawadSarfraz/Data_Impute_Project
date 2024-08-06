@@ -56,3 +56,5 @@ Integrate SVM implementation and produce the resulted files for Terr Mammals
 -- generate_mae_scatter_plots_tm --> Script use to generate Scatter Plots for Feature against all Feature Set in all combinations of **Terr Mammals,** output is present in **mae_scatter_plots** dir
 
 -- impute_algorithms --> Script updated so that **RandomForest** algorithm embed with **MICE** algorithm so that both work together to get better result
+
+-- error_combinations_with_all_feature_set --> Script updated so that it work with RandomForest with MICE along with other algorithm to get all MAE calculation, time taken is 223.94 seconds
