@@ -47,7 +47,7 @@ Integrate SVM implementation and produce the resulted files for Terr Mammals
 
 -- All plot of median with outliers of each algos with every combinations of every featureSets are present in plots dir for terr mammals - scripts for it is --> generate_box_plot_algos_comparisons
 
--- Scatter plots of MAE being created contains all features of all combinations in which all featureSet, algos and FeatureSet are present of terr mammals
+    - Scatter plots of MAE being created contains all features of all combinations in which all featureSet, algos and FeatureSet are present of terr mammals
 
 -- find_min_mae_tm script generate file contains min MAE of all features of all combinations for particular algo, it process file --> error_analysis_with_all_featureset.csv to determine it..
 
