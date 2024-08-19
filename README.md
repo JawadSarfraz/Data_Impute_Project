@@ -60,3 +60,5 @@ Integrate SVM implementation and produce the resulted files for Terr Mammals
 -- error_combinations_with_all_feature_set --> Script updated so that it work with RandomForest with MICE along with other algorithm to get all MAE calculation, time taken is 223.94 seconds
 
 -- impute algorithm run for bird and fish, both have single combination. Just for one combination for Fish the running time is 593.21 seconds. Its all due to **RandomForest**, **MICE** with **Random Forest** and later **KNN** with **Random Forest**. Random Forest algo generally take quite time to return result.
+
+-- error_combinations_with_all_feature_set_all_dataset --> calculate Err for all combinations of each dataset based on the input provided.
