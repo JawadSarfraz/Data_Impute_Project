@@ -3,11 +3,11 @@ import matplotlib.pyplot as plt
 import os
 
 # Load CSV file
-file_path = 'data_impute_project/error_metrics/error_analysis_with_all_featuresets_MICE.csv'
+file_path = 'data_impute_project/error_metrics/error_analysis_with_all_featuresets_hybrid_KNNRF.csv'
 data = pd.read_csv(file_path)
 
 # Output directory for plots
-output_dir = 'data_impute_project/mae_scatter_plots/MAE_with_MICE'
+output_dir = 'data_impute_project/mae_scatter_plots/MAE_with_hybrid_KNNRF'
 os.makedirs(output_dir, exist_ok=True)
 
 # Define markers and colors

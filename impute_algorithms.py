@@ -9,7 +9,8 @@ from sklearn.linear_model import BayesianRidge
 from sklearn.svm import SVR
 from sklearn.preprocessing import StandardScaler
 from sklearn.impute import SimpleImputer
-
+# Import the HybridKNNRandomForestImputer from the separate file
+from hybrid_KNN_RF_Impute import HybridKNNRandomForestImputer
 
 # Imputation functions
 def impute_with_knn(df):
@@ -101,13 +102,21 @@ def impute_with_svm(df):
             df.loc[missing.index, column] = predicted_values
     return df
 
+# Function to use hybrid imputer
+def impute_with_hybrid_knn_rf(df):
+    df_numeric = df.select_dtypes(include=[np.number])
+    imputer = HybridKNNRandomForestImputer(n_neighbors=5, n_estimators=100, max_iterations=10, threshold=1e-4)
+    imputed_data = imputer.fit_transform(df_numeric.values)
+    return pd.DataFrame(imputed_data, columns=df_numeric.columns)
+
 # Function to apply imputation and save the results
 def impute_and_save(input_dir, base_output_dir, df, current_subdir):
     algorithms = {
         #'KNN': impute_with_knn, 
         #'RandomForest': lambda df: impute_with_random_forest(df, n_estimators=200, max_depth=10, random_state=20),
         #'SVM': impute_with_svm,
-        'RandomForest_MICE': impute_with_random_forest_MICE
+        #'RandomForest_MICE': impute_with_random_forest_MICE,
+        'HybridKNN_RF': impute_with_hybrid_knn_rf
     }
     
     # Modify the output directory to match the required structure

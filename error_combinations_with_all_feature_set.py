@@ -122,7 +122,7 @@ output_dir = 'data_impute_project/error_metrics'
 ensure_dir(output_dir)
 percentages = ['10', '15', '20']
 seeds = ['seed1', 'seed2', 'seed3', 'seed4', 'seed5']
-algorithms = ['KNN', 'SVM', 'RandomForest','RandomForest_MICE']
+algorithms = ['KNN', 'SVM', 'RandomForest','RandomForest_MICE','HybridKNN_RF']
 
 # Store final results
 final_results = []
@@ -175,7 +175,7 @@ for combination in combinations_list:
 
 # Create DataFrame and save to CSV
 df_final = pd.DataFrame(final_results, columns=['Combination', 'Feature', 'Percentage', 'Algorithm', 'FeatureSet', 'TranslatedFeatureSet', 'MAE', 'MAPE'])
-output_file_path = os.path.join(output_dir, 'error_analysis_with_all_featuresets_MICE.csv')
+output_file_path = os.path.join(output_dir, 'error_analysis_with_all_featuresets_hybrid_KNNRF.csv')
 df_final.to_csv(output_file_path, index=False)
 
 # End timer and print running time
