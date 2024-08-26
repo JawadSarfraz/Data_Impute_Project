@@ -2,7 +2,7 @@ import pandas as pd
 import os
 
 # Load CSV file
-file_path = 'data_impute_project/error_metrics/error_analysis_with_all_featureset.csv'
+file_path = 'data_impute_project/error_metrics/error_analysis_with_all_featuresets_hybrid_KNNRF.csv'
 data = pd.read_csv(file_path)
 
 # Create a list to store the results
@@ -36,14 +36,16 @@ for combination in combinations:
                     'Algorithm': algorithm,
                     'Percentage': percentage,
                     'FeatureSet': min_mae_row['FeatureSet'],
-                    'Min MAE': min_mae_row['MAE']
+                    'Min MAE': min_mae_row['MAE'],
+                    'MAPE at Min MAE': min_mae_row['MAPE']
                 })
 
 # Convert results list to DataFrame
 results_df = pd.DataFrame(results)
 
 # Save results
-output_file = 'data_impute_project/error_metrics/min_mae_results.xlsx'
+output_file = 'data_impute_project/error_metrics/min_mae_mape_resultsTEST21.xlsx'
 results_df.to_excel(output_file, index=False)
+
 
 print(f"Results have been saved to {output_file}")
