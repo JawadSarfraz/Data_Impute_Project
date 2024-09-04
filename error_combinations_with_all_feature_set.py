@@ -181,4 +181,4 @@ df_final.to_csv(output_file_path, index=False)
 # End timer and print running time
 end_time = time.time()
 print(f"Final error analysis saved to: {output_file_path}")
-print(f"Running time of the script: {end_time - start_time} seconds")
+print(f"Running time of the script: {end_time - start_time} second")
