@@ -59,7 +59,7 @@ for combination in combinations:
 results_df = pd.DataFrame(results)
 
 # Construct output file path based on dataset type
-output_file = os.path.join("..", "data_impute_project", "error_metrics", dataset_type, f'min_mae_mape_results.xlsx')
+output_file = os.path.join("..", "data_impute_project", "error_metrics", dataset_type, f'test_min_mae_mape_results.xlsx')
 
 # Save results to Excel file
 results_df.to_excel(output_file, index=False)

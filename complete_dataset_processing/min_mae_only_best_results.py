@@ -33,7 +33,7 @@ if __name__ == "__main__":
     for dataset in datasets:
         # Set file paths using relative paths
         input_file_path = os.path.join("..", "data_impute_project", "error_metrics", dataset, "min_mae_mape_results.xlsx")
-        output_file_path = os.path.join("..", "data_impute_project", "error_metrics", dataset, f"min_mae_mape_all_features_combined_{dataset}.xlsx")
+        output_file_path = os.path.join("..", "data_impute_project", "error_metrics", dataset, f"test_min_mae_mape_all_features_combined_{dataset}.xlsx")
 
         # Check if input file exists before processing
         if os.path.exists(input_file_path):

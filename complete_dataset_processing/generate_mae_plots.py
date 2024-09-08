@@ -55,7 +55,7 @@ def generate_scatter_plots(data, output_dir):
             by_label = dict(zip(labels, handles))
             plt.legend(by_label.values(), by_label.keys(), title='Algorithms and Percentages', bbox_to_anchor=(1.05, 1), loc='upper left')
 
-            plot_filename = f'{combination}_{feature}.png'.replace(' ', '_').replace('(', '').replace(')', '').replace(',', '')
+            plot_filename = f'{combination}___{feature}.png'.replace(' ', '_').replace('(', '').replace(')', '').replace(',', '')
             plt.savefig(os.path.join(output_dir, plot_filename), bbox_inches='tight')
             plt.close()
 
